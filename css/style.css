@@ -8,6 +8,22 @@ button{
     background: url("../img/Black_Marble.jpg") repeat !important;
     color: #ffffff;
 }
+.chat-message{
+    background: url("../img/Black_Marble.jpg") repeat;
+    color: #ffffff;
+}
+.chat-message.whisper{
+    background: #2f1f30;
+}
+.chat-message.blind {
+    background: #361616;
+}
+.chat-message .message-header{
+    color: #ffffff;
+}
+.dnd5e.chat-card .card-header h3{
+    color: #ffffff;
+}
 .dnd5e input[type="text"], .dnd5e input[type="number"], .dnd5e select{
     color: #e9e9e9;
 }
