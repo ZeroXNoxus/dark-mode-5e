@@ -193,7 +193,7 @@ input.form-control, textarea.form-control{
     background: #2e2e2e;
 }
 select.ve-foundry-button{
-    background: rgb(0 0 0 / 80%);
+    background: rgb(0 0 0 / 80%) !important;
     color: #ffffff;
 }
 select.form-control{
@@ -220,6 +220,9 @@ label.btn.btn-5et {
 .form-group.group-header{
     background-color: rgba(0, 0, 0, 1);
     border: 1px solid #ffffff;
+}
+form .notes, form .hint{
+    color: #b3b3b3;
 }
 button{
     color: #ffffff !important;
