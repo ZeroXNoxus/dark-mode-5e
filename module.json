@@ -7,14 +7,14 @@
       "name": "ZeroXNoxus"
       }
       ],
-    "version": "1.0.2",
+    "version": "1.0.3",
     "compatibility": {
       "minimum": "10",
       "verified": "10"
     },
     "styles": "/css/style.css",
     "manifest": "https://github.com/ZeroXNoxus/dark-mode-5e/releases/download/latest/module.json",
-    "url": "https://github.com/jcolson/token_frames",
+    "url": "https://github.com/ZeroXNoxus/dark-mode-5e",
     "download": "https://github.com/ZeroXNoxus/dark-mode-5e/archive/refs/tags/latest.zip",
     "readme": "https://github.com/ZeroXNoxus/dark-mode-5e/blob/latest/README.md",
     "bugs": "https://github.com/ZeroXNoxus/dark-mode-5e/issues",
