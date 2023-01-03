@@ -21,6 +21,9 @@ button{
 .chat-message .message-header{
     color: #ffffff;
 }
+#chat-form textarea{
+    background: #303030;
+}
 .dnd5e.chat-card .card-header h3{
     color: #ffffff;
 }
