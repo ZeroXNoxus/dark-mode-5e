@@ -1,3 +1,6 @@
+body{
+    caret-color: #ffffff;
+}
 button{
     background: #000000;
 }
@@ -99,10 +102,10 @@ option, optgroup{
     text-shadow: 0 0 8px lime;
 }
 .inventory-list .category-weight{
-    opacity: 0.75;
+    opacity: 0.75 !important;
 }
 .inventory-list .inv-plus-stuff{
-    opacity: 0.75;
+    opacity: 0.75 !important;
 }
 .dnd5e.sheet.actor .inventory-list .item .item-name i.attuned{
     color: #c7b94d;
@@ -187,7 +190,7 @@ button.dialog-button.no{
 }
 .app.window-app .window-content button.btn.btn--active {
     background: rgba(255,255,255,1);
-    color: #000000;
+    color: #000000 !important;
 }
 input.form-control, textarea.form-control{
     background: #2e2e2e;
@@ -200,8 +203,8 @@ select.form-control{
     color: #ffffff;
 }
 .veapp-loading__wrp-outer{
-    background: rgba(0,0,0,0.5);
-    color: #ffffff;
+    background: rgba(0,0,0,0.5) !important;
+    color: #ffffff !important; 
 }
 input.lst__search{
     background: #000000;
@@ -224,6 +227,21 @@ label.btn.btn-5et {
 form .notes, form .hint{
     color: #b3b3b3;
 }
-button{
+button, select, textarea, input{
+    color: #ffffff !important;
+}
+.dnd5e.sheet.actor .features i.original-class {
+    color: #939393 !important;
+}
+form .form-group .form-fields > * {
+    color: #ffffff;
+}
+input.awesomplete.keyinput {
+    color: #ffffff;
+}
+form.crash-tracked-item-app .form-group label{
+    color: #ffffff !important;
+}
+form.crash-tracked-item-app .form-header{
     color: #ffffff !important;
 }
