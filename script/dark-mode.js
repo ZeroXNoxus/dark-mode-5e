@@ -18,10 +18,8 @@ function initialize(html){
 Hooks.on('init', () => {
     if(localStorage.getItem('dark-mode') == 'true'){
         $('body').addClass('dark');
-        $('a.dark-mode-toggle>i.fas.fa-eye-evil').removeClass('fas').addClass('far');
     } else {
         $('body').removeClass('dark');
-        $('a.dark-mode-toggle>i.far.fa-eye-evil').removeClass('far').addClass('fas');
     }
 });
 
