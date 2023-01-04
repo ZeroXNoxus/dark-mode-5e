@@ -21,63 +21,67 @@ body.dark .chat-message.whisper{
 body.dark .chat-message.blind {
     background: #361616;
 }
-body.dark .chat-message .message-header{
-    color: #ffffff;
-}
 body.dark #chat-form textarea{
     background: #303030;
 }
-body.dark .dnd5e.chat-card .card-header h3{
-    color: #ffffff;
-}
 body.dark .dnd5e input[type="text"], 
 body.dark .dnd5e input[type="number"], 
-body.dark .dnd5e select{
-    color: #e9e9e9;
-}
-body.dark .dnd5e.sheet.actor .counters .counter h4{
-    color: #ffffff;
-}
-body.dark .dnd5e .form-group label{
-    color: #ffffff;
-}
-body.dark .dnd5e.sheet.actor h4.box-title{
-    color: #ffffff;
-}
-body.dark .dnd5e.sheet .sheet-header .summary li{
-    color: #ffffff;
-}
-body.dark option, 
-body.dark optgroup{
-    background: #000000;
-}
-body.dark .dnd5e.sheet.actor.character .resource .attribute-value label.recharge{
-    color: #adadad;
-}
-body.dark .dnd5e.sheet.actor .proficient .proficiency-toggle{
-    color: #adadad;
-}
-body.dark .dnd5e.sheet .editable h4.rollable:hover, 
-body.dark .dnd5e.sheet .editable .rollable:hover > h4{
-    color: #ffffff;
-}
-body.dark .dnd5e .items-list .item .item-name{
-    color: #ffffff;
-}
-body.dark .dnd5e.sheet.actor .inventory-filters .currency label{
-    color: #c9c9c9;
-}
-body.dark .dnd5e .items-list{
-    color: #ffffff;
-}
+body.dark .dnd5e select,
 body.dark .dnd5e.sheet.actor .spell-school, 
 body.dark .dnd5e.sheet.actor .spell-action, 
 body.dark .dnd5e.sheet.actor .spell-target{
     color: #e9e9e9;
 }
+body.dark .dnd5e button,
+body.dark .dnd5e .items-list,
+body.dark .dnd5e .items-list .item .item-name,
+body.dark .dnd5e.chat-card .card-header h3,
+body.dark .chat-message .message-header,
 body.dark .dnd5e.sheet.actor .spell-slots, 
-body.dark .dnd5e.sheet.actor .spell-comps{
+body.dark .dnd5e.sheet.actor .spell-comps,
+body.dark .dnd5e .form-group label,
+body.dark .dnd5e.sheet.actor h4.box-title,
+body.dark .dnd5e.sheet.actor .counters .counter h4,
+body.dark .dnd5e.sheet .sheet-header .summary li,
+body.dark .dnd5e.sheet .editable h4.rollable:hover, 
+body.dark .dnd5e.sheet .editable .rollable:hover > h4,
+body.dark .dnd5e.sheet.actor.character .characteristics textarea,
+body.dark .dnd5e.sheet.actor .encumbrance .encumbrance-label,
+body.dark .form-group select,
+body.dark button.grid-config,
+body.dark button.perfect-vision--button,
+body.dark .sheet footer.sheet-footer > button,
+body.dark button.file-picker,
+body.dark .app.window-app.sheet.scene-sheet button,
+body.dark .dialog .dialog-buttons button.default,
+body.dark button.image-hover-picker-button,
+body.dark select.form-control,
+body.dark form .form-group .form-fields > *,
+body.dark input.awesomplete.keyinput,
+body.dark .dnd5e.sheet.actor .inventory-list .item-summary{
     color: #ffffff;
+}
+body.dark button, 
+body.dark select, 
+body.dark textarea, 
+body.dark input,
+body.dark form.crash-tracked-item-app .form-group label,
+body.dark form.crash-tracked-item-app .form-header{
+    color: #ffffff !important;
+}
+body.dark .dnd5e.sheet.actor .proficient .proficiency-toggle,
+body.dark .dnd5e.sheet.actor.character .resource .attribute-value label.recharge{
+    color: #adadad;
+}
+body.dark .dnd5e.sheet.actor .inventory-filters .currency label{
+    color: #c9c9c9;
+}
+body.dark option, 
+body.dark optgroup,
+body.dark input.lst__search,
+body.dark .btn-group>input.form-control, 
+body.dark .input-group>input.form-control{
+    background: #000000;
 }
 body.dark .dnd5e.sheet.actor .spell-component.tag{
     color: #000000;
@@ -88,14 +92,12 @@ body.dark .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.ac
     color: #c7b94d;
 }
 body.dark .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle, 
-body.dark .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle{
+body.dark .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle,
+.dnd5e.sheet.actor .inventory-list .item .item-name i.not-attuned{
     color: #9d9d9d;
 }
 body.dark .directory .directory-header .header-search input{
     background: rgba(0,0,0,0.4);
-}
-body.dark .dnd5e button{
-    color: #ffffff;
 }
 body.dark .dnd5e input[type="text"]:hover, 
 body.dark .dnd5e input[type="number"]:hover, 
@@ -106,33 +108,24 @@ body.dark .dnd5e input[type="checkbox"]:focus{
     border: 1px solid #ffffff;
 }
 body.dark .dnd5e.sheet .crash-training .activity-type, 
-body.dark .tidy5e.sheet .crash-training .activity-type{
-    color: #adadad;
-}
+body.dark .tidy5e.sheet .crash-training .activity-type,
 body.dark .dnd5e.sheet .crash-training .activity-override, 
-body.dark .tidy5e.sheet .crash-training .activity-override{
-    color: #adadad;
-}
+body.dark .tidy5e.sheet .crash-training .activity-override,
 body.dark .dnd5e.sheet .crash-training .items-list, 
-body.dark .tidy5e.sheet .crash-training .items-list{
-    color: #adadad;
-}
+body.dark .tidy5e.sheet .crash-training .items-list,
 body.dark .dnd5e.sheet .crash-training .crash-training-controls div, 
 body.dark .tidy5e.sheet .crash-training .crash-training-controls div{
     color: #adadad;
 }
-body.dark .dnd5e.sheet.actor.character .characteristics textarea{
-    color: #ffffff;
-}
-body.dark .dnd5e.sheet .sheet-navigation .item.active{
+body.dark .dnd5e.sheet .sheet-navigation .item.active,
+body.dark .dnd5e.sheet .filter-list .filter-item.active{
     border-bottom: 3px solid #ff1b1b;
 }
 body.dark .dnd5e.sheet .sheet-navigation .item{
     border-bottom: 2px solid #b5b3a4;
-    border-radius: 4px;
 }
-body.dark .dnd5e.sheet .filter-list .filter-item.active{
-    border-bottom: 3px solid #ff1b1b;
+body .dnd5e.sheet .sheet-navigation .item{
+    border-radius: 4px;
 }
 body.dark .dnd5e.sheet .filter-list .filter-item:hover{
     border-bottom: 3px solid #ffffff;
@@ -141,17 +134,12 @@ body.dark .inventory-list .category-weight .fa-feather {
     color: #00ff00;
     text-shadow: 0 0 8px lime;
 }
-body.dark .inventory-list .category-weight{
-    opacity: 0.75 !important;
-}
+body.dark .inventory-list .category-weight,
 body.dark .inventory-list .inv-plus-stuff{
     opacity: 0.75 !important;
 }
 body.dark .dnd5e.sheet.actor .inventory-list .item .item-name i.attuned{
     color: #c7b94d;
-}
-.dnd5e.sheet.actor .inventory-list .item .item-name i.not-attuned{
-    color: #9d9d9d;
 }
 body.dark .prosemirror menu .pm-dropdown{
     background: rgba(0,0,0,0.5);
@@ -179,9 +167,6 @@ body.dark .dnd5e.sheet.actor .encumbrance .encumbrance-bar{
     background: #ff1b1b;
     border: 1px solid #ff6d6d;
 }
-body.dark .dnd5e.sheet.actor .encumbrance .encumbrance-label{
-    color: #ffffff;
-}
 body.dark a.content-link, 
 body.dark a.inline-roll{
     background: #303030;
@@ -199,33 +184,6 @@ body.dark .editor-edit{
     background: rgb(0 0 0 / 75%);
     border: 1px solid #ffffff;
 }
-body.dark .form-group select {
-    color: #ffffff;
-}
-body.dark button.grid-config{
-    color: #ffffff;
-}
-body.dark button.perfect-vision--button{
-    color: #ffffff
-}
-body.dark .sheet footer.sheet-footer > button {
-    color: #ffffff;
-}
-body.dark button.file-picker{
-    color: #ffffff;
-}
-body.dark .app.window-app.sheet.scene-sheet button {
-    color: #ffffff;
-}
-body.dark .dialog .dialog-buttons button.default{
-    color: #ffffff;
-}
-body.dark button.image-hover-picker-button {
-    color: #ffffff;
-}
-body.dark button.dialog-button.no{
-    color: #ffffff;
-}
 body.dark .app.window-app .window-content button.btn {
     background: rgba(0,0,0,0.5);
     color: #ffffff;
@@ -242,27 +200,14 @@ body.dark select.ve-foundry-button{
     background: rgb(0 0 0 / 80%) !important;
     color: #ffffff;
 }
-body.dark select.form-control{
-    color: #ffffff;
-}
 body.dark .veapp-loading__wrp-outer{
     background: rgba(0,0,0,0.5) !important;
     color: #ffffff !important; 
 }
-body.dark input.lst__search{
-    background: #000000;
-}
-body.dark button.btn-5et {
-    background: #303030;
-    color: #ffffff;
-}
+body.dark button.btn-5et,
 body.dark label.btn.btn-5et {
     background: #303030;
     color: #ffffff;
-}
-body.dark .btn-group>input.form-control, 
-body.dark .input-group>input.form-control{
-    background: #000000;
 }
 body.dark .form-group.group-header{
     background-color: rgba(0, 0, 0, 1);
@@ -271,27 +216,6 @@ body.dark .form-group.group-header{
 body.dark form .notes, form .hint{
     color: #b3b3b3;
 }
-body.dark button, 
-body.dark select, 
-body.dark textarea, 
-body.dark input{
-    color: #ffffff !important;
-}
 body.dark .dnd5e.sheet.actor .features i.original-class {
     color: #939393 !important;
-}
-body.dark form .form-group .form-fields > * {
-    color: #ffffff;
-}
-body.dark input.awesomplete.keyinput {
-    color: #ffffff;
-}
-body.dark form.crash-tracked-item-app .form-group label{
-    color: #ffffff !important;
-}
-body.dark form.crash-tracked-item-app .form-header{
-    color: #ffffff !important;
-}
-body.dark .dnd5e.sheet.actor .inventory-list .item-summary{
-    color: #ffffff;
 }
