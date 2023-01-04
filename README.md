@@ -1,4 +1,4 @@
-# dark-mode-5e
+# Dark Mode for DnD 5th Edition
 ## Package Description ##
 Dark Mode for DnD 5th Edition is a module to bring some darker colors to the otherwise pretty bright visuals of FoundryVTT.
 ## Installation ##
