@@ -12,7 +12,12 @@
       "minimum": "10",
       "verified": "10"
     },
-    "styles": "/css/style.css",
+    "scripts": [
+      "/script/dark-mode.js"
+    ],
+    "styles": [
+      "/css/style.css"
+    ],
     "manifest": "https://github.com/ZeroXNoxus/dark-mode-5e/releases/download/latest/module.json",
     "url": "https://github.com/ZeroXNoxus/dark-mode-5e",
     "download": "https://github.com/ZeroXNoxus/dark-mode-5e/archive/refs/tags/latest.zip",
