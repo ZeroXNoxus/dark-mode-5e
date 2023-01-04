@@ -69,9 +69,16 @@ body.dark form.crash-tracked-item-app .form-group label,
 body.dark form.crash-tracked-item-app .form-header{
     color: #ffffff !important;
 }
+body.dark input, 
+body.dark select {
+    background: rgba(0, 0, 0, 0.8);
+}
 body.dark button{
     border: 0px;
     box-shadow: 0 0 3px #ffffff;
+}
+body.dark button:hover {
+    box-shadow: 0 0 3px #f00f00;
 }
 body.dark .dnd5e.sheet.actor .proficient .proficiency-toggle,
 body.dark .dnd5e.sheet.actor.character .resource .attribute-value label.recharge{
