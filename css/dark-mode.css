@@ -3,7 +3,7 @@
 }
 .dnd5e.sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
 .ability-modifiers input[value="1"] ~ span.ability-save {
-    color: #740000;
+    color: #ff0000;
     text-shadow: 0 0 5px red;
 }
 .dnd5e.sheet.actor .skill.proficient input[value="0.5"] ~ span.skill-mod{
