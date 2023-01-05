@@ -1,3 +1,19 @@
+.app.window-app.dnd5e.sheet.minimized {
+    background-color: rgba(102,102,102,0.1);
+}
+.dnd5e.sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
+.ability-modifiers input[value="1"] ~ span.ability-save {
+    color: #740000;
+    text-shadow: 0 0 5px red;
+}
+.dnd5e.sheet.actor .skill.proficient input[value="0.5"] ~ span.skill-mod{
+    text-shadow: none;
+}
+.dnd5e.sheet.actor .skill.proficient input[value="2"] ~ span.skill-mod{
+    color: white;
+    text-shadow: 0 0 5px red;
+    font-weight: bold;
+}
 body.dark{
     caret-color: #ffffff;
 }
@@ -61,6 +77,17 @@ body.dark input.awesomplete.keyinput,
 body.dark .dnd5e.sheet.actor .inventory-list .item-summary{
     color: #ffffff;
 }
+body.dark .dnd5e.sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
+body.dark .ability-modifiers input[value="1"] ~ span.ability-save {
+    color: #f2ffa8;
+}
+body.dark .dnd5e.sheet.actor .skill.proficient input[value="0.5"] ~ span.skill-mod{
+    text-shadow: none;
+}
+body.dark .dnd5e.sheet.actor .skill.proficient input[value="2"] ~ span.skill-mod{
+    color: #f2ffa8;
+    font-weight: bold;
+}
 body.dark button, 
 body.dark select, 
 body.dark textarea, 
@@ -68,6 +95,16 @@ body.dark input,
 body.dark form.crash-tracked-item-app .form-group label,
 body.dark form.crash-tracked-item-app .form-header{
     color: #ffffff !important;
+}
+body.dark input::placeholder {
+    color: #939393;
+}
+body.dark .dnd5e.sheet.actor .traits i.fas:hover {
+    color: #ffffff;
+}
+body.dark .dnd5e.sheet.actor ul.skills-list li.skill .skill-passive {
+    color: #f2ffa8;
+    text-shadow: none;
 }
 body.dark input, 
 body.dark select {
