@@ -7,7 +7,7 @@
     text-shadow: 0 0 5px red;
 }
 .dnd5e.sheet.actor .skill.proficient input[value="0.5"] ~ span.skill-mod{
-    text-shadow: none;
+    color: #740000;
 }
 .dnd5e.sheet.actor .skill.proficient input[value="2"] ~ span.skill-mod{
     color: white;
@@ -37,8 +37,15 @@ body.dark .chat-message.whisper{
 body.dark .chat-message.blind {
     background: #361616;
 }
-body.dark #chat-form textarea{
-    background: #303030;
+body.dark textarea{
+    background: #000000;
+    border-color: #666666;
+}
+body.dark .dnd5e .form-header{
+    color: #999999;
+}
+body.dark .dnd5e.sheet.item h4.damage-header{
+    color: #ffffff;
 }
 body.dark .dnd5e input[type="text"], 
 body.dark .dnd5e input[type="number"], 
@@ -80,13 +87,35 @@ body.dark .dnd5e.sheet.actor .inventory-list .item-summary{
 body.dark .dnd5e.sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
 body.dark .ability-modifiers input[value="1"] ~ span.ability-save {
     color: #f2ffa8;
+    text-shadow: none;
+}
+body.dark input[type="range"] {
+    background: 0;
 }
 body.dark .dnd5e.sheet.actor .skill.proficient input[value="0.5"] ~ span.skill-mod{
-    text-shadow: none;
+    text-shadow: 0 0 5px red;
 }
 body.dark .dnd5e.sheet.actor .skill.proficient input[value="2"] ~ span.skill-mod{
     color: #f2ffa8;
     font-weight: bold;
+}
+body.dark #vtta-tokenizer div.section {
+    background: rgba(255,255,255,0.1);
+}
+body.dark #vtta-tokenizer div.menu{
+    background: 0;
+}
+body.dark #vtta-tokenizer div.view-layer-control {
+    background: 0;
+}
+#vtta-tokenizer div.view-layer-control button.active {
+    color: #000000 !important;
+}
+body.dark form.crash-category-app .form-group label{
+    color: #ffffff;
+}
+body.dark .ui-list__wrp-preview{
+    background: #000000;
 }
 body.dark button, 
 body.dark select, 
@@ -269,4 +298,33 @@ body.dark .dnd5e.sheet.actor .features i.original-class {
 }
 body.dark #module-management .package-list .package-title, #module-management .package-list .package-metadata, #module-management .package-list .package-description{
     color: #ffffff;
+}
+body.dark #module-management .package-list .package-title, 
+body.dark #module-management .package-list .package-metadata, 
+body.dark #module-management .package-list .package-description{
+    color: #ffffff;
+}
+body.dark .icon.overlay-damage-full{
+    background-image: url("../img/ready-set-roll-compatibility/overlay-damage-full.svg") !important;
+}
+body.dark .icon.overlay-damage-half{
+    background-image: url("../img/ready-set-roll-compatibility/overlay-damage-half.svg") !important;
+}
+body.dark .icon.overlay-damage-double{
+    background-image: url("../img/ready-set-roll-compatibility/overlay-damage-double.svg") !important;
+}
+body.dark .icon.overlay-damage-quarter{
+    background-image: url("../img/ready-set-roll-compatibility/overlay-damage-quarter.svg") !important;
+}
+body.dark .icon.overlay-healing{
+    background-image: url("../img/ready-set-roll-compatibility/overlay-healing.svg") !important;
+}
+body.dark .icon.overlay-healing-temp{
+    background-image: url("../img/ready-set-roll-compatibility/overlay-healing-temp.svg") !important;
+}
+body.dark .dnd5e.sheet.actor .inventory-list .item .item-name.rollable .item-image:hover{
+    background-image: url("../img/d20-black.svg") !important;
+}
+body.dark .dnd5e .items-list .items-header {
+    background: rgba(0, 0, 0, 1);
 }
