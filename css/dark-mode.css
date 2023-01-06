@@ -328,3 +328,6 @@ body.dark .dnd5e.sheet.actor .inventory-list .item .item-name.rollable .item-ima
 body.dark .dnd5e .items-list .items-header {
     background: rgba(0, 0, 0, 1);
 }
+body.dark #chat-form textarea {
+    background: #000000;
+}
