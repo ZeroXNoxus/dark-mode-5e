@@ -331,3 +331,6 @@ body.dark .dnd5e .items-list .items-header {
 body.dark #chat-form textarea {
     background: #000000;
 }
+body.dark .sheet.journal-entry .journal-entry-content {
+    background: 0;
+}
