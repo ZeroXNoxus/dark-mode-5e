@@ -1,5 +1,5 @@
 [![Latest Version](https://img.shields.io/github/v/release/ZeroXNoxus/dark-mode-5e?display_name=tag&sort=semver&label=Latest%20Version)](https://github.com/ZeroXNoxus/dark-mode-5e/releases/latest)
-![Foundry Version](https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https%3A%2F%2Fraw.githubusercontent.com%2Feligarf%2Fstealthy%2Fdev%2Fmodule.json)
+![Foundry Version]([https://img.shields.io/endpoint?url=https://foundryshields.com/version?url=https%3A%2F%2Fraw.githubusercontent.com%2Feligarf%2Fstealthy%2Fdev%2Fmodule.json](https://img.shields.io/endpoint?url=https%3A%2F%2Ffoundryshields.com%2Fversion%3Fstyle%3Dflat%26url%3Dhttps%3A%2F%2Fgithub.com%2FZeroXNoxus%2Fdark-mode-5e%2Freleases%2Fdownload%2Flatest%2Fmodule.json))
 
 ![Latest Downloads](https://img.shields.io/github/downloads/ZeroXNoxus/dark-mode-5e/latest/total?color=blue&label=latest%20downloads)
 ![Total Downloads](https://img.shields.io/github/downloads/ZeroXNoxus/dark-mode-5e/total?color=blue&label=total%20downloads)
