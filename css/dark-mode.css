@@ -334,3 +334,13 @@ body.dark #chat-form textarea {
 body.dark .sheet.journal-entry .journal-entry-content {
     background: 0;
 }
+body.dark .SumoSelect > .CaptionCont,
+body.dark .SumoSelect > .optWrapper > .options {
+    background: #000000;
+}
+body.dark .SumoSelect > .optWrapper > .options li.opt:hover{
+    background-color: #484848;
+}
+body.dark .SumoSelect > .CaptionCont > label > i{
+    background-image: url("../img/caret-down.png");
+}
