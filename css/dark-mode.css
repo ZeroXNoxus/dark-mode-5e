@@ -15,7 +15,7 @@
     font-weight: bold;
 }
 body.dark{
-    caret-color: #ffffff;
+    caret-color: #a9a9a9;
 }
 body.dark button{
     background: #000000;
@@ -25,11 +25,11 @@ body.dark .window-app .window-content,
 body.dark .cfg__btn-tab-header, 
 body.dark .ve-window{
     background: url("../img/Black_Marble.jpg") repeat !important;
-    color: #ffffff;
+    color: #a9a9a9;
 }
 body.dark .chat-message{
     background: url("../img/Black_Marble.jpg") repeat;
-    color: #ffffff;
+    color: #a9a9a9;
 }
 body.dark .chat-message.whisper{
     background: #2f1f30;
@@ -45,7 +45,7 @@ body.dark .dnd5e .form-header{
     color: #999999;
 }
 body.dark .dnd5e.sheet.item h4.damage-header{
-    color: #ffffff;
+    color: #a9a9a9;
 }
 body.dark .dnd5e input[type="text"], 
 body.dark .dnd5e input[type="number"], 
@@ -82,7 +82,7 @@ body.dark select.form-control,
 body.dark form .form-group .form-fields > *,
 body.dark input.awesomplete.keyinput,
 body.dark .dnd5e.sheet.actor .inventory-list .item-summary{
-    color: #ffffff;
+    color: #a9a9a9;
 }
 body.dark .dnd5e.sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
 body.dark .ability-modifiers input[value="1"] ~ span.ability-save {
@@ -112,7 +112,7 @@ body.dark #vtta-tokenizer div.view-layer-control {
     color: #000000 !important;
 }
 body.dark form.crash-category-app .form-group label{
-    color: #ffffff;
+    color: #a9a9a9;
 }
 body.dark .ui-list__wrp-preview{
     background: #000000;
@@ -123,13 +123,13 @@ body.dark textarea,
 body.dark input,
 body.dark form.crash-tracked-item-app .form-group label,
 body.dark form.crash-tracked-item-app .form-header{
-    color: #ffffff !important;
+    color: #a9a9a9 !important;
 }
 body.dark input::placeholder {
     color: #939393;
 }
 body.dark .dnd5e.sheet.actor .traits i.fas:hover {
-    color: #ffffff;
+    color: #a9a9a9;
 }
 body.dark .dnd5e.sheet.actor ul.skills-list li.skill .skill-passive {
     color: #f2ffa8;
@@ -141,7 +141,7 @@ body.dark select {
 }
 body.dark button{
     border: 0px;
-    box-shadow: 0 0 3px #ffffff;
+    box-shadow: 0 0 3px #a9a9a9;
 }
 body.dark button:hover {
     box-shadow: 0 0 3px #f00f00;
@@ -162,7 +162,7 @@ body.dark .input-group>input.form-control{
 }
 body.dark .dnd5e.sheet.actor .spell-component.tag{
     color: #000000;
-    background: #ffffff;
+    background: #a9a9a9;
 }
 body.dark .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active, 
 body.dark .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.active{
@@ -182,7 +182,7 @@ body.dark .dnd5e input[type="checkbox"]:hover,
 body.dark .dnd5e input[type="text"]:focus, 
 body.dark .dnd5e input[type="number"]:focus, 
 body.dark .dnd5e input[type="checkbox"]:focus{
-    border: 1px solid #ffffff;
+    border: 1px solid #a9a9a9;
 }
 body.dark .dnd5e.sheet .crash-training .activity-type, 
 body.dark .tidy5e.sheet .crash-training .activity-type,
@@ -205,7 +205,7 @@ body .dnd5e.sheet .sheet-navigation .item{
     border-radius: 4px;
 }
 body.dark .dnd5e.sheet .filter-list .filter-item:hover{
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 3px solid #a9a9a9;
 }
 body.dark .inventory-list .category-weight .fa-feather {
     color: #00ff00;
@@ -224,8 +224,8 @@ body.dark .prosemirror menu .pm-dropdown{
 body.dark .prosemirror menu button:hover, 
 body.dark .prosemirror menu button.active{
     background: rgba(0,0,0,1);
-    color: #ffffff;
-    box-shadow: 0 0 2px #ffffff;
+    color: #a9a9a9;
+    box-shadow: 0 0 2px #a9a9a9;
 }
 body.dark .prosemirror menu .pm-dropdown ul{
     background: rgba(0,0,0,1);
@@ -255,15 +255,15 @@ body.dark body.change-windows:not(.system-forbidden-lands) .window-app:not(.imag
     background-color: #000000;
 }
 body.dark .window-app{
-    box-shadow: 0 0 10px #ffffff;
+    box-shadow: 0 0 10px #a9a9a9;
 }
 body.dark .editor-edit{
     background: rgb(0 0 0 / 75%);
-    border: 1px solid #ffffff;
+    border: 1px solid #a9a9a9;
 }
 body.dark .app.window-app .window-content button.btn {
     background: rgba(0,0,0,0.5);
-    color: #ffffff;
+    color: #a9a9a9;
 }
 body.dark .app.window-app .window-content button.btn.btn--active {
     background: rgba(255,255,255,1);
@@ -275,20 +275,20 @@ body.dark textarea.form-control{
 }
 body.dark select.ve-foundry-button{
     background: rgb(0 0 0 / 80%) !important;
-    color: #ffffff;
+    color: #a9a9a9;
 }
 body.dark .veapp-loading__wrp-outer{
     background: rgba(0,0,0,0.5) !important;
-    color: #ffffff !important; 
+    color: #a9a9a9 !important; 
 }
 body.dark button.btn-5et,
 body.dark label.btn.btn-5et {
     background: #303030;
-    color: #ffffff;
+    color: #a9a9a9;
 }
 body.dark .form-group.group-header{
     background-color: rgba(0, 0, 0, 1);
-    border: 1px solid #ffffff;
+    border: 1px solid #a9a9a9;
 }
 body.dark form .notes, form .hint{
     color: #b3b3b3;
@@ -297,12 +297,12 @@ body.dark .dnd5e.sheet.actor .features i.original-class {
     color: #939393 !important;
 }
 body.dark #module-management .package-list .package-title, #module-management .package-list .package-metadata, #module-management .package-list .package-description{
-    color: #ffffff;
+    color: #a9a9a9;
 }
 body.dark #module-management .package-list .package-title, 
 body.dark #module-management .package-list .package-metadata, 
 body.dark #module-management .package-list .package-description{
-    color: #ffffff;
+    color: #a9a9a9;
 }
 body.dark .icon.overlay-damage-full{
     background-image: url("../img/ready-set-roll-compatibility/overlay-damage-full.svg") !important;
@@ -343,4 +343,12 @@ body.dark .SumoSelect > .optWrapper > .options li.opt:hover{
 }
 body.dark .SumoSelect > .CaptionCont > label > i{
     background-image: url("../img/caret-down.png");
+}
+body.dark .dnd5e.sheet .crash-training .activity-progress-row .crash-training-completion, 
+body.dark .tidy5e.sheet .crash-training .activity-progress-row .crash-training-completion{
+    color: #dddddd;
+}
+body.dark .rd__h--1,
+body.dark .rd__h--2{
+    color: #e7d57e;
 }
