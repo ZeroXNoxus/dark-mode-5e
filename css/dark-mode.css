@@ -352,3 +352,13 @@ body.dark .rd__h--1,
 body.dark .rd__h--2{
     color: #e7d57e;
 }
+body.dark .message.damage-log.healing{
+    background: #004c1b;
+}
+body.dark .message.damage-log.damage{
+    background: #460000;
+}
+ol#damage-log .dfce-cm-bottom>.message-content,
+body.dark ol#damage-log .dfce-cm-bottom>.message-content{
+    padding-right: 0;
+}
