@@ -304,23 +304,51 @@ body.dark #module-management .package-list .package-metadata,
 body.dark #module-management .package-list .package-description{
     color: #ededed;
 }
-body.dark .icon.overlay-damage-full{
+.icon.overlay-damage-full{
     background-image: url("../img/ready-set-roll-compatibility/overlay-damage-full.svg") !important;
-}
-body.dark .icon.overlay-damage-half{
+    background-color: #ff3b3b;
+ }
+.icon.overlay-damage-half{
     background-image: url("../img/ready-set-roll-compatibility/overlay-damage-half.svg") !important;
+    background-color: #ffa500;
 }
-body.dark .icon.overlay-damage-double{
+.icon.overlay-damage-quarter{
+    background-image: url("../img/ready-set-roll-compatibility/overlay-damage-quarter.svg") !important;
+    background-color: #ffff00; 
+}
+.icon.overlay-damage-double{
     background-image: url("../img/ready-set-roll-compatibility/overlay-damage-double.svg") !important;
 }
+.icon.overlay-healing{
+    background-image: url("../img/ready-set-roll-compatibility/overlay-healing.svg") !important;
+    background-color: #00ff00; 
+}
+.icon.overlay-healing-temp{
+    background-image: url("../img/ready-set-roll-compatibility/overlay-healing-temp.svg") !important;
+    background-color: #00d0ff; 
+}
+body.dark .icon.overlay-damage-full{
+    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-full.svg") !important;
+    background-color: #680000;
+}
+body.dark .icon.overlay-damage-half{
+    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-half.svg") !important;
+    background-color: #783200;
+}
 body.dark .icon.overlay-damage-quarter{
-    background-image: url("../img/ready-set-roll-compatibility/overlay-damage-quarter.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-quarter.svg") !important;
+    background-color: #767600;
+}
+body.dark .icon.overlay-damage-double{
+    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-double.svg") !important;
 }
 body.dark .icon.overlay-healing{
-    background-image: url("../img/ready-set-roll-compatibility/overlay-healing.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-healing.svg") !important;
+    background-color: #004a00;
 }
 body.dark .icon.overlay-healing-temp{
-    background-image: url("../img/ready-set-roll-compatibility/overlay-healing-temp.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-healing-temp.svg") !important;
+    background-color: #000070;
 }
 body.dark .dnd5e.sheet.actor .inventory-list .item .item-name.rollable .item-image:hover{
     background-image: url("../img/d20-black.svg") !important;
@@ -352,6 +380,7 @@ body.dark .rd__h--1,
 body.dark .rd__h--2{
     color: #e7d57e;
 }
+<<<<<<< Updated upstream
 body.dark .message.damage-log.healing{
     background: #004c1b;
 }
@@ -361,4 +390,17 @@ body.dark .message.damage-log.damage{
 ol#damage-log .dfce-cm-bottom>.message-content,
 body.dark ol#damage-log .dfce-cm-bottom>.message-content{
     padding-right: 0;
+=======
+body.dark .rd__b-inset{
+    background-color: #3a3a3a;
+}
+body.dark #requestsavingthrow .request-grid > div.selected{
+    background: rgb(82 82 82 0.6);
+}
+body.dark .monks-tokenbar .sheet .items-list .item .item-name{
+    color: #dddddd;
+}
+body.dark #requestsavingthrow .request-grid > div.selected, body.dark #requestsavingthrow .request-grid > div {
+    color: #dddddd;
+>>>>>>> Stashed changes
 }

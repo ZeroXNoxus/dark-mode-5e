@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="quarter.svg"
+   sodipodi:docname="dark-full.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.37282197"
-     inkscape:cx="225.30861"
-     inkscape:cy="187.75718"
+     inkscape:zoom="1"
+     inkscape:cx="226"
+     inkscape:cy="288"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -97,16 +97,17 @@
          y="151.16129" /></text>
     <text
        xml:space="preserve"
-       style="font-size:176.389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="-12.774196"
-       y="130.58064"
+       style="font-size:155.135px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.232702"
+       x="-3.1987596"
+       y="114.36602"
        id="text191"
-       inkscape:transform-center-x="-17.741935"
-       inkscape:transform-center-y="22"><tspan
+       inkscape:transform-center-x="-13.556686"
+       inkscape:transform-center-y="22.271355"
+       transform="scale(0.86878528,1.1510324)"><tspan
          sodipodi:role="line"
          id="tspan189"
-         style="font-size:176.389px;stroke-width:0.264583"
-         x="-12.774196"
-         y="130.58064">¼</tspan></text>
+         style="font-size:155.135px;fill:#ffffff;stroke-width:0.232702"
+         x="-3.1987596"
+         y="114.36602">x1</tspan></text>
   </g>
 </svg>

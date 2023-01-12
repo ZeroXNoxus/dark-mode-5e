@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="quarter.svg"
+   sodipodi:docname="dark-quarter.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +105,7 @@
        inkscape:transform-center-y="22"><tspan
          sodipodi:role="line"
          id="tspan189"
-         style="font-size:176.389px;stroke-width:0.264583"
+         style="font-size:176.389px;fill:#ffffff;stroke-width:0.264583"
          x="-12.774196"
          y="130.58064">¼</tspan></text>
   </g>

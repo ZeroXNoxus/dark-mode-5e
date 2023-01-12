@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="quarter.svg"
+   sodipodi:docname="dark-half.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -97,16 +97,17 @@
          y="151.16129" /></text>
     <text
        xml:space="preserve"
-       style="font-size:176.389px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="-12.774196"
-       y="130.58064"
+       style="font-size:171.012px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.256517"
+       x="-12.263764"
+       y="126.59969"
        id="text191"
-       inkscape:transform-center-x="-17.741935"
-       inkscape:transform-center-y="22"><tspan
+       inkscape:transform-center-x="-16.676887"
+       inkscape:transform-center-y="21.99983"
+       transform="scale(0.9695134,1.0314453)"><tspan
          sodipodi:role="line"
          id="tspan189"
-         style="font-size:176.389px;stroke-width:0.264583"
-         x="-12.774196"
-         y="130.58064">¼</tspan></text>
+         style="font-size:171.012px;fill:#ffffff;stroke-width:0.256517"
+         x="-12.263764"
+         y="126.59969">½</tspan></text>
   </g>
 </svg>
