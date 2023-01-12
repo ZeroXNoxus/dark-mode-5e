@@ -388,7 +388,8 @@ body.dark .message.damage-log.damage{
 }
 ol#damage-log .dfce-cm-bottom>.message-content,
 body.dark ol#damage-log .dfce-cm-bottom>.message-content{
-    padding-right: 0; 
+    padding-right: 0;
+}
 body.dark .rd__b-inset{
     background-color: #3a3a3a;
 }
