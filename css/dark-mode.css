@@ -402,3 +402,13 @@ body.dark .monks-tokenbar .sheet .items-list .item .item-name{
 body.dark #requestsavingthrow .request-grid > div.selected, body.dark #requestsavingthrow .request-grid > div {
     color: #dddddd;
 }
+body.dark .awesomplete > ul > li {
+    background: #000000;
+}
+body.dark .awesomplete > ul > li:hover{
+    background: #3a3a3a;
+    color: #ffffff;
+}
+body.dark .filepicker .display-modes a {
+    background: #000000;
+}
