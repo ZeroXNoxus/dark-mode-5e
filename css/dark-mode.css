@@ -412,3 +412,6 @@ body.dark .awesomplete > ul > li:hover{
 body.dark .filepicker .display-modes a {
     background: #000000;
 }
+body.dark .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle[data-tooltip="Always Prepared"] {
+    color: #973535;
+}
