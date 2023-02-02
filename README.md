@@ -14,7 +14,7 @@ Dark Mode (default):
 
 ![Dark](https://user-images.githubusercontent.com/29397572/216465787-cc8b17c8-4eea-4a05-9a9a-24c37f1de93e.PNG)
 
-Black'n'White:
+Black'n'White (my personal favourite):
 
 ![Black'n'White](https://user-images.githubusercontent.com/29397572/216465867-e6e4ebf8-f7e6-47ba-9ce6-fc42de01ac4a.PNG)
 
