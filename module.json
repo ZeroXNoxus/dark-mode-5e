@@ -16,7 +16,9 @@
       "/script/dark-mode.js"
     ],
     "styles": [
-      "/css/dark-mode.css"
+      "/css/dark-mode.css",
+      "/css/black-white.css",
+      "/css/programmer.css"
     ],
     "manifest": "https://github.com/ZeroXNoxus/dark-mode-5e/releases/download/development/module.json",
     "url": "https://github.com/ZeroXNoxus/dark-mode-5e",
