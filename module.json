@@ -18,10 +18,10 @@
     "styles": [
       "/css/dark-mode.css"
     ],
-    "manifest": "https://github.com/ZeroXNoxus/dark-mode-5e/releases/download/latest/module.json",
+    "manifest": "https://github.com/ZeroXNoxus/dark-mode-5e/releases/download/development/module.json",
     "url": "https://github.com/ZeroXNoxus/dark-mode-5e",
-    "download": "https://github.com/ZeroXNoxus/dark-mode-5e/archive/refs/tags/latest.zip",
-    "readme": "https://github.com/ZeroXNoxus/dark-mode-5e/blob/latest/README.md",
+    "download": "https://github.com/ZeroXNoxus/dark-mode-5e/archive/refs/tags/development.zip",
+    "readme": "https://github.com/ZeroXNoxus/dark-mode-5e/blob/development/README.md",
     "bugs": "https://github.com/ZeroXNoxus/dark-mode-5e/issues",
     "changelog": "https://github.com/ZeroXNoxus/dark-mode-5e/releases"
   }
