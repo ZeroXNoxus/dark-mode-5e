@@ -32,7 +32,7 @@ function changeMode(){
     }
 }
 
-function generateSettings(){ 
+function generateDarkModeSettings(){ 
     game.settings.register('dark-mode-5e', 'theme-selector', {
         name: 'Selected Theme',
         hint: "Select the theme you want! Either Black'n'White, Programmer or Dark, you will find your preference! (Reload required!)",
@@ -48,7 +48,7 @@ function generateSettings(){
     });
 }
 Hooks.on('init', () => {
-    generateSettings();
+    generateDarkModeSettings();
     theme = game.settings.get('dark-mode-5e', 'theme-selector');
     switch(theme) {
         case 1:
