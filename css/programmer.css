@@ -15,7 +15,7 @@
     font-weight: bold;
 }
 body.program{
-    caret-color: #ededed;
+    caret-color: #44ff00;
 }
 body.program button{
     background: #000000;
@@ -25,11 +25,11 @@ body.program .window-app .window-content,
 body.program .cfg__btn-tab-header, 
 body.program .ve-window{
     background: url("../img/Pure_Black.jpg") repeat !important;
-    color: #ededed;
+    color: #44ff00;
 }
 body.program .chat-message{
     background: url("../img/Pure_Black.jpg") repeat;
-    color: #ededed;
+    color: #44ff00;
 }
 body.program .chat-message.whisper{
     background: #2f1f30;
@@ -45,7 +45,7 @@ body.program .dnd5e .form-header{
     color: #999999;
 }
 body.program .dnd5e.sheet.item h4.damage-header{
-    color: #ededed;
+    color: #44ff00;
 }
 body.program .dnd5e input[type="text"], 
 body.program .dnd5e input[type="number"], 
@@ -82,7 +82,7 @@ body.program select.form-control,
 body.program form .form-group .form-fields > *,
 body.program input.awesomplete.keyinput,
 body.program .dnd5e.sheet.actor .inventory-list .item-summary{
-    color: #ededed;
+    color: #44ff00;
 }
 body.program .dnd5e.sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
 body.program .ability-modifiers input[value="1"] ~ span.ability-save {
@@ -112,7 +112,7 @@ body.program #vtta-tokenizer div.view-layer-control {
     color: #000000 !important;
 }
 body.program form.crash-category-app .form-group label{
-    color: #ededed;
+    color: #44ff00;
 }
 body.program .ui-list__wrp-preview{
     background: #000000;
@@ -123,13 +123,13 @@ body.program textarea,
 body.program input,
 body.program form.crash-tracked-item-app .form-group label,
 body.program form.crash-tracked-item-app .form-header{
-    color: #ededed !important;
+    color: #44ff00 !important;
 }
 body.program input::placeholder {
     color: #939393;
 }
 body.program .dnd5e.sheet.actor .traits i.fas:hover {
-    color: #ededed;
+    color: #44ff00;
 }
 body.program .dnd5e.sheet.actor ul.skills-list li.skill .skill-passive {
     color: #f2ffa8;
@@ -141,7 +141,7 @@ body.program select {
 }
 body.program button{
     border: 0px;
-    box-shadow: 0 0 3px #ededed;
+    box-shadow: 0 0 3px #44ff00;
 }
 body.program button:hover {
     box-shadow: 0 0 3px #f00f00;
@@ -162,7 +162,7 @@ body.program .input-group>input.form-control{
 }
 body.program .dnd5e.sheet.actor .spell-component.tag{
     color: #000000;
-    background: #ededed;
+    background: #44ff00;
 }
 body.program .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active, 
 body.program .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.active{
@@ -182,7 +182,7 @@ body.program .dnd5e input[type="checkbox"]:hover,
 body.program .dnd5e input[type="text"]:focus, 
 body.program .dnd5e input[type="number"]:focus, 
 body.program .dnd5e input[type="checkbox"]:focus{
-    border: 1px solid #ededed;
+    border: 1px solid #44ff00;
 }
 body.program .dnd5e.sheet .crash-training .activity-type, 
 body.program .tidy5e.sheet .crash-training .activity-type,
@@ -205,7 +205,7 @@ body .dnd5e.sheet .sheet-navigation .item{
     border-radius: 4px;
 }
 body.program .dnd5e.sheet .filter-list .filter-item:hover{
-    border-bottom: 3px solid #ededed;
+    border-bottom: 3px solid #44ff00;
 }
 body.program .inventory-list .category-weight .fa-feather {
     color: #00ff00;
@@ -224,8 +224,8 @@ body.program .prosemirror menu .pm-dropdown{
 body.program .prosemirror menu button:hover, 
 body.program .prosemirror menu button.active{
     background: rgba(0,0,0,1);
-    color: #ededed;
-    box-shadow: 0 0 2px #ededed;
+    color: #44ff00;
+    box-shadow: 0 0 2px #44ff00;
 }
 body.program .prosemirror menu .pm-dropdown ul{
     background: rgba(0,0,0,1);
@@ -255,15 +255,15 @@ body.program body.change-windows:not(.system-forbidden-lands) .window-app:not(.i
     background-color: #000000;
 }
 body.program .window-app{
-    box-shadow: 0 0 10px #ededed;
+    box-shadow: 0 0 10px #44ff00;
 }
 body.program .editor-edit{
     background: rgb(0 0 0 / 75%);
-    border: 1px solid #ededed;
+    border: 1px solid #44ff00;
 }
 body.program .app.window-app .window-content button.btn {
     background: rgba(0,0,0,0.5);
-    color: #ededed;
+    color: #44ff00;
 }
 body.program .app.window-app .window-content button.btn.btn--active {
     background: rgba(255,255,255,1);
@@ -275,20 +275,20 @@ body.program textarea.form-control{
 }
 body.program select.ve-foundry-button{
     background: rgb(0 0 0 / 80%) !important;
-    color: #ededed;
+    color: #44ff00;
 }
 body.program .veapp-loading__wrp-outer{
     background: rgba(0,0,0,0.5) !important;
-    color: #ededed !important; 
+    color: #44ff00 !important; 
 }
 body.program button.btn-5et,
 body.program label.btn.btn-5et {
     background: #303030;
-    color: #ededed;
+    color: #44ff00;
 }
 body.program .form-group.group-header{
     background-color: rgba(0, 0, 0, 1);
-    border: 1px solid #ededed;
+    border: 1px solid #44ff00;
 }
 body.program form .notes, form .hint{
     color: #b3b3b3;
@@ -297,12 +297,12 @@ body.program .dnd5e.sheet.actor .features i.original-class {
     color: #939393 !important;
 }
 body.program #module-management .package-list .package-title, #module-management .package-list .package-metadata, #module-management .package-list .package-description{
-    color: #ededed;
+    color: #44ff00;
 }
 body.program #module-management .package-list .package-title, 
 body.program #module-management .package-list .package-metadata, 
 body.program #module-management .package-list .package-description{
-    color: #ededed;
+    color: #44ff00;
 }
 .icon.overlay-damage-full{
     background-image: url("../img/ready-set-roll-compatibility/overlay-damage-full.svg") !important;
@@ -367,14 +367,14 @@ body.program .SumoSelect > .optWrapper > .options {
     background: #000000;
 }
 body.program .SumoSelect > .optWrapper > .options li.opt:hover{
-    background-color: #484848;
+    background-color: #000000;
 }
 body.program .SumoSelect > .CaptionCont > label > i{
     background-image: url("../img/caret-down.png");
 }
 body.program .dnd5e.sheet .crash-training .activity-progress-row .crash-training-completion, 
 body.program .tidy5e.sheet .crash-training .activity-progress-row .crash-training-completion{
-    color: #dddddd;
+    color: #44ff00;
 }
 body.program .rd__h--1,
 body.program .rd__h--2{
@@ -397,17 +397,17 @@ body.program #requestsavingthrow .request-grid > div.selected{
     background: rgb(82 82 82 0.6);
 }
 body.program .monks-tokenbar .sheet .items-list .item .item-name{
-    color: #dddddd;
+    color: #44ff00;
 }
 body.program #requestsavingthrow .request-grid > div.selected, body.program #requestsavingthrow .request-grid > div {
-    color: #dddddd;
+    color: #44ff00;
 }
 body.program .awesomplete > ul > li {
     background: #000000;
 }
 body.program .awesomplete > ul > li:hover{
     background: #3a3a3a;
-    color: #ffffff;
+    color: #44ff00;
 }
 body.program .filepicker .display-modes a {
     background: #000000;

@@ -24,11 +24,11 @@ body.dark .dnd5e.sheet .window-content,
 body.dark .window-app .window-content, 
 body.dark .cfg__btn-tab-header, 
 body.dark .ve-window{
-    background: url("../img/Grey_Slate.jpg") repeat !important;
+    background: url("../img/Grey_Texture.png") repeat !important;
     color: #ededed;
 }
 body.dark .chat-message{
-    background: url("../img/Grey_Slate.jpg") repeat;
+    background: url("../img/Grey_Texture.png") repeat;
     color: #ededed;
 }
 body.dark .chat-message.whisper{
