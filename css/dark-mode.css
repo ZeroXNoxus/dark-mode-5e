@@ -415,3 +415,6 @@ body.dark .filepicker .display-modes a {
 body.dark .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle[data-tooltip="Always Prepared"] {
     color: #973535;
 }
+body.dark #chat-controls .roll-type-select{
+    background: rgb(0 0 0 / 80%);
+}
