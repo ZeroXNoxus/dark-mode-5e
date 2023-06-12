@@ -1,0 +1,42 @@
+.app.window-app.dnd5e.sheet.minimized {
+    background-color: rgba(102,102,102,0.1);
+}
+.dnd5e.sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
+.ability-modifiers input[value="1"] ~ span.ability-save {
+    color: #740000;
+    text-shadow: 0 0 5px red;
+}
+.dnd5e.sheet.actor .skill.proficient input[value="0.5"] ~ span.skill-mod{
+    color: #740000;
+}
+.dnd5e.sheet.actor .skill.proficient input[value="2"] ~ span.skill-mod{
+    color: white;
+    text-shadow: 0 0 5px red;
+    font-weight: bold;
+}
+.active-effect-sheet section.window-content {
+    overflow: auto !important;
+}
+.tokenizer .box-button.deselected {
+    background: rgba(255, 255, 255, 0.3);
+}
+#tokenizer div.view-layer-control {
+    background-color: rgba(211, 211, 211, 0.3);
+}
+#tokenizer div.view-layer-control .section, #tokenizer .section {
+    border: thin solid rgb(149, 159, 168, 0.3);
+    background-color: rgb(194, 194, 194, 0.3);
+}
+#tokenizer div.menu {
+    background-color: rgb(211, 211, 211, 0.3);
+}
+#tokenizer div.section {
+    background-color: rgb(194, 194, 194, 0.3);
+    border: thin solid rgb(149, 159, 168, 0.3);
+}
+#tokenizer button.invisible-button {
+    background-color: rgb(194, 194, 194, 0.3);
+}
+#tokenizer div.view-layer-control button.active {
+    background: rgb(94, 0, 0);
+}

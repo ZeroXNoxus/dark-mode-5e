@@ -7,10 +7,10 @@
       "name": "ZeroXNoxus"
       }
       ],
-    "version": "1.2.1",
+    "version": "1.2.2",
     "compatibility": {
       "minimum": "10",
-      "verified": "10"
+      "verified": "11"
     },
     "scripts": [
       "/script/dark-mode.js"
@@ -18,7 +18,8 @@
     "styles": [
       "/css/dark-mode.css",
       "/css/black-white.css",
-      "/css/programmer.css"
+      "/css/programmer.css",
+      "/css/dnd5e-dark-mode-default.css"
     ],
     "manifest": "https://github.com/ZeroXNoxus/dark-mode-5e/releases/download/latest/module.json",
     "url": "https://github.com/ZeroXNoxus/dark-mode-5e",
