@@ -18,25 +18,25 @@
     overflow: auto !important;
 }
 .tokenizer .box-button.deselected {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3) !important;
 }
 #tokenizer div.view-layer-control {
-    background-color: rgba(211, 211, 211, 0.3);
+    background-color: rgba(211, 211, 211, 0.3) !important;
 }
 #tokenizer div.view-layer-control .section, #tokenizer .section {
-    border: thin solid rgb(149, 159, 168, 0.3);
-    background-color: rgb(194, 194, 194, 0.3);
+    border: thin solid rgb(149, 159, 168, 0.3) !important;
+    background-color: rgb(194, 194, 194, 0.3) !important;
 }
 #tokenizer div.menu {
-    background-color: rgb(211, 211, 211, 0.3);
+    background-color: rgb(211, 211, 211, 0.3) !important;
 }
 #tokenizer div.section {
-    background-color: rgb(194, 194, 194, 0.3);
-    border: thin solid rgb(149, 159, 168, 0.3);
+    background-color: rgb(194, 194, 194, 0.3) !important;
+    border: thin solid rgb(149, 159, 168, 0.3) !important;
 }
 #tokenizer button.invisible-button {
-    background-color: rgb(194, 194, 194, 0.3);
+    background-color: rgb(194, 194, 194, 0.3) !important;
 }
 #tokenizer div.view-layer-control button.active {
-    background: rgb(94, 0, 0);
+    background: rgb(94, 0, 0) !important;
 }
