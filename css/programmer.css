@@ -168,8 +168,18 @@ body.program .dnd5e.sheet.actor .spell-component.tag{
 body.program .dice-roll .dice-total {
     color: #44ff00;
 }
-body.program .dice-roll .dice-total.critical {
+body.program .rsr-dual .dice-row .success {
     color: #c7b94d;
+}
+body.program .dice-roll .dice-total.success {
+    background: #4e4920;
+    border: 1px solid #4e4920;
+}
+body.program .rsr-dual .dice-row .failure {
+    color: red;
+}
+body.program .dice-roll .dice-total.failure {
+    background: #711818;
 }
 body.program .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active, 
 body.program .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.active{
