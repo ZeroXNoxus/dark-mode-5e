@@ -166,7 +166,10 @@ body.program .dnd5e.sheet.actor .spell-component.tag{
     background: #44ff00;
 }
 body.program .dice-roll .dice-total {
-    color: #ededed;
+    color: #44ff00;
+}
+body.program .dice-roll .dice-total.critical {
+    color: #c7b94d;
 }
 body.program .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active, 
 body.program .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.active{

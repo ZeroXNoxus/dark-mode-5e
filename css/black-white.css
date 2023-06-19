@@ -152,6 +152,9 @@ body.bNw .dnd5e.sheet.actor .spell-component.tag{
 body.bNw .dice-roll .dice-total {
     color: #ededed;
 }
+body.bNw .dice-roll .dice-total.critical {
+    color: #008000;
+}
 body.bNw .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active, 
 body.bNw .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.active{
     color: #c7b94d;
