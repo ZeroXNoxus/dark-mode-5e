@@ -142,11 +142,15 @@ body.bNw optgroup,
 body.bNw input.lst__search,
 body.bNw .btn-group>input.form-control, 
 body.bNw .input-group>input.form-control{
+    color: #ededed;
     background: #000000;
 }
 body.bNw .dnd5e.sheet.actor .spell-component.tag{
     color: #000000;
     background: #ededed;
+}
+body.bNw .dice-roll .dice-total {
+    color: #ededed;
 }
 body.bNw .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active, 
 body.bNw .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.active{

@@ -159,10 +159,14 @@ body.program input.lst__search,
 body.program .btn-group>input.form-control, 
 body.program .input-group>input.form-control{
     background: #000000;
+    color: #44ff00;
 }
 body.program .dnd5e.sheet.actor .spell-component.tag{
     color: #000000;
     background: #44ff00;
+}
+body.program .dice-roll .dice-total {
+    color: #ededed;
 }
 body.program .dnd5e.sheet.actor.character .inventory .item-controls .item-toggle.active, 
 body.program .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle.active{
