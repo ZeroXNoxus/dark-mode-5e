@@ -27,6 +27,10 @@ body.program .ve-window{
     background: url("../img/Pure_Black.jpg") repeat !important;
     color: #44ff00;
 }
+body.program .message-sender .anonymous-replaced{
+    background-color: #5a5a5a;
+    outline: 1px dotted rgb(51 255 0 / 50%);
+}
 body.program .chat-message{
     background: url("../img/Pure_Black.jpg") repeat;
     color: #44ff00;
@@ -277,6 +281,13 @@ body.program .window-app{
 body.program .editor-edit{
     background: rgb(0 0 0 / 75%);
     border: 1px solid #44ff00;
+}
+body.program .editor.prosemirror{
+    border: 1px solid rgb(0 255 20 / 50%);
+}
+body.program .editor-menu{
+    border: 1px solid rgb(0 255 20 / 50%);
+    border-radius: 0;
 }
 body.program .app.window-app .window-content button.btn {
     background: rgba(0,0,0,0.5);

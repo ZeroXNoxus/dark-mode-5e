@@ -27,6 +27,10 @@ body.dark .ve-window{
     background: url("../img/Grey_Texture.png") repeat !important;
     color: #ededed;
 }
+body.dark .message-sender .anonymous-replaced{
+    background-color: #5a5a5a;
+    outline: 1px dotted rgb(255 255 255 / 50%);
+}
 body.dark .chat-message{
     background: url("../img/Grey_Texture.png") repeat;
     color: #ededed;
@@ -276,6 +280,13 @@ body.dark .window-app{
 body.dark .editor-edit{
     background: rgb(0 0 0 / 75%);
     border: 1px solid #ededed;
+}
+body.dark .editor.prosemirror{
+    border: 1px solid rgb(255 255 255 / 50%);
+}
+body.dark .editor-menu{
+    border-bottom: 1px solid rgb(255 255 255 / 50%);
+    border-radius: 0;
 }
 body.dark .app.window-app .window-content button.btn {
     background: rgba(0,0,0,0.5);

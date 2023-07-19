@@ -15,6 +15,10 @@ body.bNw .chat-message{
     background: url("../img/Black_Texture.png") repeat;
     color: #ededed;
 }
+body.bNw .message-sender .anonymous-replaced{
+    background-color: #5a5a5a;
+    outline: 1px dotted rgb(255 255 255 / 50%);
+}
 body.bNw .chat-message.whisper{
     background: #2f1f30;
 }
@@ -260,6 +264,13 @@ body.bNw .window-app{
 body.bNw .editor-edit{
     background: rgb(0 0 0 / 75%);
     border: 1px solid #ededed;
+}
+body.bNw .editor.prosemirror{
+    border: 1px solid rgb(255 255 255 / 50%);
+}
+body.bNw .editor-menu{
+    border-bottom: 1px solid rgb(255 255 255 / 50%);
+    border-radius: 0;
 }
 body.bNw .app.window-app .window-content button.btn {
     background: rgba(0,0,0,0.5);
