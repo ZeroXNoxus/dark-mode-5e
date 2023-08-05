@@ -430,5 +430,5 @@ body.bNw #chat-controls .roll-type-select{
     background: rgb(0 0 0 / 80%);
 }
 body.bNw .chart-dice-stats text{
-    color: #ffffff;
+    fill: #ffffff;
 }

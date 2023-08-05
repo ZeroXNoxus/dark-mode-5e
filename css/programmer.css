@@ -440,6 +440,6 @@ body.program .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle
 body.program #chat-controls .roll-type-select{
     background: rgb(0 0 0 / 80%);
 }
-body.bNw .chart-dice-stats text{
-    color: #44ff00;
+body.program .chart-dice-stats text{
+    fill: #44ff00;
 }
