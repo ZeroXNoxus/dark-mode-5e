@@ -445,3 +445,6 @@ body.dark .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle[da
 body.dark #chat-controls .roll-type-select{
     background: rgb(0 0 0 / 80%);
 }
+body.dark .chart-dice-stats text{
+    color: #ffffff;
+}

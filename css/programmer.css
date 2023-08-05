@@ -266,9 +266,7 @@ body.program .dnd5e.sheet.actor .encumbrance .encumbrance-bar{
     border: 1px solid #ff6d6d;
 }
 body.program a.content-link, 
-body.program a.inline-roll{
-    background: #303030;
-}
+body.program a.inline-roll,
 body.program .jlnk__entity-link{
     background: #303030;
 }
@@ -282,11 +280,11 @@ body.program .editor-edit{
     background: rgb(0 0 0 / 75%);
     border: 1px solid #44ff00;
 }
+body.program .editor-menu,
 body.program .editor.prosemirror{
     border: 1px solid rgb(0 255 20 / 50%);
 }
 body.program .editor-menu{
-    border: 1px solid rgb(0 255 20 / 50%);
     border-radius: 0;
 }
 body.program .app.window-app .window-content button.btn {
@@ -324,9 +322,9 @@ body.program form .notes, form .hint{
 body.program .dnd5e.sheet.actor .features i.original-class {
     color: #939393 !important;
 }
-body.program #module-management .package-list .package-title, #module-management .package-list .package-metadata, #module-management .package-list .package-description{
-    color: #44ff00;
-}
+body.program #module-management .package-list .package-title, 
+#module-management .package-list .package-metadata, 
+#module-management .package-list .package-description,
 body.program #module-management .package-list .package-title, 
 body.program #module-management .package-list .package-metadata, 
 body.program #module-management .package-list .package-description{
@@ -384,17 +382,13 @@ body.program .dnd5e.sheet.actor .inventory-list .item .item-name.rollable .item-
 body.program .dnd5e .items-list .items-header {
     background: rgba(0, 0, 0, 1);
 }
-body.program #chat-form textarea {
-    background: #000000;
-}
 body.program .sheet.journal-entry .journal-entry-content {
     background: 0;
 }
+body.program #chat-form textarea,
 body.program .SumoSelect > .CaptionCont,
-body.program .SumoSelect > .optWrapper > .options {
-    background: #000000;
-}
-body.program .SumoSelect > .optWrapper > .options li.opt:hover{
+body.program .SumoSelect > .optWrapper > .options,
+body.program .SumoSelect > .optWrapper > .options li.opt:hover {
     background-color: #000000;
 }
 body.program .SumoSelect > .CaptionCont > label > i{
@@ -445,4 +439,7 @@ body.program .dnd5e.sheet.actor.character .spellbook .item-controls .item-toggle
 }
 body.program #chat-controls .roll-type-select{
     background: rgb(0 0 0 / 80%);
+}
+body.bNw .chart-dice-stats text{
+    color: #44ff00;
 }

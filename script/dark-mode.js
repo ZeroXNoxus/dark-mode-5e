@@ -1,11 +1,14 @@
+var themeClass;
+var theme;
+
 function initialize(html){
     let openBtn = $(`<a class="dark-mode-toggle" title="Change Dark/Light Mode"><i class="fas fa-eye-evil"></i>Light/Dark Mode</a>`);
-    let theme;
-    let themeClass;
-    openBtn.click(ev => changeMode());
-    html.closest('.app').find('.dark-mode-toggle').remove();
     let titleElement = html.closest('.app').find('.window-title');
+
+    openBtn.click(ev => changeMode());
     openBtn.insertAfter(titleElement);
+    
+    html.closest('.app').find('.dark-mode-toggle').remove();
 }
 
 function changeMode(){
