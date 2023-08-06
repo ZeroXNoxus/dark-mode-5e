@@ -432,3 +432,11 @@ body.bNw #chat-controls .roll-type-select{
 body.bNw .chart-dice-stats text{
     fill: #ffffff;
 }
+body.bNw .ui-sel2__wrp-options{
+    background-color: #454545;
+}
+body.bNw .ui-sel2__disp-option.active, 
+body.bNw .ui-sel2__disp-option:focus, 
+body.bNw .ui-sel2__disp-option:hover{
+    color: #454545;
+}

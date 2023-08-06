@@ -448,3 +448,11 @@ body.dark #chat-controls .roll-type-select{
 body.dark .chart-dice-stats text{
     fill: #ffffff;
 }
+body.dark .ui-sel2__wrp-options{
+    background-color: #454545;
+}
+body.dark .ui-sel2__disp-option.active, 
+body.dark .ui-sel2__disp-option:focus, 
+body.dark .ui-sel2__disp-option:hover{
+    color: #454545;
+}
