@@ -8,7 +8,7 @@ function initialize(html){
     openBtn.click(ev => changeMode());
     openBtn.insertAfter(titleElement);
     
-    html.closest('.app').find('.dark-mode-toggle').remove();
+//    html.closest('.app').find('.dark-mode-toggle').remove();
 }
 
 function changeMode(){
