@@ -156,7 +156,8 @@ body.bNw .dnd5e.sheet.actor .spell-component.tag{
 body.bNw .dice-roll .dice-total {
     color: #ededed;
 }
-body.bNw .rsr-dual .dice-row .success {
+body.bNw .rsr-dual .dice-row .success,
+body.bNw .dice-roll .dice-total.critical {
     color: #00ff00;
 }
 body.bNw .dice-roll .dice-total.success {

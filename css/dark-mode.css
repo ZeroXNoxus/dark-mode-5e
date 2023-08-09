@@ -172,7 +172,8 @@ body.dark .dnd5e.sheet.actor .spell-component.tag{
 body.dark .dice-roll .dice-total {
     color: #ededed;
 }
-body.dark .rsr-dual .dice-row .success {
+body.dark .rsr-dual .dice-row .success,
+body.dark .dice-roll .dice-total.critical {
     color: #00ff00;
 }
 body.dark .dice-roll .dice-total.success {
