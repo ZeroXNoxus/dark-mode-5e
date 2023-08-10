@@ -433,6 +433,9 @@ body.bNw #chat-controls .roll-type-select{
 body.bNw .chart-dice-stats text{
     fill: #ffffff;
 }
+body.bNw .chart-dice-stats path{
+    fill: #262524;
+}
 body.bNw .ui-sel2__wrp-options{
     background-color: #454545;
 }

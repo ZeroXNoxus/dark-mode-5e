@@ -444,6 +444,9 @@ body.program #chat-controls .roll-type-select{
 body.program .chart-dice-stats text{
     fill: #44ff00;
 }
+body.program .chart-dice-stats path{
+    fill: #000000;
+}
 body.program .ui-sel2__wrp-options{
     background-color: #000000;
     color: #44ff00;
