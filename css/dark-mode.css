@@ -179,7 +179,8 @@ body.dark .dice-roll .dice-total.critical {
 body.dark .dice-roll .dice-total.success {
     background: #306d00;
 }
-body.dark .rsr-dual .dice-row .failure {
+body.dark .rsr-dual .dice-row .failure,
+body.dark .dice-roll .dice-total.fumble {
     color: red;
 }
 body.dark .dice-roll .dice-total.failure {

@@ -180,7 +180,8 @@ body.program .dice-roll .dice-total.success {
     background: #4e4920;
     border: 1px solid #4e4920;
 }
-body.program .rsr-dual .dice-row .failure {
+body.program .rsr-dual .dice-row .failure,
+body.program .dice-roll .dice-total.fumble {
     color: red;
 }
 body.program .dice-roll .dice-total.failure {
