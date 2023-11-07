@@ -341,26 +341,26 @@ body.bNw #module-management .package-list .package-description{
     background-color: #00d0ff; 
 }
 body.bNw .icon.overlay-damage-full{
-    background-image: url("../img/ready-set-roll-compatibility/bNw-overlay-damage-full.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-full.svg") !important;
     background-color: #680000;
 }
 body.bNw .icon.overlay-damage-half{
-    background-image: url("../img/ready-set-roll-compatibility/bNw-overlay-damage-half.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-half.svg") !important;
     background-color: #783200;
 }
 body.bNw .icon.overlay-damage-quarter{
-    background-image: url("../img/ready-set-roll-compatibility/bNw-overlay-damage-quarter.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-quarter.svg") !important;
     background-color: #767600;
 }
 body.bNw .icon.overlay-damage-double{
-    background-image: url("../img/ready-set-roll-compatibility/bNw-overlay-damage-double.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-double.svg") !important;
 }
 body.bNw .icon.overlay-healing{
-    background-image: url("../img/ready-set-roll-compatibility/bNw-overlay-healing.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-healing.svg") !important;
     background-color: #004a00;
 }
 body.bNw .icon.overlay-healing-temp{
-    background-image: url("../img/ready-set-roll-compatibility/bNw-overlay-healing-temp.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-healing-temp.svg") !important;
     background-color: #000070;
 }
 body.bNw .dnd5e.sheet.actor .inventory-list .item .item-name.rollable .item-image:hover{
