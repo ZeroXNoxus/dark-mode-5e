@@ -341,26 +341,26 @@ body.bNw #module-management .package-list .package-description{
     background-color: #00d0ff; 
 }
 body.bNw .icon.overlay-damage-full{
-    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-full.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/bNw-overlay-damage-full.svg") !important;
     background-color: #680000;
 }
 body.bNw .icon.overlay-damage-half{
-    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-half.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/bNw-overlay-damage-half.svg") !important;
     background-color: #783200;
 }
 body.bNw .icon.overlay-damage-quarter{
-    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-quarter.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/bNw-overlay-damage-quarter.svg") !important;
     background-color: #767600;
 }
 body.bNw .icon.overlay-damage-double{
-    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-double.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/bNw-overlay-damage-double.svg") !important;
 }
 body.bNw .icon.overlay-healing{
-    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-healing.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/bNw-overlay-healing.svg") !important;
     background-color: #004a00;
 }
 body.bNw .icon.overlay-healing-temp{
-    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-healing-temp.svg") !important;
+    background-image: url("../img/ready-set-roll-compatibility/bNw-overlay-healing-temp.svg") !important;
     background-color: #000070;
 }
 body.bNw .dnd5e.sheet.actor .inventory-list .item .item-name.rollable .item-image:hover{
@@ -444,4 +444,28 @@ body.bNw .ui-sel2__disp-option.active,
 body.bNw .ui-sel2__disp-option:focus, 
 body.bNw .ui-sel2__disp-option:hover{
     color: #454545;
+}
+body.bNw .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-mod{
+    color: #f2ffa8 !important;
+}
+body.bNw .dndbcs.sheet.actor.character .sheet-header .attributes .attribute .attribute-value,
+body.bNw .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-box,
+body.bNw .dndbcs.sheet.actor.character .sheet-header .ability-scores li.ability.health.defenses .form-group, 
+body.bNw .dndbcs.sheet.actor.character .flex-column.col4 li.ability.health .ability-box .form-group, 
+body.bNw .dndbcs.sheet.actor.character .flex-column.col3 .sensestraits .skills-list .form-group,
+body.bNw .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-box footer.ability-footer.exhaustion {
+    color: #ededed;
+}
+body.bNw .dndbcs.sheet .sheet-navigation .item.active,
+body.bNw .dndbcs.sheet .sheet-navigation .item:hover{
+    color: #ffffff;
+}
+body.bNw .dndbcs.sheet.actor .filter-list .filter-item{
+    background-color: #ffffff;
+}
+body.bNw .dndbcs.sheet.actor .config-button,
+body.bNw .dndbcs.sheet.actor.character .sheet-header .attributes .attribute .attribute-name, 
+body.bNw .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-name, 
+body.bNw .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability h4{
+    color: #d3d3d3;
 }

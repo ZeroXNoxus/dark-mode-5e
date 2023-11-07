@@ -450,7 +450,7 @@ body.dark #chat-controls .roll-type-select{
 body.dark .chart-dice-stats text{
     fill: #ffffff;
 }
-body.bNw .chart-dice-stats path{
+body.dark .chart-dice-stats path{
     fill: #262524;
 }
 body.dark .ui-sel2__wrp-options{
@@ -460,4 +460,29 @@ body.dark .ui-sel2__disp-option.active,
 body.dark .ui-sel2__disp-option:focus, 
 body.dark .ui-sel2__disp-option:hover{
     color: #454545;
+}
+
+body.dark .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-mod{
+    color: #f2ffa8 !important;
+}
+body.dark .dndbcs.sheet.actor.character .sheet-header .attributes .attribute .attribute-value,
+body.dark .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-box,
+body.dark .dndbcs.sheet.actor.character .sheet-header .ability-scores li.ability.health.defenses .form-group, 
+body.dark .dndbcs.sheet.actor.character .flex-column.col4 li.ability.health .ability-box .form-group, 
+body.dark .dndbcs.sheet.actor.character .flex-column.col3 .sensestraits .skills-list .form-group,
+body.dark .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-box footer.ability-footer.exhaustion {
+    color: #ededed;
+}
+body.dark .dndbcs.sheet .sheet-navigation .item.active,
+body.dark .dndbcs.sheet .sheet-navigation .item:hover{
+    color: #ffffff;
+}
+body.dark .dndbcs.sheet.actor .filter-list .filter-item{
+    background-color: #ffffff;
+}
+body.dark .dndbcs.sheet.actor .config-button,
+body.dark .dndbcs.sheet.actor.character .sheet-header .attributes .attribute .attribute-name, 
+body.dark .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-name, 
+body.dark .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability h4{
+    color: #d3d3d3;
 }
