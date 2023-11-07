@@ -11,8 +11,9 @@ function initialize(html){
     openBtn.insertAfter(titleElement);
 }
 
-function changeMode(){
-    theme = game.settings.get('dark-mode-5e', 'theme-selector');
+function changeMode(value){
+    theme = value;
+    if(!value){theme = game.settings.get('dark-mode-5e', 'theme-selector');}
     switch(theme) {
         case 1:
             themeClass = "dark";
@@ -23,7 +24,14 @@ function changeMode(){
         case 3:
             themeClass = "program";
             break;
-      }
+    }
+    if(value){
+        $('body').removeClass('dark').removeClass('bNw').removeClass('program');
+        if(localStorage.getItem('dark-mode') == 'true'){
+            $('body').addClass(themeClass);
+        }
+        return;
+    }
     if(localStorage.getItem('dark-mode') == 'true'){
         localStorage.setItem('dark-mode', 'false');
         $('body').removeClass(themeClass);
@@ -47,7 +55,10 @@ function generateDarkModeSettings(){
           2 : "Black'n'White",
           3 : "Programmer"
         },
-        default: "darkMode",
+        default: 1,
+        onChange: value => {
+            changeMode(value);
+        }
     });
 }
 Hooks.on('init', () => {
