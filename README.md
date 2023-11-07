@@ -49,4 +49,7 @@ You can now change the theme of Dark Mode in the module's settings:
 - Token HUD Wildcard
 - Tokenizer
 
+# Supported Character Sheets #
+- DnD Beyond Character Sheet for 5e
+
 This list may be incomplete (you can help expanding this list!)
