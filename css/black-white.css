@@ -469,3 +469,12 @@ body.bNw .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .a
 body.bNw .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability h4{
     color: #d3d3d3;
 }
+body.bNw .dnd5e .advancement .items-list .tag {
+    color: #d3d3d3;
+}
+body.bNw .dnd5e .items-list .item .item-name .item-image{
+    background-color: #d3d3d3;
+}
+body.bNw .dnd5e .advancement .items-list .item-summary {
+    color: #bdbdbd;
+}
