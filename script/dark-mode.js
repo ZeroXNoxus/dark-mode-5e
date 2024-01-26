@@ -75,6 +75,9 @@ Hooks.on('init', () => {
             themeClass = "program";
             break;
     }
+    if(localStorage.getItem('dark-mode') == null){
+        localStorage.setItem('dark-mode', 'true');
+    }
     if(localStorage.getItem('dark-mode') == 'true'){
         $('body').addClass(themeClass);
     } else {
