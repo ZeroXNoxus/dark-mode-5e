@@ -1,15 +1,15 @@
 .app.window-app.dnd5e.sheet.minimized {
     background-color: rgba(102,102,102,0.1);
 }
-.dnd5e.sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
-.ability-modifiers input[value="1"] ~ span.ability-save {
+.dnd5e:not(.tidy5e).sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
+.dnd5e:not(.tidy5e).sheet.actor .ability-modifiers input[value="1"] ~ span.ability-save {
     color: #740000;
     text-shadow: 0 0 5px red;
 }
-.dnd5e.sheet.actor .skill.proficient input[value="0.5"] ~ span.skill-mod{
+.dnd5e:not(.tidy5e).sheet.actor .skill.proficient input[value="0.5"] ~ span.skill-mod{
     color: #740000;
 }
-.dnd5e.sheet.actor .skill.proficient input[value="2"] ~ span.skill-mod{
+.dnd5e:not(.tidy5e).sheet.actor .skill.proficient input[value="2"] ~ span.skill-mod{
     color: white;
     text-shadow: 0 0 5px red;
     font-weight: bold;

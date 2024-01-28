@@ -89,7 +89,7 @@ body.program .dnd5e:not(.tidy5e).sheet.actor .inventory-list .item-summary{
     color: #44ff00;
 }
 body.program .dnd5e:not(.tidy5e).sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
-body.program .ability-modifiers input[value="1"] ~ span.ability-save {
+body.program .dnd5e:not(.tidy5e).sheet.actor .ability-modifiers input[value="1"] ~ span.ability-save {
     color: #f2ffa8;
     text-shadow: none;
 }
