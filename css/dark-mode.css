@@ -2,7 +2,7 @@
     background-color: rgba(102,102,102,0.1);
 }
 .dnd5e:not(.tidy5e).sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
-.ability-modifiers input[value="1"] ~ span.ability-save {
+.dnd5e:not(.tidy5e).sheet.actor .ability-modifiers input[value="1"] ~ span.ability-save {
     color: #740000;
     text-shadow: 0 0 5px red;
 }
