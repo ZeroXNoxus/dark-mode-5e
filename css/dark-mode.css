@@ -6,11 +6,11 @@ body.dark select {
 body.dark .editing-source textarea {
     color: var(--color-text-light-0);
 }
-body.dark .window-app:not(.tidy5e, .simple-calender, .dnd5e2) .window-content {
+body.dark .window-app:not(.tidy5e, .simple-calendar, .dnd5e2) .window-content {
     filter: invert(1);
 }
-body.dark .window-app:not(.tidy5e, .simple-calender, .dnd5e2) .window-content canvas, 
-body.dark .window-app:not(.tidy5e, .simple-calender, .dnd5e2) .window-content img {
+body.dark .window-app:not(.tidy5e, .simple-calendar, .dnd5e2) .window-content canvas, 
+body.dark .window-app:not(.tidy5e, .simple-calendar, .dnd5e2) .window-content img {
     filter: invert(1);
 }
 
