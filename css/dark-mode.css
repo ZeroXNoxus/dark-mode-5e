@@ -156,3 +156,12 @@ body.dark #token-action-hud .tah-tab-group .tah-button-image,
 body.dark #token-action-hud .tah-tab-group .tah-action-button-content {
     filter: invert(1);
 }
+
+/*[MODULE] Monk's Enhanced Journals*/
+body.dark .enhanced-journal ol.directory-list { 
+    filter: invert(1);
+}
+body.dark .enhanced-journal ol.directory-list li,
+body.dark .enhanced-journal ol.directory-list li.folder > .folder-header .create-button {
+    color: var(--color-text-light-0);
+}
