@@ -1,493 +1,158 @@
-.app.window-app.dnd5e:not(.tidy5e).sheet.minimized {
-    background-color: rgba(102,102,102,0.1);
-}
-.dnd5e:not(.tidy5e).sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
-.dnd5e:not(.tidy5e).sheet.actor .ability-modifiers input[value="1"] ~ span.ability-save {
-    color: #740000;
-    text-shadow: 0 0 5px red;
-}
-.dnd5e:not(.tidy5e).sheet.actor .skill.proficient input[value="0.5"] ~ span.skill-mod{
-    color: #740000;
-}
-.dnd5e:not(.tidy5e).sheet.actor .skill.proficient input[value="2"] ~ span.skill-mod{
-    color: white;
-    text-shadow: 0 0 5px red;
-    font-weight: bold;
-}
-body.dark{
-    caret-color: #ededed;
-}
-body.dark button{
-    background: #000000;
-}
-body.dark .dnd5e:not(.tidy5e).sheet .window-content, 
-body.dark .window-app .window-content, 
-body.dark .cfg__btn-tab-header, 
-body.dark .ve-window{
-    background: url("../img/Grey_Texture.png") repeat !important;
-    color: #ededed;
-}
-body.dark .message-sender .anonymous-replaced{
-    background-color: #5a5a5a;
-    outline: 1px dotted rgb(255 255 255 / 50%);
-}
-body.dark .chat-message{
-    background: url("../img/Grey_Texture.png") repeat;
-    color: #ededed;
-}
-body.dark .chat-message.whisper{
-    background: #2f1f30;
-}
-body.dark .chat-message.blind {
-    background: #361616;
-}
-body.dark textarea{
-    background: #000000;
-    border-color: #666666;
-}
-body.dark .dnd5e:not(.tidy5e) .form-header{
-    color: #999999;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.item h4.damage-header{
-    color: #ededed;
-}
-body.dark .dnd5e:not(.tidy5e) input[type="text"], 
-body.dark .dnd5e:not(.tidy5e) input[type="number"], 
-body.dark .dnd5e:not(.tidy5e) select,
-body.dark .dnd5e:not(.tidy5e).sheet.actor .spell-school, 
-body.dark .dnd5e:not(.tidy5e).sheet.actor .spell-action, 
-body.dark .dnd5e:not(.tidy5e).sheet.actor .spell-target{
-    color: #e9e9e9;
-}
-body.dark .dnd5e:not(.tidy5e) button,
-body.dark .dnd5e:not(.tidy5e) .items-list,
-body.dark .dnd5e:not(.tidy5e) .items-list .item .item-name,
-body.dark .dnd5e:not(.tidy5e).chat-card .card-header h3,
-body.dark .chat-message .message-header,
-body.dark .dnd5e:not(.tidy5e).sheet.actor .spell-slots, 
-body.dark .dnd5e:not(.tidy5e).sheet.actor .spell-comps,
-body.dark .dnd5e:not(.tidy5e) .form-group label,
-body.dark .dnd5e:not(.tidy5e).sheet.actor h4.box-title,
-body.dark .dnd5e:not(.tidy5e).sheet.actor .counters .counter h4,
-body.dark .dnd5e:not(.tidy5e).sheet .sheet-header .summary li,
-body.dark .dnd5e:not(.tidy5e).sheet .editable h4.rollable:hover, 
-body.dark .dnd5e:not(.tidy5e).sheet .editable .rollable:hover > h4,
-body.dark .dnd5e:not(.tidy5e).sheet.actor.character .characteristics textarea,
-body.dark .dnd5e:not(.tidy5e).sheet.actor .encumbrance .encumbrance-label,
-body.dark .form-group select,
-body.dark button.grid-config,
-body.dark button.perfect-vision--button,
-body.dark .sheet footer.sheet-footer > button,
-body.dark button.file-picker,
-body.dark .app.window-app.sheet.scene-sheet button,
-body.dark .dialog .dialog-buttons button.default,
-body.dark button.image-hover-picker-button,
-body.dark select.form-control,
-body.dark form .form-group .form-fields > *,
-body.dark input.awesomplete.keyinput,
-body.dark .dnd5e:not(.tidy5e).sheet.actor .inventory-list .item-summary{
-    color: #ededed;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor .skill.proficient input[value="1"] ~ span.skill-mod,
-body.dark .dnd5e:not(.tidy5e).sheet.actor .ability-modifiers input[value="1"] ~ span.ability-save {
-    color: #f2ffa8;
-    text-shadow: none;
-}
-body.dark input[type="range"] {
-    background: 0;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor .skill.proficient input[value="0.5"] ~ span.skill-mod{
-    text-shadow: 0 0 5px red;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor .skill.proficient input[value="2"] ~ span.skill-mod{
-    color: #f2ffa8;
-    font-weight: bold;
-}
-body.dark #vtta-tokenizer div.section {
-    background: rgba(255,255,255,0.1);
-}
-body.dark #vtta-tokenizer div.menu{
-    background: 0;
-}
-body.dark #vtta-tokenizer div.view-layer-control {
-    background: 0;
-}
-#vtta-tokenizer div.view-layer-control button.active {
-    color: #000000 !important;
-}
-body.dark form.crash-category-app .form-group label{
-    color: #ededed;
-}
-body.dark .ui-list__wrp-preview{
-    background: #000000;
-}
-body.dark button, 
-body.dark select, 
-body.dark textarea, 
-body.dark input,
-body.dark form.crash-tracked-item-app .form-group label,
-body.dark form.crash-tracked-item-app .form-header{
-    color: #ededed !important;
-}
-body.dark input::placeholder {
-    color: #939393;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor .traits i.fas:hover {
-    color: #ededed;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor ul.skills-list li.skill .skill-passive {
-    color: #f2ffa8;
-    text-shadow: none;
-}
+/*General Dark Mode Changes*/
 body.dark input, 
 body.dark select {
-    background: rgba(0, 0, 0, 0.8);
+    background: transparent;
 }
-body.dark button{
-    border: 0px;
-    box-shadow: 0 0 3px #ededed;
+body.dark .editing-source textarea {
+    color: var(--color-text-light-0);
 }
-body.dark button:hover {
-    box-shadow: 0 0 3px #f00f00;
+body.dark .window-app:not(.tidy5e, .simple-calender, .dnd5e2) .window-content {
+    filter: invert(1);
 }
-body.dark .dnd5e:not(.tidy5e).sheet.actor .proficient .proficiency-toggle,
-body.dark .dnd5e:not(.tidy5e).sheet.actor.character .resource .attribute-value label.recharge{
-    color: #adadad;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor .inventory-filters .currency label{
-    color: #c9c9c9;
-}
-body.dark option, 
-body.dark optgroup,
-body.dark input.lst__search,
-body.dark .btn-group>input.form-control, 
-body.dark .input-group>input.form-control{
-    background: #000000;
-    color: #ededed;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor .spell-component.tag{
-    color: #000000;
-    background: #ededed;
-}
-body.dark .dice-roll .dice-total {
-    color: #ededed;
-}
-body.dark .rsr-dual .dice-row .success,
-body.dark .dice-roll .dice-total.critical {
-    color: #00ff00;
-}
-body.dark .dice-roll .dice-total.success {
-    background: #306d00;
-}
-body.dark .rsr-dual .dice-row .failure,
-body.dark .dice-roll .dice-total.fumble {
-    color: red;
-}
-body.dark .dice-roll .dice-total.failure {
-    background: #711818;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor.character .inventory .item-controls .item-toggle.active, 
-body.dark .dnd5e:not(.tidy5e).sheet.actor.character .spellbook .item-controls .item-toggle.active{
-    color: #c7b94d;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor.character .inventory .item-controls .item-toggle, 
-body.dark .dnd5e:not(.tidy5e).sheet.actor.character .spellbook .item-controls .item-toggle,
-.dnd5e:not(.tidy5e).sheet.actor .inventory-list .item .item-name i.not-attuned{
-    color: #9d9d9d;
-}
-body.dark .directory .directory-header .header-search input{
-    background: rgba(0,0,0,0.4);
-}
-body.dark .dnd5e:not(.tidy5e) input[type="text"]:hover, 
-body.dark .dnd5e:not(.tidy5e) input[type="number"]:hover, 
-body.dark .dnd5e:not(.tidy5e) input[type="checkbox"]:hover, 
-body.dark .dnd5e:not(.tidy5e) input[type="text"]:focus, 
-body.dark .dnd5e:not(.tidy5e) input[type="number"]:focus, 
-body.dark .dnd5e:not(.tidy5e) input[type="checkbox"]:focus{
-    border: 1px solid #ededed;
-}
-body.dark .dnd5e:not(.tidy5e).sheet .crash-training .activity-type, 
-body.dark .dnd5e:not(.tidy5e).sheet .crash-training .activity-override, 
-body.dark .dnd5e:not(.tidy5e).sheet .crash-training .items-list, 
-body.dark .dnd5e:not(.tidy5e).sheet .crash-training .crash-training-controls div{
-    color: #adadad;
-}
-body.dark .dnd5e:not(.tidy5e).sheet .sheet-navigation .item.active,
-body.dark .dnd5e:not(.tidy5e).sheet .filter-list .filter-item.active{
-    border-bottom: 3px solid #ff1b1b;
-}
-body.dark .dnd5e:not(.tidy5e).sheet .sheet-navigation .item{
-    border-bottom: 2px solid #b5b3a4;
-}
-body .dnd5e:not(.tidy5e).sheet .sheet-navigation .item{
-    border-radius: 4px;
-}
-body.dark .dnd5e:not(.tidy5e).sheet .filter-list .filter-item:hover{
-    border-bottom: 3px solid #ededed;
-}
-body.dark .inventory-list .category-weight .fa-feather {
-    color: #00ff00;
-    text-shadow: 0 0 8px lime;
-}
-body.dark .inventory-list .category-weight,
-body.dark .inventory-list .inv-plus-stuff{
-    opacity: 0.75 !important;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor .inventory-list .item .item-name i.attuned{
-    color: #c7b94d;
-}
-body.dark .prosemirror menu .pm-dropdown{
-    background: rgba(0,0,0,0.5);
-}
-body.dark .prosemirror menu button:hover, 
-body.dark .prosemirror menu button.active{
-    background: rgba(0,0,0,1);
-    color: #ededed;
-    box-shadow: 0 0 2px #ededed;
-}
-body.dark .prosemirror menu .pm-dropdown ul{
-    background: rgba(0,0,0,1);
-}
-body.dark .prosemirror menu .pm-dropdown li:hover{
-    background: #222222;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.item .sheet-body .item-properties .properties-header{
-    color: #adadad;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor .encumbrance{
-    background: #000000;
-    border: 1px solid #e1e1e1;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor .encumbrance .encumbrance-bar{
-    background: #ff1b1b;
-    border: 1px solid #ff6d6d;
-}
-body.dark a.content-link, 
-body.dark a.inline-roll{
-    background: #303030;
-}
-body.dark .jlnk__entity-link{
-    background: #303030;
-}
-body.dark body.change-windows:not(.system-forbidden-lands) .window-app:not(.image-popout){
-    background-color: #000000;
-}
-body.dark .window-app{
-    box-shadow: 0 0 10px #ededed;
-}
-body.dark .editor-edit{
-    background: rgb(0 0 0 / 75%);
-    border: 1px solid #ededed;
-}
-body.dark .editor.prosemirror{
-    border: 1px solid rgb(255 255 255 / 50%);
-}
-body.dark .editor-menu{
-    border-bottom: 1px solid rgb(255 255 255 / 50%);
-    border-radius: 0;
-}
-body.dark .app.window-app .window-content button.btn {
-    background: rgba(0,0,0,0.5);
-    color: #ededed;
-}
-body.dark .app.window-app .window-content button.btn.btn--active {
-    background: rgba(255,255,255,1);
-    color: #000000 !important;
-}
-body.dark input.form-control, 
-body.dark textarea.form-control{
-    background: #2e2e2e;
-}
-body.dark select.ve-foundry-button{
-    background: rgb(0 0 0 / 80%) !important;
-    color: #ededed;
-}
-body.dark .veapp-loading__wrp-outer{
-    background: rgba(0,0,0,0.5) !important;
-    color: #ededed !important; 
-}
-body.dark button.btn-5et,
-body.dark label.btn.btn-5et {
-    background: #303030;
-    color: #ededed;
-}
-body.dark .form-group.group-header{
-    background-color: rgba(0, 0, 0, 1);
-    border: 1px solid #ededed;
-}
-body.dark form .notes, form .hint{
-    color: #b3b3b3;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor .features i.original-class {
-    color: #939393 !important;
-}
-body.dark #module-management .package-list .package-title, #module-management .package-list .package-metadata, #module-management .package-list .package-description{
-    color: #ededed;
-}
-body.dark #module-management .package-list .package-title, 
-body.dark #module-management .package-list .package-metadata, 
-body.dark #module-management .package-list .package-description{
-    color: #ededed;
-}
-.icon.overlay-damage-full{
-    background-image: url("../img/ready-set-roll-compatibility/overlay-damage-full.svg") !important;
-    background-color: #ff3b3b;
- }
-.icon.overlay-damage-half{
-    background-image: url("../img/ready-set-roll-compatibility/overlay-damage-half.svg") !important;
-    background-color: #ffa500;
-}
-.icon.overlay-damage-quarter{
-    background-image: url("../img/ready-set-roll-compatibility/overlay-damage-quarter.svg") !important;
-    background-color: #ffff00; 
-}
-.icon.overlay-damage-double{
-    background-image: url("../img/ready-set-roll-compatibility/overlay-damage-double.svg") !important;
-}
-.icon.overlay-healing{
-    background-image: url("../img/ready-set-roll-compatibility/overlay-healing.svg") !important;
-    background-color: #00ff00; 
-}
-.icon.overlay-healing-temp{
-    background-image: url("../img/ready-set-roll-compatibility/overlay-healing-temp.svg") !important;
-    background-color: #00d0ff; 
-}
-body.dark .icon.overlay-damage-full{
-    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-full.svg") !important;
-    background-color: #680000;
-}
-body.dark .icon.overlay-damage-half{
-    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-half.svg") !important;
-    background-color: #783200;
-}
-body.dark .icon.overlay-damage-quarter{
-    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-quarter.svg") !important;
-    background-color: #767600;
-}
-body.dark .icon.overlay-damage-double{
-    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-damage-double.svg") !important;
-}
-body.dark .icon.overlay-healing{
-    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-healing.svg") !important;
-    background-color: #004a00;
-}
-body.dark .icon.overlay-healing-temp{
-    background-image: url("../img/ready-set-roll-compatibility/dark-overlay-healing-temp.svg") !important;
-    background-color: #000070;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor .inventory-list .item .item-name.rollable .item-image:hover{
-    background-image: url("../img/d20-black.svg") !important;
-}
-body.dark .dnd5e:not(.tidy5e) .items-list .items-header {
-    background: rgba(0, 0, 0, 1);
-}
-body.dark #chat-form textarea {
-    background: #000000;
-}
-body.dark .sheet.journal-entry .journal-entry-content {
-    background: 0;
-}
-body.dark .SumoSelect > .CaptionCont,
-body.dark .SumoSelect > .optWrapper > .options {
-    background: #000000;
-}
-body.dark .SumoSelect > .optWrapper > .options li.opt:hover{
-    background-color: #484848;
-}
-body.dark .SumoSelect > .CaptionCont > label > i{
-    background-image: url("../img/caret-down.png");
-}
-body.dark .dnd5e:not(.tidy5e).sheet .crash-training .activity-progress-row .crash-training-completion, 
-body.dark .tidy5e.sheet .crash-training .activity-progress-row .crash-training-completion{
-    color: #dddddd;
-}
-body.dark .rd__h--1,
-body.dark .rd__h--2{
-    color: #e7d57e;
-}
-body.dark .message.damage-log.healing{
-    background: #004c1b;
-}
-body.dark .message.damage-log.damage{
-    background: #460000;
-}
-ol#damage-log .dfce-cm-bottom>.message-content,
-body.dark ol#damage-log .dfce-cm-bottom>.message-content{
-    padding-right: 0;
-}
-body.dark .rd__b-inset{
-    background-color: #3a3a3a;
-}
-body.dark #requestsavingthrow .request-grid > div.selected{
-    background: rgb(82 82 82 0.6);
-}
-body.dark .monks-tokenbar .sheet .items-list .item .item-name{
-    color: #dddddd;
-}
-body.dark #requestsavingthrow .request-grid > div.selected, body.dark #requestsavingthrow .request-grid > div {
-    color: #dddddd;
-}
-body.dark .awesomplete > ul > li {
-    background: #000000;
-}
-body.dark .awesomplete > ul > li:hover{
-    background: #3a3a3a;
-    color: #ffffff;
-}
-body.dark .filepicker .display-modes a {
-    background: #000000;
-}
-body.dark .dnd5e:not(.tidy5e).sheet.actor.character .spellbook .item-controls .item-toggle[data-tooltip="Always Prepared"] {
-    color: #973535;
-}
-body.dark #chat-controls .roll-type-select{
-    background: rgb(0 0 0 / 80%);
-}
-body.dark .chart-dice-stats text{
-    fill: #ffffff;
-}
-body.dark .chart-dice-stats path{
-    fill: #262524;
-}
-body.dark .ui-sel2__wrp-options{
-    background-color: #454545;
-}
-body.dark .ui-sel2__disp-option.active, 
-body.dark .ui-sel2__disp-option:focus, 
-body.dark .ui-sel2__disp-option:hover{
-    color: #454545;
+body.dark .window-app:not(.tidy5e, .simple-calender, .dnd5e2) .window-content canvas, 
+body.dark .window-app:not(.tidy5e, .simple-calender, .dnd5e2) .window-content img {
+    filter: invert(1);
 }
 
-body.dark .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-mod{
-    color: #f2ffa8 !important;
+/*DnD 5th Edition v1 Sheet (2.1.4 and lower)*/
+body.dark .dnd5e.sheet:not(.tidy5e) .window-content {
+    filter:invert(1);
 }
-body.dark .dndbcs.sheet.actor.character .sheet-header .attributes .attribute .attribute-value,
-body.dark .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-box,
-body.dark .dndbcs.sheet.actor.character .sheet-header .ability-scores li.ability.health.defenses .form-group, 
-body.dark .dndbcs.sheet.actor.character .flex-column.col4 li.ability.health .ability-box .form-group, 
-body.dark .dndbcs.sheet.actor.character .flex-column.col3 .sensestraits .skills-list .form-group,
-body.dark .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-box footer.ability-footer.exhaustion {
-    color: #ededed;
+body.dark .dnd5e.sheet:not(.tidy5e) .window-content img,
+body.dark .dnd5e.sheet:not(.tidy5e) .window-content .item-image,
+body.dark .dnd5e.sheet:not(.tidy5e) .window-content .item-image:hover {
+    filter:invert(1);
 }
-body.dark .dndbcs.sheet .sheet-navigation .item.active,
-body.dark .dndbcs.sheet .sheet-navigation .item:hover{
-    color: #ffffff;
+body.dark .dnd5e.sheet:not(.tidy5e) .inventory-list,
+body.dark .dnd5e.sheet:not(.tidy5e) .inventory-list li{
+    filter: invert(1);
 }
-body.dark .dndbcs.sheet.actor .filter-list .filter-item{
-    background-color: #ffffff;
+
+/*DnD 5th Edition v2 Sheet (3.0.0 and higher)*/
+body.dark .dnd5e2.sheet:not(.tidy5e) {
+    background: var(--dnd5e-color-dark);
 }
-body.dark .dndbcs.sheet.actor .config-button,
-body.dark .dndbcs.sheet.actor.character .sheet-header .attributes .attribute .attribute-name, 
-body.dark .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability .ability-name, 
-body.dark .dndbcs.sheet.actor.character .sheet-header .ability-scores .ability h4{
-    color: #d3d3d3;
+body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body {
+    filter: invert(1);
+    backdrop-filter: grayscale(1);
 }
-body.dark .dnd5e:not(.tidy5e) .advancement .items-list .tag {
-    color: #d3d3d3;
+body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body .sidebar,
+body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body .right img {
+    filter: invert(1);
 }
-body.dark .dnd5e:not(.tidy5e) .items-list .item .item-name .item-image{
-    background-color: #d3d3d3;
+body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body .sidebar .favorites {
+    filter: invert(1);
 }
-body.dark .dnd5e:not(.tidy5e) .advancement .items-list .item-summary {
-    color: #bdbdbd;
+body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body .sidebar .favorites img {
+    filter: invert(1);
+}
+body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body .card .tmp,
+body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body .card .header {
+    filter: invert(1);
+}
+body.dark .dnd5e2.sheet:not(.tidy5e) .ability-scores .ability-score {
+    filter: drop-shadow(0 0 6px var(--dnd5e-shadow-45)) invert(1);
+}
+body.dark .dnd5e2.sheet:not(.tidy5e) :is(#tooltip, .locked-tooltip) {
+    filter: invert(1);
+}
+body.dark .dnd5e2.sheet:not(.tidy5e) .classes .class .icons img {
+    filter: invert(1);
+}
+
+/*v2 Dark Inventory Changes*/
+body.dark .dnd5e2.sheet:not(.tidy5e) .containers .container img {
+    filter: invert(1);
+}
+body.dark .dnd5e2.sheet:not(.tidy5e) .items-list .item-image {
+    filter: invert(1);
+}
+body.dark .dnd5e2.sheet:not(.tidy5e) section.currency {
+    filter: invert(1);
+}
+body.dark .dnd5e.sheet .inventory-list .item-summary ol {
+    filter: invert(1);
+}
+/*FoundryVTT Dark Chat Changes*/
+body.dark :is(.chat-popout, #chat-log) .message,
+body.dark :is(.chat-popout, #chat-log) .message img {
+ 
+    filter: invert(1);
+}
+body.dark :is(.chat-popout, #chat-log) #chat-form {
+    filter: invert(1);
+}
+body.dark :is(.chat-popout, #chat-log) #chat-controls .select {
+    filter: invert(1);
+}
+body.dark nav#context-menu {
+    filter: invert(1); 
+}
+body.dark textarea#chat-message {
+    filter: invert(1); 
+}
+
+/*DnD 5th Edition v1 Sheet (2.1.4 and lower) Proficiency Highlighting*/
+.dnd5e.sheet:not(.tidy5e) .ability-modifiers input[value="1"] ~ span.ability-save,
+.dnd5e.sheet:not(.tidy5e) .skill input[value="1"] ~ span.skill-mod {
+    color: var(--color-border-highlight-alt);
+}
+.dnd5e.sheet:not(.tidy5e) .skill input[value="0.5"] ~ span.skill-mod {
+    text-shadow: 0px 0px 5px var(--color-border-highlight-alt);
+}
+.dnd5e.sheet:not(.tidy5e) .skill input[value="2"] ~ span.skill-mod {
+    color: var(--color-text-light-0);
+    text-shadow: 0px 0px 10px var(--color-shadow-dark), 
+                 0px 0px 5px  var(--color-border-highlight-alt);
+}
+
+/*FoundryVTT Directory Changes*/
+body:not(.plutonium) .sidebar-tab.directory .action-buttons button {
+    height: 20px;
+    line-height: 16px;
+}
+body:not(.plutonium) .sidebar-tab.directory .directory-list .directory-item {
+    min-height: 30px;
+}
+body:not(.plutonium) .sidebar-tab.directory .directory-list .directory-item.document {
+    height: 30px;
+}
+body:not(.plutonium) .sidebar-tab.directory .directory-list .directory-item h3 {
+    line-height: 28px;
+}
+body:not(.plutonium) .sidebar-tab.directory .directory-list .directory-item h4 {
+    line-height: 24px;
+}
+body:not(.plutonium) .sidebar-tab.directory .directory-list li header {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+body:not(.plutonium) .sidebar-tab.directory .directory-list li img {
+    max-width: 30px;
+    max-height: 30px;
+    object-position: center;
+}
+body.dark .sidebar-tab button {
+    filter: invert(1);
+}
+body.dark .sidebar-tab.directory .header-search input {
+    filter: invert(1);
+}
+/*[MODULE] Dice Tray Styling*/
+body.dark .dice-tray button .dice {
+    filter: invert(1);
+}
+body.dark .dice-tray .dice-tray__math button {
+    filter: invert(0);
+}
+/*[MODULE] MIDI QOL Styling*/
+body.dark .message-content .midi-qol-item-card .card-buttons button {
+    filter: invert(0);
+}
+/*[MODULE] Token Action HUD Styling*/
+body.dark #token-action-hud .tah-tab-group,
+body.dark #token-action-hud .tah-tab-group .tah-button-content,
+body.dark #token-action-hud .tah-tab-group .tah-button-image,
+body.dark #token-action-hud .tah-tab-group .tah-action-button-content {
+    filter: invert(1);
 }

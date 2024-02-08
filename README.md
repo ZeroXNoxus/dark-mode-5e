@@ -6,50 +6,24 @@
 
 <a href="https://www.buymeacoffee.com/zetadracon" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-# Dark Mode for DnD 5th Edition
+# Dark Mode for DnD 5th Edition #
 ## Package Description ##
 Dark Mode for DnD 5th Edition is a module to bring some darker colors to the otherwise pretty bright visuals of FoundryVTT.
 ## Installation ##
 Simply download the module, either via the the 'Install Module' feature in the 'Setup' screen, or by downloading the latest release from the github repository.
 ## Preview ##
-Dark Mode (default):
+### Dark Mode v1 (2.1.4 and lower): ###
 
-![Dark](https://user-images.githubusercontent.com/29397572/216465787-cc8b17c8-4eea-4a05-9a9a-24c37f1de93e.PNG)
-
-Black'n'White (my personal favourite):
-
-![Black'n'White](https://user-images.githubusercontent.com/29397572/216465867-e6e4ebf8-f7e6-47ba-9ce6-fc42de01ac4a.PNG)
-
-Programmer:
-
-![Programmer](https://user-images.githubusercontent.com/29397572/216465904-7af17624-dbac-4158-a1c8-80634a67d5a9.PNG)
+### Dark Mode v2 (3.0.0 and higher): ###
 
 ## Usage ##
-Once installed, the client who wants to use the dark mode provided by this module has to navigate to any Actor Sheet and click on the 'Change Dark/Light Mode' button in the title bar. After that, just enjoy!
-# New Feature #
-You can now change the theme of Dark Mode in the module's settings:
-![Dark Mode Settings](https://user-images.githubusercontent.com/29397572/216465707-df5e4cf6-f331-4ae2-bf4d-8af2f07b7ac1.PNG)
+Once installed, the client who wants to use the dark mode provided by this module has to navigate to "Game Settings" > "Configure Settings" > "DnD Dark Mode - 5th Edition" > and then set "Enable Dark Mode". After that, enjoy!
 
-# Supported Modules #
-- Damage Log
-- Dice So Nice! (& add-ons)
-- Dice Tray
-- Forien's Copy Environment
-- GM Notes
-- Initiative Double Click
-- Inventory+
-- Monk's TokenBar
-- MidiQOL
-- Playlist Enhancer
-- Ready Set Roll for D&D5e
-- Retroactive Advantage DnD5e
-- Settings Extender
-- Simple Calendar
-- Token Action HUD Core (& D&D 5e)
-- Token HUD Wildcard
-- Tokenizer
-
-# Supported Character Sheets #
-- DnD Beyond Character Sheet for 5e
-
-This list may be incomplete (you can help expanding this list!)
+## Change Log ##
+### Version 2.0.0 ###
+- Added support for the new V2 Sheets for "DnD 5th Edition v3.0.0" and higher.
+- Removed different themes and settled for a default dark mode in favor of less styling and a more uniform look and feel.
+- Removed toggle button in sheet handle bar for a simple check box in the game settings.
+#### Minor Changes: ####
+- Added exclusion of Tide5e sheets in favor of module included dark mode.
+- Added styling for directory entries and buttons (right sidebar) in favor of a more modern looking UI (checked support for Plutonium).
