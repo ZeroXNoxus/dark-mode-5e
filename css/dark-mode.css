@@ -4,7 +4,7 @@ body.dark select {
     background: transparent;
 }
 body.dark .editing-source textarea {
-    color: var(--color-text-light-0);
+    color: var(--color-text-light-highlight);
 }
 body.dark .window-app:not(.tidy5e, .dnd5e2) .window-content {
     filter: invert(1);
@@ -13,9 +13,12 @@ body.dark .window-app:not(.tidy5e, .dnd5e2) .window-content canvas,
 body.dark .window-app:not(.tidy5e, .dnd5e2) .window-content img {
     filter: invert(1);
 }
+body.dark .window-app:not(.tidy5e, .dnd5e2) input[type="color"] {
+    filter: invert(1);
+}
 body.dark aside button {
     filter: invert(1);
-    color: var(--dnd5e-color-dark);
+    color: var(--color-text-dark-primary);
 }
 
 /*DnD 5th Edition v1 Sheet (2.1.4 and lower)*/
@@ -34,7 +37,7 @@ body.dark .dnd5e.sheet:not(.tidy5e) .inventory-list li{
 
 /*DnD 5th Edition v2 Sheet (3.0.0 and higher)*/
 body.dark .dnd5e2.sheet:not(.tidy5e) {
-    background: var(--dnd5e-color-dark);
+    background: var(--color-text-dark-primary);
 }
 body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body {
     filter: invert(1);
@@ -77,22 +80,35 @@ body.dark .dnd5e2.sheet:not(.tidy5e) section.currency {
 body.dark .dnd5e.sheet .inventory-list .item-summary ol {
     filter: invert(1);
 }
+
 /*FoundryVTT Dark Chat Changes*/
-body.dark :is(.chat-popout, #chat-log) .message,
+body.dark :is(.chat-popout, #chat-log) .message {
+    background-color: #0e1417;
+}
+body.dark :is(.chat-popout, #chat-log) .message.whisper {
+    background-color: #1b131e;
+}
+body.dark :is(.chat-popout, #chat-log) .message.whisper.blind {
+    background-color: #261b2b;
+}
+body.dark :is(.chat-popout, #chat-log) .message>*:not(nav),
 body.dark :is(.chat-popout, #chat-log) .message img {
     filter: invert(1);
 }
-body.dark :is(.chat-popout, #chat-log) #chat-form {
+body.dark .sidebar-tab .chat-message button {
+    filter: invert(0);
+}
+body.dark :is(.chat-popout, #chat-log) .message::before {
     filter: invert(1);
 }
-body.dark :is(.chat-popout, #chat-log) #chat-controls .select {
+body.dark textarea#chat-message,
+body.dark #sidebar #chat-controls select {
     filter: invert(1);
 }
-body.dark nav#context-menu {
-    filter: invert(1); 
-}
-body.dark textarea#chat-message {
-    filter: invert(1); 
+body.dark #sidebar #chat-controls select option, 
+body.dark #sidebar #chat-controls select optgroup {
+    background-color: #0e1417;
+    color: var(--color-text-light-highlight);
 }
 
 /*DnD 5th Edition v1 Sheet (2.1.4 and lower) Proficiency Highlighting*/
@@ -104,7 +120,7 @@ body.dark textarea#chat-message {
     text-shadow: 0px 0px 5px var(--color-border-highlight-alt);
 }
 .dnd5e.sheet:not(.tidy5e) .skill input[value="2"] ~ span.skill-mod {
-    color: var(--color-text-light-0);
+    color: var(--color-text-light-highlight);
     text-shadow: 0px 0px 10px var(--color-shadow-dark), 
                  0px 0px 5px  var(--color-border-highlight-alt);
 }

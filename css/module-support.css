@@ -24,25 +24,36 @@ body.dark .enhanced-journal ol.directory-list {
 }
 body.dark .enhanced-journal ol.directory-list li,
 body.dark .enhanced-journal ol.directory-list li.folder > .folder-header .create-button {
-    color: var(--color-text-light-0);
+    color: var(--color-text-light-highlight);
 }
 /*Sheet Only Styling*/
 body.dark .sheet-only-container > .button-container {
     filter: invert(1);
 }
-/*Simple Calendar*/
+/*Simple Calendar Styling*/
 body.dark .window-app.simple-calendar .window-content, 
 body.dark .window-app.simple-calendar .window-content canvas, 
 body.dark .window-app.simple-calendar .window-content img {
     filter: invert(0);
 }
-/*Small Time*/
+/*Small Time Styling*/
 body.dark .window-app#smalltime-app .window-content, 
 body.dark .window-app#smalltime-app .window-content canvas, 
 body.dark .window-app#smalltime-app .window-content img {
     filter: invert(0);
 }
-/*Character Monitor*/
+body.dark #client-settings div#smalltime-darkness-config {
+    filter: invert(1);
+    background: #2ca4c1;
+}
+
+/*Character Monitor Styling*/
 body.dark :is(.chat-popout, #chat-log) .message.dnd5e-cm-message {
+    filter: invert(0);
+}
+/*Paper Doll Styling*/
+body.dark .window-app#paper-doll .window-content,
+body.dark .window-app#paper-doll .window-content canvas, 
+body.dark .window-app#paper-doll .window-content img {
     filter: invert(0);
 }
