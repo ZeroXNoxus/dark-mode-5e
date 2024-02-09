@@ -6,12 +6,16 @@ body.dark select {
 body.dark .editing-source textarea {
     color: var(--color-text-light-0);
 }
-body.dark .window-app:not(.tidy5e, .simple-calendar, .dnd5e2) .window-content {
+body.dark .window-app:not(.tidy5e, .dnd5e2) .window-content {
     filter: invert(1);
 }
-body.dark .window-app:not(.tidy5e, .simple-calendar, .dnd5e2) .window-content canvas, 
-body.dark .window-app:not(.tidy5e, .simple-calendar, .dnd5e2) .window-content img {
+body.dark .window-app:not(.tidy5e, .dnd5e2) .window-content canvas, 
+body.dark .window-app:not(.tidy5e, .dnd5e2) .window-content img {
     filter: invert(1);
+}
+body.dark aside button {
+    filter: invert(1);
+    color: var(--dnd5e-color-dark);
 }
 
 /*DnD 5th Edition v1 Sheet (2.1.4 and lower)*/
@@ -76,7 +80,6 @@ body.dark .dnd5e.sheet .inventory-list .item-summary ol {
 /*FoundryVTT Dark Chat Changes*/
 body.dark :is(.chat-popout, #chat-log) .message,
 body.dark :is(.chat-popout, #chat-log) .message img {
- 
     filter: invert(1);
 }
 body.dark :is(.chat-popout, #chat-log) #chat-form {
@@ -137,31 +140,4 @@ body.dark .sidebar-tab button {
 }
 body.dark .sidebar-tab.directory .header-search input {
     filter: invert(1);
-}
-/*[MODULE] Dice Tray Styling*/
-body.dark .dice-tray button .dice {
-    filter: invert(1);
-}
-body.dark .dice-tray .dice-tray__math button {
-    filter: invert(0);
-}
-/*[MODULE] MIDI QOL Styling*/
-body.dark .message-content .midi-qol-item-card .card-buttons button {
-    filter: invert(0);
-}
-/*[MODULE] Token Action HUD Styling*/
-body.dark #token-action-hud .tah-tab-group,
-body.dark #token-action-hud .tah-tab-group .tah-button-content,
-body.dark #token-action-hud .tah-tab-group .tah-button-image,
-body.dark #token-action-hud .tah-tab-group .tah-action-button-content {
-    filter: invert(1);
-}
-
-/*[MODULE] Monk's Enhanced Journals*/
-body.dark .enhanced-journal ol.directory-list { 
-    filter: invert(1);
-}
-body.dark .enhanced-journal ol.directory-list li,
-body.dark .enhanced-journal ol.directory-list li.folder > .folder-header .create-button {
-    color: var(--color-text-light-0);
 }

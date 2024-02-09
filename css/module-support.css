@@ -1,0 +1,48 @@
+/*Module Section*/
+/*Dice Tray Styling*/
+body.dark .dice-tray button .dice {
+    filter: invert(1);
+}
+body.dark .dice-tray .dice-tray__math button {
+    filter: invert(0);
+}
+/*MIDI QOL Styling*/
+body.dark .message-content .midi-qol-item-card .card-buttons button {
+    filter: invert(0);
+}
+/*Token Action HUD Styling*/
+body.dark #token-action-hud .tah-tab-group,
+body.dark #token-action-hud .tah-tab-group .tah-button-content,
+body.dark #token-action-hud .tah-tab-group .tah-button-image,
+body.dark #token-action-hud .tah-tab-group .tah-action-button-content {
+    filter: invert(1);
+}
+
+/*Monk's Enhanced Journals Styling*/
+body.dark .enhanced-journal ol.directory-list { 
+    filter: invert(1);
+}
+body.dark .enhanced-journal ol.directory-list li,
+body.dark .enhanced-journal ol.directory-list li.folder > .folder-header .create-button {
+    color: var(--color-text-light-0);
+}
+/*Sheet Only Styling*/
+body.dark .sheet-only-container > .button-container {
+    filter: invert(1);
+}
+/*Simple Calendar*/
+body.dark .window-app.simple-calendar .window-content, 
+body.dark .window-app.simple-calendar .window-content canvas, 
+body.dark .window-app.simple-calendar .window-content img {
+    filter: invert(0);
+}
+/*Small Time*/
+body.dark .window-app#smalltime-app .window-content, 
+body.dark .window-app#smalltime-app .window-content canvas, 
+body.dark .window-app#smalltime-app .window-content img {
+    filter: invert(0);
+}
+/*Character Monitor*/
+body.dark :is(.chat-popout, #chat-log) .message.dnd5e-cm-message {
+    filter: invert(0);
+}
