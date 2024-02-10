@@ -7,7 +7,7 @@
       "name": "ZeroXNoxus"
       }
       ],
-    "version": "2.0.3",
+    "version": "2.0.4",
     "compatibility": {
       "minimum": "11",
       "verified": "11"
@@ -19,6 +19,17 @@
       "/css/dark-mode.css",
       "/css/module-support.css"
     ],
+    "relationships": {
+      "systems": [{
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-3.0.1/system.json",
+        "compatibility": {
+          "minimum": "2.1.0",
+          "verified": "3.0.1"
+        }
+      }]
+    },
     "manifest": "https://github.com/ZeroXNoxus/dark-mode-5e/releases/download/latest/module.json",
     "url": "https://github.com/ZeroXNoxus/dark-mode-5e",
     "download": "https://github.com/ZeroXNoxus/dark-mode-5e/archive/refs/tags/latest.zip",

@@ -6,14 +6,14 @@ body.dark select {
 body.dark .editing-source textarea {
     color: var(--color-text-light-highlight);
 }
-body.dark .window-app:not(.tidy5e, .dnd5e2) .window-content {
+body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2) .window-content {
     filter: invert(1);
 }
-body.dark .window-app:not(.tidy5e, .dnd5e2) .window-content canvas, 
-body.dark .window-app:not(.tidy5e, .dnd5e2) .window-content img {
+body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2) .window-content canvas, 
+body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2) .window-content img {
     filter: invert(1);
 }
-body.dark .window-app:not(.tidy5e, .dnd5e2) input[type="color"] {
+body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2) input[type="color"] {
     filter: invert(1);
 }
 body.dark aside button {
@@ -22,59 +22,59 @@ body.dark aside button {
 }
 
 /*DnD 5th Edition v1 Sheet (2.1.4 and lower)*/
-body.dark .dnd5e.sheet:not(.tidy5e) .window-content {
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .window-content {
     filter:invert(1);
 }
-body.dark .dnd5e.sheet:not(.tidy5e) .window-content img,
-body.dark .dnd5e.sheet:not(.tidy5e) .window-content .item-image,
-body.dark .dnd5e.sheet:not(.tidy5e) .window-content .item-image:hover {
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .window-content img,
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .window-content .item-image,
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .window-content .item-image:hover {
     filter:invert(1);
 }
-body.dark .dnd5e.sheet:not(.tidy5e) .inventory-list,
-body.dark .dnd5e.sheet:not(.tidy5e) .inventory-list li{
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .inventory-list,
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .inventory-list li{
     filter: invert(1);
 }
 
 /*DnD 5th Edition v2 Sheet (3.0.0 and higher)*/
-body.dark .dnd5e2.sheet:not(.tidy5e) {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) {
     background: var(--color-text-dark-primary);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .sheet-body {
     filter: invert(1);
     backdrop-filter: grayscale(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body .sidebar,
-body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body .right img {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .sheet-body .sidebar,
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .sheet-body .right img {
     filter: invert(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body .sidebar .favorites {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .sheet-body .sidebar .favorites {
     filter: invert(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body .sidebar .favorites img {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .sheet-body .sidebar .favorites img {
     filter: invert(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body .card .tmp,
-body.dark .dnd5e2.sheet:not(.tidy5e) .sheet-body .card .header {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .sheet-body .card .tmp,
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .sheet-body .card .header {
     filter: invert(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e) .ability-scores .ability-score {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .ability-scores .ability-score {
     filter: drop-shadow(0 0 6px var(--dnd5e-shadow-45)) invert(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e) :is(#tooltip, .locked-tooltip) {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) :is(#tooltip, .locked-tooltip) {
     filter: invert(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e) .classes .class .icons img {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .classes .class .icons img {
     filter: invert(1);
 }
 
 /*v2 Dark Inventory Changes*/
-body.dark .dnd5e2.sheet:not(.tidy5e) .containers .container img {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .containers .container img {
     filter: invert(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e) .items-list .item-image {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .items-list .item-image {
     filter: invert(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e) section.currency {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) section.currency {
     filter: invert(1);
 }
 body.dark .dnd5e.sheet .inventory-list .item-summary ol {
@@ -87,9 +87,11 @@ body.dark :is(.chat-popout, #chat-log) .message:not(.dnd5e-cm-message) {
     background-color: #0e1417;
 }
 body.dark :is(.chat-popout, #chat-log) .message.whisper:not(.dnd5e-cm-message) {
+    background: unset;
     background-color: #1b131e;
 }
 body.dark :is(.chat-popout, #chat-log) .message.whisper.blind:not(.dnd5e-cm-message) {
+    background: unset;
     background-color: #261b2b;
 }
 body.dark :is(.chat-popout, #chat-log) .message>*:not(nav),
@@ -113,14 +115,14 @@ body.dark #sidebar #chat-controls select optgroup {
 }
 
 /*DnD 5th Edition v1 Sheet (2.1.4 and lower) Proficiency Highlighting*/
-.dnd5e.sheet:not(.tidy5e) .ability-modifiers input[value="1"] ~ span.ability-save,
-.dnd5e.sheet:not(.tidy5e) .skill input[value="1"] ~ span.skill-mod {
+.dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .ability-modifiers input[value="1"] ~ span.ability-save,
+.dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .skill input[value="1"] ~ span.skill-mod {
     color: var(--color-border-highlight-alt);
 }
-.dnd5e.sheet:not(.tidy5e) .skill input[value="0.5"] ~ span.skill-mod {
+.dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .skill input[value="0.5"] ~ span.skill-mod {
     text-shadow: 0px 0px 5px var(--color-border-highlight-alt);
 }
-.dnd5e.sheet:not(.tidy5e) .skill input[value="2"] ~ span.skill-mod {
+.dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .skill input[value="2"] ~ span.skill-mod {
     color: var(--color-text-light-highlight);
     text-shadow: 0px 0px 10px var(--color-shadow-dark), 
                  0px 0px 5px  var(--color-border-highlight-alt);
