@@ -82,13 +82,14 @@ body.dark .dnd5e.sheet .inventory-list .item-summary ol {
 }
 
 /*FoundryVTT Dark Chat Changes*/
-body.dark :is(.chat-popout, #chat-log) .message {
+body.dark :is(.chat-popout, #chat-log) .message:not(.dnd5e-cm-message) {
+    background: unset;
     background-color: #0e1417;
 }
-body.dark :is(.chat-popout, #chat-log) .message.whisper {
+body.dark :is(.chat-popout, #chat-log) .message.whisper:not(.dnd5e-cm-message) {
     background-color: #1b131e;
 }
-body.dark :is(.chat-popout, #chat-log) .message.whisper.blind {
+body.dark :is(.chat-popout, #chat-log) .message.whisper.blind:not(.dnd5e-cm-message) {
     background-color: #261b2b;
 }
 body.dark :is(.chat-popout, #chat-log) .message>*:not(nav),
