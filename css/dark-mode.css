@@ -28,10 +28,6 @@ body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .window-
 }
 
 /*v1 Dark Inventory Changes*/
-body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .inventory-list,
-body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .inventory-list li{
-    filter: invert(1);
-}
 body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .inventory-list .item-summary ol { filter: invert(1); }
 body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .inventory-list .item .item-name.rollable .item-image:hover { filter: invert(0); }
 body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .capacity, 
@@ -58,6 +54,7 @@ body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .sheet-
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .ability-scores .ability-score { filter: drop-shadow(0 0 6px var(--dnd5e-shadow-45)) invert(1); }
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) :is(#tooltip, .locked-tooltip) { filter: invert(1); }
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .classes .class .icons img { filter: invert(1); }
+body.dark .window-app #context-menu { filter: invert(1); }
 body.dark.change-windows #context-menu {
     background: var(--dnd5e-color-card);
     filter: invert(1);
@@ -108,17 +105,15 @@ body.dark #sidebar #chat-controls select optgroup {
     background-color: #0e1417;
     color: var(--color-text-light-highlight);
 }
-body.dark :is(.chat-popout, #chat-log) .message>*:not(nav) .critical { color: magenta; }
-body.dark :is(.chat-popout, #chat-log) .message>*:not(nav) .fumble { color: cyan; }
+body.dark :is(.chat-popout, #chat-log) .message>*:not(nav) .critical { filter: hue-rotate(180deg); }
+body.dark :is(.chat-popout, #chat-log) .message>*:not(nav) .fumble { filter: hue-rotate(180deg); }
 body.dark :is(.chat-popout, #chat-log) .message>*:not(nav) .dice-tooltip .dice-rolls .roll.min,
 body.dark :is(.chat-popout, #chat-log) .message>*:not(nav) .dice-tooltip .dice-rolls .roll.failure {
-    color: cyan;
-    filter: hue-rotate(0deg);
+    filter: hue-rotate(180deg);
 }
 body.dark :is(.chat-popout, #chat-log) .message>*:not(nav) .dice-tooltip .dice-rolls .roll.max, 
 body.dark :is(.chat-popout, #chat-log) .message>*:not(nav) .dice-tooltip .dice-rolls .roll.success {
-    color: magenta;
-    filter: hue-rotate(0deg);
+    filter: hue-rotate(180deg);
 }
 
 /*DnD 5th Edition v1 Sheet (2.1.4 and lower) Proficiency Highlighting*/
@@ -163,8 +158,20 @@ body.dark #keybindings .binding .binding-controls .control.conflicts { filter: i
 /*Compendium Changes*/
 body.dark .compendium.directory .directory-header .header-banner { filter: invert(1); }
 body.dark .compendium.directory .directory-header .header-search a { filter: invert(1); }
-body.dark .compendium.directory .directory-list .directory-item.document img { filter: invert(0); }
+body.dark .compendium.directory .directory-list { filter: invert(1); }
 body.dark .compendium.directory .directory-list header.folder-header, 
 body.dark .compendium.directory .directory-list .directory-item.document {
-    filter: invert(1);
+    color: var(--color-text-light-1);
+}
+body.dark .compendium.directory .directory-list header.folder-header h3, 
+body.dark .compendium.directory .directory-list header.folder-header h4 {
+    color: var(--color-text-light-1);
+}
+body.dark .compendium.directory .directory-list ol li img { filter: invert(0); }
+body.dark .compendium.directory #context-menu { filter: invert(0); }
+body.dark .compendium.directory button { filter: invert(0); }
+
+/*Journal Changes*/
+body.dark .sheet.journal-entry .journal-sidebar {
+    color: var(--color-text-dark-2);
 }

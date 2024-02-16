@@ -1,4 +1,7 @@
 /*Module Section*/
+/*Automated Animations Styling*/
+body.dark .aaVideoPreview { filter: invert(1); }
+
 /*Character Monitor Styling*/
 body.dark :is(.chat-popout, #chat-log) .message.dnd5e-cm-message { filter: invert(0); }
 
@@ -63,4 +66,15 @@ body.dark #token-action-hud .tah-tab-group .tah-button-content,
 body.dark #token-action-hud .tah-tab-group .tah-button-image,
 body.dark #token-action-hud .tah-tab-group .tah-action-button-content {
     filter: invert(1);
+}
+
+/*WeatherFX Styling*/
+body.dark .window-app.fxmaster li { color: var(--color-text-dark-2); }
+
+/*Better Rolls Styling*/
+body.dark .dice-result .dice-total.failure, 
+body.dark .dice-result .dice-total.fumble,
+body.dark .dice-result .dice-total.success, 
+body.dark .dice-result .dice-total.critical {
+    filter: hue-rotate(180deg);
 }
