@@ -3,10 +3,9 @@ body.dark input,
 body.dark select {
     background: transparent;
 }
-body.dark .editing-source textarea { color: var(--color-text-light-highlight); }
+/*body.dark .editing-source textarea { color: var(--color-text-light-highlight); }*/
 body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2) .window-content { filter: invert(1); }
-body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2) .window-content canvas, 
-body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2) .window-content img {
+body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2) .window-content canvas {
     filter: invert(1);
 }
 body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2) input[type="color"] { filter: invert(1); }
@@ -150,6 +149,7 @@ body:not(.plutonium) .sidebar-tab.directory .directory-list li img {
 }
 body.dark .sidebar-tab button { filter: invert(1); }
 body.dark .sidebar-tab.directory .header-search input { filter: invert(1); }
+body.dark .sidebar-tab.macros-sidebar .directory-item.macro { color: var(--color-text-dark-2); }
 
 /*FoundryVTT Configuration Changes*/
 body.dark #client-settings input[type="range"] { filter: invert(1); }
@@ -167,7 +167,7 @@ body.dark .compendium.directory .directory-list header.folder-header h3,
 body.dark .compendium.directory .directory-list header.folder-header h4 {
     color: var(--color-text-light-1);
 }
-body.dark .compendium.directory .directory-list ol li img { filter: invert(0); }
+body.dark .compendium.directory ol li img { filter: invert(0); }
 body.dark .compendium.directory #context-menu { filter: invert(0); }
 body.dark .compendium.directory button { filter: invert(0); }
 

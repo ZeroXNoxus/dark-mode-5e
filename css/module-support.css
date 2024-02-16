@@ -78,3 +78,6 @@ body.dark .dice-result .dice-total.success,
 body.dark .dice-result .dice-total.critical {
     filter: hue-rotate(180deg);
 }
+
+/*Improved Macro Editor Styling*/
+body.dark .window-app.macro-sheet .command code.improved-macro-editor { filter: invert(1); }
