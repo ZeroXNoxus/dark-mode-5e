@@ -28,4 +28,4 @@ Once installed, the client who wants to use the dark mode provided by this modul
 - Removed toggle button in sheet handle bar for a simple check box in the game settings.
 #### Minor Changes: ####
 - Added exclusion of Tide5e sheets in favor of module included dark mode.
-- Added styling for directory entries and buttons (right sidebar) in favor of a more modern looking UI (checked support for Plutonium).
+- Added styling for directory entries and buttons (right sidebar) in favor of a more modern looking UI.
