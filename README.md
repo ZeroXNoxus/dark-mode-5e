@@ -13,10 +13,10 @@ Dark Mode for DnD 5th Edition is a module to bring some darker colors to the oth
 Simply download the module, either via the the 'Install Module' feature in the 'Setup' screen, or by downloading the latest release from the github repository.
 ## Preview ##
 ### Dark Mode v1 (2.1.4 and lower): ###
-![image](https://github.com/ZeroXNoxus/dark-mode-5e/assets/29397572/28db625b-caa5-4b1d-89ae-1c05a87330d2)
+![image](https://i.ibb.co/yPDZm4Z/Legacy-Dark-Sheet.png)
 
 ### Dark Mode v2 (3.0.0 and higher): ###
-![image](https://github.com/ZeroXNoxus/dark-mode-5e/assets/29397572/d0797ec8-0d76-470b-80e0-94ca16c50aac)
+![image](https://i.ibb.co/M66gzBB/New-Dark-Sheet.png)
 
 ## Usage ##
 Once installed, the client who wants to use the dark mode provided by this module has to navigate to "Game Settings" > "Configure Settings" > "DnD Dark Mode - 5th Edition" > and then set "Enable Dark Mode". After that, enjoy!
