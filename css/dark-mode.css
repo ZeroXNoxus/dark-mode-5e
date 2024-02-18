@@ -1,8 +1,9 @@
 /*General Dark Mode Changes*/
-body.dark input, 
-body.dark select {
+body.dark :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) input, 
+body.dark :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) select {
     background: transparent;
 }
+body.dark .filepicker .tiles-list li img { filter: invert(1); }
 /*body.dark .editing-source textarea { color: var(--color-text-light-highlight); }*/
 body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2) .window-content { filter: invert(1); }
 body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2) .window-content canvas {
@@ -54,7 +55,7 @@ body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .abilit
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) :is(#tooltip, .locked-tooltip) { filter: invert(1); }
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) .classes .class .icons img { filter: invert(1); }
 body.dark .window-app #context-menu { filter: invert(1); }
-body.dark.change-windows #context-menu {
+body.dark.change-windows :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) #context-menu {
     background: var(--dnd5e-color-card);
     filter: invert(1);
 }
@@ -175,3 +176,9 @@ body.dark .compendium.directory button { filter: invert(0); }
 body.dark .sheet.journal-entry .journal-sidebar {
     color: var(--color-text-dark-2);
 }
+
+/*Popout Changes*/
+body.dark #combat-popout .window-content { color: var(--color-text-dark-2); }
+body.dark #combat-popout .window-content ol#combat-tracker img { filter: invert(1); }
+body.dark #combat-popout .window-content ol#combat-tracker li.combatant .token-name { text-shadow: none; }
+body.dark .image-popout figure img { filter: invert(1); }

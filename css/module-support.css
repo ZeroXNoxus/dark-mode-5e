@@ -17,6 +17,7 @@ body.dark .dice-tray .dice-tray__math button { filter: invert(0); }
 
 /*MIDI QOL Styling*/
 body.dark .message-content .midi-qol-item-card .card-buttons button { filter: invert(0); }
+body.dark .dmgBtn-container-mqol button { filter: invert(1) !important; }
 
 /*Module Management+ Styling*/
 body.dark .package-list .package .package-overview .tag:not(.expand) { filter: invert(1); }
@@ -27,6 +28,9 @@ body.dark .enhanced-journal ol.directory-list li,
 body.dark .enhanced-journal ol.directory-list li.folder > .folder-header .create-button {
     color: var(--color-text-light-highlight);
 }
+
+/*Monk's Combat Details Styling*/
+body.dark #chat-log .message.round-marker .message-header .flavor-text { color: black !important; }
 
 /*Paper Doll Styling*/
 body.dark .window-app#paper-doll .window-content,
