@@ -23,9 +23,10 @@ body.dark .dmgBtn-container-mqol button { filter: invert(1) !important; }
 body.dark .package-list .package .package-overview .tag:not(.expand) { filter: invert(1); }
 
 /*Monk's Enhanced Journals Styling*/
-body.dark .enhanced-journal ol.directory-list { filter: invert(1); }
-body.dark .enhanced-journal ol.directory-list li,
-body.dark .enhanced-journal ol.directory-list li.folder > .folder-header .create-button {
+body.dark #MonksEnhancedJournal:not([background-image], [sidebar-image]) ol.directory-list { filter: invert(1); }
+body.dark #MonksEnhancedJournal:not([background-image], [sidebar-image]) ol.directory-list li,
+body.dark #MonksEnhancedJournal[sidebar-image] .journal-sidebar,
+body.dark #MonksEnhancedJournal:not([background-image], [sidebar-image]) ol.directory-list li.folder > .folder-header .create-button {
     color: var(--color-text-light-highlight);
 }
 
@@ -36,7 +37,7 @@ body.dark #chat-log .message.round-marker .message-header .flavor-text { color: 
 body.dark .window-app#paper-doll .window-content,
 body.dark .window-app#paper-doll .window-content canvas, 
 body.dark .window-app#paper-doll .window-content img {
-    filter: invert(0);
+    filter: invert(1);
 }
 
 /*Sheet Only Styling*/
@@ -46,7 +47,7 @@ body.dark .sheet-only-container > .button-container { filter: invert(1); }
 body.dark .window-app.simple-calendar .window-content, 
 body.dark .window-app.simple-calendar .window-content canvas, 
 body.dark .window-app.simple-calendar .window-content img {
-    filter: invert(0);
+    filter: invert(0) !important;
 }
 
 /*Small Time Styling*/
