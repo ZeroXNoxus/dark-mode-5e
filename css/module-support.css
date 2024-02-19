@@ -4,6 +4,7 @@ body.dark .aaVideoPreview { filter: invert(1); }
 
 /*Character Monitor Styling*/
 body.dark :is(.chat-popout, #chat-log) .message.dnd5e-cm-message { filter: invert(0); }
+body.dark :is(.chat-popout, #chat-log) span.dnd5e-cm-text { filter: invert(1); }
 
 /*DF Chat Enhancement Styling*/
 body.dark #dfcp-rt-buttons button[data-id=gmroll].active { background-color: #7378ff; }
