@@ -61,7 +61,7 @@ body.dark #client-settings div#smalltime-darkness-config {
 }
 
 /*TheRipper93's Module Hub Styling*/
-body.dark #module-credits-dialog .page-heading { filter: invert(1); }
+/*body.dark #module-credits-dialog .page-heading { filter: invert(1); }*/
 body.dark #module-credits-dialog button { filter: invert(0); }
 
 /*Token Action HUD Styling*/
@@ -85,3 +85,5 @@ body.dark .dice-result .dice-total.critical {
 
 /*Improved Macro Editor Styling*/
 body.dark .window-app.macro-sheet .command code.improved-macro-editor { filter: invert(1); }
+body.dark .window-app.macro-sheet img { filter: invert(1); }
+body.dark #macros-popout .directory-item.macro .thumbnail { filter: invert(1); }
