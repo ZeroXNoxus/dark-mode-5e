@@ -1,39 +1,39 @@
 {
-    "id": "dark-mode-5e",
-    "title": "DnD Dark Mode - 5th Edition",
-    "description": "A simple module with the aim to bring a dark mode to FoundryVTT for DnD 5E.",
-    "authors": [
-      {
-      "name": "ZeroXNoxus"
+  "id": "dark-mode-5e",
+  "title": "DnD Dark Mode - 5th Edition",
+  "description": "A simple module with the aim to bring a dark mode to FoundryVTT for DnD 5E.",
+  "authors": [
+    {
+    "name": "ZeroXNoxus"
+    }
+    ],
+  "version": "2.0.8",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "scripts": [
+    "/script/dark-mode.js"
+  ],
+  "styles": [
+    "/css/dark-mode.css",
+    "/css/module-support.css"
+  ],
+  "relationships": {
+    "systems": [{
+      "id": "dnd5e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-3.0.1/system.json",
+      "compatibility": {
+        "minimum": "2.1.0",
+        "verified": "3.0.1"
       }
-      ],
-    "version": "2.0.7",
-    "compatibility": {
-      "minimum": "11",
-      "verified": "11"
-    },
-    "scripts": [
-      "/script/dark-mode.js"
-    ],
-    "styles": [
-      "/css/dark-mode.css",
-      "/css/module-support.css"
-    ],
-    "relationships": {
-      "systems": [{
-        "id": "dnd5e",
-        "type": "system",
-        "manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-3.0.1/system.json",
-        "compatibility": {
-          "minimum": "2.1.0",
-          "verified": "3.0.1"
-        }
-      }]
-    },
-    "manifest": "https://github.com/ZeroXNoxus/dark-mode-5e/releases/download/latest/module.json",
-    "url": "https://github.com/ZeroXNoxus/dark-mode-5e",
-    "download": "https://github.com/ZeroXNoxus/dark-mode-5e/archive/refs/tags/latest.zip",
-    "readme": "https://github.com/ZeroXNoxus/dark-mode-5e/blob/latest/README.md",
-    "bugs": "https://github.com/ZeroXNoxus/dark-mode-5e/issues",
-    "changelog": "https://github.com/ZeroXNoxus/dark-mode-5e/releases"
-  }
+    }]
+  },
+  "manifest": "https://github.com/ZeroXNoxus/dark-mode-5e/releases/download/latest/module.json",
+  "url": "https://github.com/ZeroXNoxus/dark-mode-5e",
+  "download": "https://github.com/ZeroXNoxus/dark-mode-5e/archive/refs/tags/latest.zip",
+  "readme": "https://github.com/ZeroXNoxus/dark-mode-5e/blob/latest/README.md",
+  "bugs": "https://github.com/ZeroXNoxus/dark-mode-5e/issues",
+  "changelog": "https://github.com/ZeroXNoxus/dark-mode-5e/releases"
+}
