@@ -35,10 +35,10 @@ body.dark #MonksEnhancedJournal:not([background-image], [sidebar-image]) ol.dire
 body.dark #chat-log .message.round-marker .message-header .flavor-text { color: black !important; }
 
 /*Paper Doll Styling*/
-body.dark .window-app#paper-doll .window-content,
-body.dark .window-app#paper-doll .window-content canvas, 
-body.dark .window-app#paper-doll .window-content img {
-    filter: invert(1);
+body.dark #paper-doll .window-content,
+body.dark #paper-doll .window-content canvas, 
+body.dark #paper-doll .window-content img {
+    filter: invert(0);
 }
 
 /*Sheet Only Styling*/
