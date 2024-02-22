@@ -22,6 +22,27 @@ Simply download the module, either via the the 'Install Module' feature in the '
 Once installed, the client who wants to use the dark mode provided by this module has to navigate to "Game Settings" > "Configure Settings" > "DnD Dark Mode - 5th Edition" > and then set "Enable Dark Mode". After that, enjoy!
 
 ## Change Log ##
+### Version 2.0.8 ###
+- Resolved many issues caused by the v2.0.x releases
+- Added Module Support for (* may indecate incompatibility, can not test):
+-   Automated Animations
+-   Character Monitor
+-   DF Chat Enhancement
+-   Dice Tray
+-   MIDI QOL
+-   Module Management+
+-   Monk's Enhanced Journals
+-   Paper Doll*
+-   Ready Set Roll for 5e
+-   Sheet Only
+-   Simple Calendar
+-   Small Time
+-   TheRipper93's Module Hub
+-   Token Action HUD
+-   WeatherFX
+-   Better Rolls
+-   Improved Macro Editor
+
 ### Version 2.0.0 ###
 - Added support for the new V2 Sheets for "DnD 5th Edition v3.0.0" and higher.
 - Removed different themes and settled for a default dark mode in favor of less styling and a more uniform look and feel.
