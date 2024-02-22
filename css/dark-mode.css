@@ -51,6 +51,8 @@ body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-
     filter: invert(1);
     backdrop-filter: grayscale(1);
 }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) header.sheet-header { filter: grayscale(1); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .right div button.gold-button { filter: grayscale(0 ); }
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-body .sidebar,
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-body .right img {
     filter: invert(1);
@@ -59,7 +61,7 @@ body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-body .sidebar .favorites img { filter: invert(1); }
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-body .card .tmp,
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-body .card .header {
-    filter: invert(1);
+    filter: invert(1) hue-rotate(230deg);
 }
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .ability-scores .ability-score { filter: drop-shadow(0 0 6px var(--dnd5e-shadow-45)) invert(1); }
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) :is(#tooltip, .locked-tooltip) { filter: invert(1); }
@@ -79,6 +81,7 @@ body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-
     filter: invert(1);
 }
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .encumbrance .meter { filter: invert(1); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-header .right .form-fields { color: white; }
 
 /*FoundryVTT Dark Chat Changes*/
 body.dark :is(.chat-popout, #chat-log) .message:not(.dnd5e-cm-message) {
@@ -137,6 +140,19 @@ body.dark div#chat-popout .item.active { color: black; }
     color: var(--color-text-light-highlight);
     text-shadow: 0px 0px 10px var(--color-shadow-dark), 
                  0px 0px 5px  var(--color-border-highlight-alt);
+}
+
+/*DnD 5th Edition v2 Sheet (3.0.0 and higher) Proficiency Highlighting*/
+.dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) proficiency-cycle[value="1"] ~ div.bonus {
+    color: var(--color-border-highlight-alt);
+}
+.dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) proficiency-cycle[value="0.5"] ~ div.bonus {
+    text-shadow: 0px 0px 3px var(--color-border-highlight-alt);
+}
+.dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) proficiency-cycle[value="2"] ~ div.bonus {
+    color: var(--color-text-light-highlight);
+    text-shadow: 0px 0px 3px var(--color-shadow-dark), 
+                 0px 0px 3px  var(--color-border-highlight-alt);
 }
 
 /*FoundryVTT Directory Changes*/
