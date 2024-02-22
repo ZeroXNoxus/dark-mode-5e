@@ -24,7 +24,7 @@ Once installed, the client who wants to use the dark mode provided by this modul
 ## Change Log ##
 ### Version 2.0.8 ###
 - Resolved many issues caused by the v2.0.x releases
-  - Added Module Support for (* may indicate incompatibility, can not test):
+- Added Module Support for (* may indicate incompatibility, can not test):
   - Automated Animations
   - Character Monitor
   - DF Chat Enhancement
