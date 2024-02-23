@@ -34,6 +34,11 @@ body.dark #MonksEnhancedJournal:not([background-image], [sidebar-image]) ol.dire
 /*Monk's Combat Details Styling*/
 body.dark #chat-log .message.round-marker .message-header .flavor-text { color: black !important; }
 
+/*Combat Enhancements Styling*/
+body.dark #combat-popout .combatant .ce-image-wrapper .progress-ring { filter: invert(1); }
+body.dark #combat-popout .combat-sidebar li.combatant .roll { filter: invert(1); }
+body.dark #combat-popout .combatant .ce-modify-hp { color: black; }
+
 /*Paper Doll Styling*/
 body.dark #paper-doll .window-content,
 body.dark #paper-doll .window-content canvas, 

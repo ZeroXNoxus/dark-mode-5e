@@ -28,6 +28,7 @@ body.dark.change-windows :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) #cont
 body.dark :is(#tooltip, .locked-tooltip).dnd5e-tooltip { filter: invert(1); }
 body.dark :is(#tooltip, .locked-tooltip).dnd5e-tooltip img { filter: invert(1); }
 body.dark #ability-use-form .notification { filter: invert(1); }
+body.dark .window-app.sheet.active-effect-sheet .window-content .sheet-header img.effect-icon { filter: invert(1); }
 
 /*DnD 5th Edition v1 Sheet (2.1.4 and lower)*/
 body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content { filter:invert(1); }
@@ -202,8 +203,12 @@ body.dark .sheet.journal-entry .journal-sidebar {
     color: var(--color-text-dark-2);
 }
 
+/*Combat Tracker Changes*/
+body.dark .combat-sidebar li.combatant .token-initiative .initiative { text-shadow: none; }
+
 /*Popout Changes*/
 body.dark #combat-popout .window-content { color: var(--color-text-dark-2); }
+body.dark #combat-popout .combat-sidebar li.combatant .token-name .combatant-control.active { color: var(--color-text-dark-1); }
 body.dark #combat-popout .window-content ol#combat-tracker img { filter: invert(1); }
 body.dark #combat-popout .window-content ol#combat-tracker li.combatant .token-name { text-shadow: none; }
 body.dark .image-popout figure img { filter: invert(1); }
