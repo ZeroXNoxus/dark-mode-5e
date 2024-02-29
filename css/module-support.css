@@ -39,6 +39,11 @@ body.dark #combat-popout .combatant .ce-image-wrapper .progress-ring { filter: i
 body.dark #combat-popout .combat-sidebar li.combatant .roll { filter: invert(1); }
 body.dark #combat-popout .combatant .ce-modify-hp { color: black; }
 
+/*Monk's Token Bar Styling*/
+body.dark #requestsavingthrow .window-content .monks-tokenbar .request-header { filter: invert(1); }
+body.dark #requestsavingthrow .window-content .monks-tokenbar .sheet .items-list .item .item-name .item-image { filter: invert(1); }
+body.dark .monks-tokenbar .sheet .items-list .item .item-name .item-image { filter: invert(1); }
+
 /*Paper Doll Styling*/
 body.dark #paper-doll .window-content,
 body.dark #paper-doll .window-content canvas, 

@@ -5,11 +5,11 @@ body.dark :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) select {
 }
 body.dark .filepicker .tiles-list li img { filter: invert(1); }
 /*body.dark .editing-source textarea { color: var(--color-text-light-highlight); }*/
-body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2, #paper-doll, [background-image], [sidebar-image]) .window-content { filter: invert(1); }
-body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2, #paper-doll, [background-image], [sidebar-image]) .window-content canvas {
+body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2, #paper-doll, #always-hp, [background-image], [sidebar-image]) .window-content { filter: invert(1); }
+body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2, #paper-doll, #always-hp, [background-image], [sidebar-image]) .window-content canvas {
     filter: invert(1);
 }
-body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2, #paper-doll, [background-image], [sidebar-image]) input[type="color"] { filter: invert(1); }
+body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2, #paper-doll, #always-hp, [background-image], [sidebar-image]) input[type="color"] { filter: invert(1); }
 body.dark aside button {
     filter: invert(1);
     color: var(--color-text-dark-primary);
@@ -31,58 +31,58 @@ body.dark #ability-use-form .notification { filter: invert(1); }
 body.dark .window-app.sheet.active-effect-sheet .window-content .sheet-header img.effect-icon { filter: invert(1); }
 
 /*DnD 5th Edition v1 Sheet (2.1.4 and lower)*/
-body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content { filter:invert(1); }
-body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content img,
-body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content .item-image,
-body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content .item-image:hover {
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .window-content { filter:invert(1); }
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .window-content img,
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .window-content .item-image,
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .window-content .item-image:hover {
     filter:invert(1);
 }
 
 /*v1 Dark Inventory Changes*/
-body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .inventory-list .item-summary ol { filter: invert(1); }
-body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .inventory-list .item .item-name.rollable .item-image:hover { filter: invert(0); }
-body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .capacity, 
-body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .encumbrance {
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .inventory-list .item-summary ol { filter: invert(1); }
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .inventory-list .item .item-name.rollable .item-image:hover { filter: invert(0); }
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .capacity, 
+body.dark .dnd5e.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .encumbrance {
     filter: invert(1);
 }
 
 /*DnD 5th Edition v2 Sheet (3.0.0 and higher)*/
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) { background: var(--color-text-dark-primary); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) { background: var(--color-text-dark-primary); }
 body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-body {
     filter: invert(1);
     backdrop-filter: grayscale(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) header.sheet-header { filter: grayscale(1); }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .right div button.gold-button { filter: grayscale(0 ); }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-body .sidebar,
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-body .right img {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) header.sheet-header { filter: grayscale(1); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .right div button.gold-button { filter: grayscale(0 ); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .sheet-body .sidebar,
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .sheet-body .right img {
     filter: invert(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-body .sidebar .favorites { filter: invert(1); }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-body .sidebar .favorites img { filter: invert(1); }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-body .card .tmp,
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-body .card .header {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .sheet-body .sidebar .favorites { filter: invert(1); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .sheet-body .sidebar .favorites img { filter: invert(1); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .sheet-body .card .tmp,
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .sheet-body .card .header {
     filter: invert(1) hue-rotate(230deg);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .ability-scores .ability-score { filter: drop-shadow(0 0 6px var(--dnd5e-shadow-45)) invert(1); }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) :is(#tooltip, .locked-tooltip) { filter: invert(1); }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .classes .class .icons img { filter: invert(1); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .ability-scores .ability-score { filter: drop-shadow(0 0 6px var(--dnd5e-shadow-45)) invert(1); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) :is(#tooltip, .locked-tooltip) { filter: invert(1); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .classes .class .icons img { filter: invert(1); }
 
 /*v2 Dark Inventory Changes*/
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .containers .container img { filter: invert(1); }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .items-list .item-image { filter: invert(1); }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) section.currency { filter: invert(1); }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image])  section.currency input, 
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image])  .currency-style input {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .containers .container img { filter: invert(1); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .items-list .item-image { filter: invert(1); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) section.currency { filter: invert(1); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image])  section.currency input, 
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image])  .currency-style input {
     filter: invert(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image])  i.currency { z-index: 1; }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) section.currency button, 
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .currency-style button {
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image])  i.currency { z-index: 1; }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) section.currency button, 
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .currency-style button {
     filter: invert(1);
 }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .encumbrance .meter { filter: invert(1); }
-body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .sheet-header .right .form-fields { color: white; }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .encumbrance .meter { filter: invert(1); }
+body.dark .dnd5e2.sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, #always-hp, [background-image], [sidebar-image]) .sheet-header .right .form-fields { color: white; }
 
 /*FoundryVTT Dark Chat Changes*/
 body.dark :is(.chat-popout, #chat-log) .message:not(.dnd5e-cm-message) {
