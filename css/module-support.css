@@ -2,9 +2,22 @@
 /*Automated Animations Styling*/
 body.dark .aaVideoPreview { filter: invert(1); }
 
+/*Better Rolls Styling*/
+body.dark .dice-result .dice-total.failure, 
+body.dark .dice-result .dice-total.fumble,
+body.dark .dice-result .dice-total.success, 
+body.dark .dice-result .dice-total.critical {
+    filter: hue-rotate(180deg);
+}
+
 /*Character Monitor Styling*/
 body.dark :is(.chat-popout, #chat-log) .message.dnd5e-cm-message { filter: invert(0); }
 body.dark :is(.chat-popout, #chat-log) span.dnd5e-cm-text { filter: invert(1); }
+
+/*Combat Enhancements Styling*/
+body.dark #combat-popout .combatant .ce-image-wrapper .progress-ring { filter: invert(1); }
+body.dark #combat-popout .combat-sidebar li.combatant .roll { filter: invert(1); }
+body.dark #combat-popout .combatant .ce-modify-hp { color: black; }
 
 /*DF Chat Enhancement Styling*/
 body.dark #dfcp-rt-buttons button[data-id=gmroll].active { background-color: #7378ff; }
@@ -15,6 +28,11 @@ body.dark #dfcp-rt-buttons button[data-id=publicroll].active { background-color:
 /*Dice Tray Styling*/
 body.dark .dice-tray button .dice { filter: invert(1); }
 body.dark .dice-tray .dice-tray__math button { filter: invert(0); }
+
+/*Improved Macro Editor Styling*/
+body.dark .window-app.macro-sheet .command code.improved-macro-editor { filter: invert(1); }
+body.dark .window-app.macro-sheet img { filter: invert(1); }
+body.dark #macros-popout .directory-item.macro .thumbnail { filter: invert(1); }
 
 /*MIDI QOL Styling*/
 body.dark .message-content .midi-qol-item-card .card-buttons button { filter: invert(0); }
@@ -33,11 +51,6 @@ body.dark #MonksEnhancedJournal:not([background-image], [sidebar-image]) ol.dire
 
 /*Monk's Combat Details Styling*/
 body.dark #chat-log .message.round-marker .message-header .flavor-text { color: black !important; }
-
-/*Combat Enhancements Styling*/
-body.dark #combat-popout .combatant .ce-image-wrapper .progress-ring { filter: invert(1); }
-body.dark #combat-popout .combat-sidebar li.combatant .roll { filter: invert(1); }
-body.dark #combat-popout .combatant .ce-modify-hp { color: black; }
 
 /*Monk's Token Bar Styling*/
 body.dark #requestsavingthrow .window-content .monks-tokenbar .request-header { filter: invert(1); }
@@ -86,16 +99,3 @@ body.dark #token-action-hud .tah-tab-group .tah-action-button-content {
 
 /*WeatherFX Styling*/
 body.dark .window-app.fxmaster li { color: var(--color-text-dark-2); }
-
-/*Better Rolls Styling*/
-body.dark .dice-result .dice-total.failure, 
-body.dark .dice-result .dice-total.fumble,
-body.dark .dice-result .dice-total.success, 
-body.dark .dice-result .dice-total.critical {
-    filter: hue-rotate(180deg);
-}
-
-/*Improved Macro Editor Styling*/
-body.dark .window-app.macro-sheet .command code.improved-macro-editor { filter: invert(1); }
-body.dark .window-app.macro-sheet img { filter: invert(1); }
-body.dark #macros-popout .directory-item.macro .thumbnail { filter: invert(1); }

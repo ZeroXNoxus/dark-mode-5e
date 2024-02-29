@@ -4,6 +4,7 @@ body.dark :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) select {
     background: transparent;
 }
 body.dark .filepicker .tiles-list li img { filter: invert(1); }
+body.dark .editor-content img { filter: invert(1); }
 /*body.dark .editing-source textarea { color: var(--color-text-light-highlight); }*/
 body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2, #paper-doll, #always-hp, [background-image], [sidebar-image]) .window-content { filter: invert(1); }
 body.dark .window-app:not(.tidy5e, [data-sheet-module="tidy5e-sheet"], .dnd5e2, #paper-doll, #always-hp, [background-image], [sidebar-image]) .window-content canvas {
@@ -19,10 +20,9 @@ body.dark select option {
     color: var(--color-text-light-2);
 }
 body.dark .window-app #context-menu { filter: invert(1); }
-body.dark.change-windows :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) #context-menu {
-    color: black;
-    background: white;
+body.dark.change-windows .sheet:not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) #context-menu {
     filter: invert(1);
+    text-shadow: none;
 }
 body.dark.change-windows :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) #context-menu li:hover { color: black; }
 body.dark :is(#tooltip, .locked-tooltip).dnd5e-tooltip { filter: invert(1); }
