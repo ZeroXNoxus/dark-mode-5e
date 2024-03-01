@@ -157,19 +157,19 @@ body.dark div#chat-popout .item.active { color: black; }
 }
 
 /*FoundryVTT Directory Changes*/
-body:not(.plutonium) .sidebar-tab.directory .action-buttons button {
+body:not(.pluto) .sidebar-tab.directory .action-buttons button {
     height: 20px;
     line-height: 16px;
 }
-body:not(.plutonium) .sidebar-tab.directory .directory-list .directory-item { min-height: 30px; }
-body:not(.plutonium) .sidebar-tab.directory .directory-list .directory-item.document { height: 30px; }
-body:not(.plutonium) .sidebar-tab.directory .directory-list .directory-item h3 { line-height: 28px; }
-body:not(.plutonium) .sidebar-tab.directory .directory-list .directory-item h4 { line-height: 24px; }
-body:not(.plutonium) .sidebar-tab.directory .directory-list li header {
+body:not(.pluto) .sidebar-tab.directory .directory-list .directory-item { min-height: 30px; }
+body:not(.pluto) .sidebar-tab.directory .directory-list .directory-item.document { height: 30px; }
+body:not(.pluto) .sidebar-tab.directory .directory-list .directory-item h3 { line-height: 28px; }
+body:not(.pluto) .sidebar-tab.directory .directory-list .directory-item h4 { line-height: 24px; }
+body:not(.pluto) .sidebar-tab.directory .directory-list li header {
     padding-top: 0;
     padding-bottom: 0;
 }
-body:not(.plutonium) .sidebar-tab.directory .directory-list li img {
+body:not(.pluto) .sidebar-tab.directory .directory-list li img {
     max-width: 30px;
     max-height: 30px;
     object-position: center;

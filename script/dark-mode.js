@@ -6,7 +6,7 @@ function changeMode(val){
     }
 }
 Hooks.once('init', () => {
-    let plutonium;
+    let pluto;
 
     game.settings.register('dark-mode-5e', 'enabled', {
         name: 'Enable Dark Mode',
@@ -20,6 +20,6 @@ Hooks.once('init', () => {
         }
     });
     changeMode(game.settings.get('dark-mode-5e', 'enabled'));
-    plutonium = game.modules.get('plutonium').active;
-    if(plutonium == true){ $('body.vtt').addClass("plutonium"); } 
+    pluto = game.modules.get('plutonium')?.active;
+    if(plutonium == true){ $('body.vtt').addClass("pluto"); } 
 });
