@@ -67,13 +67,6 @@ body.dark #paper-doll .window-content img {
 /*Sheet Only Styling*/
 body.dark .sheet-only-container > .button-container { filter: invert(1); }
 
-/*Simple Calendar Styling*/
-body.dark .window-app.simple-calendar .window-content, 
-body.dark .window-app.simple-calendar .window-content canvas, 
-body.dark .window-app.simple-calendar .window-content img {
-    filter: invert(0) !important;
-}
-
 /*Small Time Styling*/
 body.dark .window-app#smalltime-app .window-content, 
 body.dark .window-app#smalltime-app .window-content canvas, 
