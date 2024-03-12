@@ -95,3 +95,9 @@ body.dark #token-action-hud .tah-tab-group .tah-action-button-content {
 
 /*WeatherFX Styling*/
 body.dark .window-app.fxmaster li { color: var(--color-text-dark-2); }
+
+/*Tokenizer Styling*/
+body.dark #tokenizer div.view-layer-control button.delete-control { filter: invert(1); }
+body.dark #tokenizer div.view-layer-control button.active { filter: invert(1); }
+body.dark .imagebrowser .imageresult img { filter: invert(1); }
+body.dark .tokenizer .title .box-button:not(.deselected) { filter: invert(1); }

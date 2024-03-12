@@ -158,6 +158,54 @@ body.dark div#chat-popout .item.active { color: black; }
 }
 
 /*FoundryVTT Directory Changes*/
+#actors li.folder > .folder-header,
+#items li.folder > .folder-header,
+#compendium li.folder > .folder-header,
+#scenes li.folder > .folder-header { padding: 0 6px; }
+#actors .directory-item.actor,
+#items .directory-item.item,
+#journal .directory-item.journalentry {
+    position: relative;
+    line-height: 24px;
+}
+#scenes .directory-item.scene .document-name{
+    line-height: 24px;
+}
+#scenes .directory-item.scene {
+    line-height: 30px;
+    height: 30px;
+    margin-bottom: 3px;
+}
+#compendium .directory-item.compendium {
+    position: relative;
+    line-height: 24px;
+    height: unset;
+    flex-direction: row;
+    align-items: center;
+}
+#actors .directory-item.actor .document-name,
+#items .directory-item.item .document-name { 
+    position: relative;
+    padding-top: 2px;
+    padding-left: 56px; 
+}
+.compendium-sidebar .directory-item.compendium .compendium-name {
+    max-width: 70%;
+    white-space: normal;
+    margin-left: 1px;
+    margin-right: 0;
+    padding-top: 0;
+    text-align: left;
+    display: flex;
+}
+#actors .directory-item.actor .thumbnail,
+#items .directory-item.item .thumbnail {
+    clip: rect(12px, 48px, 36px, 0);
+    position: absolute;
+    margin-top: -11px;
+    margin-bottom: -14px;
+}
+/*
 body:not(.pluto) .sidebar-tab.directory .action-buttons button {
     height: 20px;
     line-height: 16px;
@@ -174,7 +222,7 @@ body:not(.pluto) .sidebar-tab.directory .directory-list li img {
     max-width: 30px;
     max-height: 30px;
     object-position: center;
-}
+}*/
 body.dark .sidebar-tab button { filter: invert(1); }
 body.dark .sidebar-tab.directory .header-search input { filter: invert(1); }
 body.dark .sidebar-tab.macros-sidebar .directory-item.macro { color: var(--color-text-dark-2); }
