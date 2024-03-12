@@ -21,5 +21,5 @@ Hooks.once('init', () => {
     });
     changeMode(game.settings.get('dark-mode-5e', 'enabled'));
     pluto = game.modules.get('plutonium')?.active;
-    if(plutonium == true){ $('body.vtt').addClass("pluto"); } 
+    if(pluto == true){ $('body.vtt').addClass("pluto"); } 
 });

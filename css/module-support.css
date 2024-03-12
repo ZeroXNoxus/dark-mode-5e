@@ -67,6 +67,9 @@ body.dark #paper-doll .window-content img {
 /*Sheet Only Styling*/
 body.dark .sheet-only-container > .button-container { filter: invert(1); }
 
+/*Sequencer Styling*/
+body.dark video.database-player { filter: invert(1); }
+
 /*Small Time Styling*/
 body.dark .window-app#smalltime-app .window-content, 
 body.dark .window-app#smalltime-app .window-content canvas, 
