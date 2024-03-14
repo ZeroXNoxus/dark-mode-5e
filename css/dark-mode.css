@@ -23,7 +23,10 @@ body.dark-mode-5e.change-windows .sheet:not(.tidy5e, [data-sheet-module="tidy5e-
     filter: invert(1);
     text-shadow: none;
 }
-body.dark-mode-5e.change-windows :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) #context-menu li:hover { color: black; }
+body.dark-mode-5e.change-windows :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) #context-menu li:hover { 
+    color: white;
+    text-shadow: 0 0 4px var(--color-shadow-highlight-invert);
+}
 body.dark-mode-5e :is(#tooltip, .locked-tooltip).dnd5e-tooltip { filter: invert(1); }
 body.dark-mode-5e :is(#tooltip, .locked-tooltip).dnd5e-tooltip img { filter: invert(1); }
 body.dark-mode-5e #ability-use-form .notification { filter: invert(1); }
@@ -136,14 +139,14 @@ body.dark-mode-5e div#chat-popout {
 body.dark-mode-5e div#chat-popout .item.active { color: black; }
 
 /*DnD 5th Edition v1 Sheet (2.1.4 and lower) Proficiency Highlighting*/
-.dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .ability-modifiers input[value="1"] ~ span.ability-save,
-.dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .skill input[value="1"] ~ span.skill-mod {
+.dnd5e.sheet:not(.simple-calendar, #paper-doll, [background-image], [sidebar-image]) .ability-modifiers input[value="1"] ~ span.ability-save,
+.dnd5e.sheet:not(.simple-calendar, #paper-doll, [background-image], [sidebar-image]) .skill input[value="1"] ~ span.skill-mod {
     color: var(--color-border-highlight-alt);
 }
-.dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .skill input[value="0.5"] ~ span.skill-mod {
+.dnd5e.sheet:not(.simple-calendar, #paper-doll, [background-image], [sidebar-image]) .skill input[value="0.5"] ~ span.skill-mod {
     text-shadow: 0px 0px 5px var(--color-border-highlight-alt);
 }
-.dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .skill input[value="2"] ~ span.skill-mod {
+.dnd5e.sheet:not(.simple-calendar, #paper-doll, [background-image], [sidebar-image]) .skill input[value="2"] ~ span.skill-mod {
     color: var(--color-text-light-highlight);
     text-shadow: 0px 0px 10px var(--color-shadow-dark), 
                  0px 0px 5px  var(--color-border-highlight-alt);
@@ -162,13 +165,13 @@ body.dark-mode-5e div#chat-popout .item.active { color: black; }
 }
 
 /*DnD 5th Edition v2 Sheet (3.0.0 and higher) Proficiency Highlighting*/
-.dnd5e2.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) proficiency-cycle[value="1"] ~ div.bonus {
+.dnd5e2.sheet:not(.simple-calendar, #paper-doll, [background-image], [sidebar-image]) proficiency-cycle[value="1"] ~ div.bonus {
     color: var(--color-border-highlight-alt);
 }
-.dnd5e2.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) proficiency-cycle[value="0.5"] ~ div.bonus {
+.dnd5e2.sheet:not(.simple-calendar, #paper-doll, [background-image], [sidebar-image]) proficiency-cycle[value="0.5"] ~ div.bonus {
     text-shadow: 0px 0px 3px var(--color-border-highlight-alt);
 }
-.dnd5e2.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) proficiency-cycle[value="2"] ~ div.bonus {
+.dnd5e2.sheet:not(.simple-calendar, #paper-doll, [background-image], [sidebar-image]) proficiency-cycle[value="2"] ~ div.bonus {
     color: var(--color-text-light-highlight);
     text-shadow: 0px 0px 3px var(--color-shadow-dark), 
                  0px 0px 3px  var(--color-border-highlight-alt);

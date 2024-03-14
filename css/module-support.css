@@ -127,3 +127,19 @@ body.dark-mode-5e .tokenizer .title .box-button:not(.deselected) { filter: inver
     border-bottom: 1px solid var(--color-border-highlight-invert);
     box-shadow: 0 0 10px var(--color-shadow-highlight-invert);
  }
+
+/*FXMaster Styling*/
+body.dark-mode-5e #effects-config img { filter: invert(1); }
+
+/*Tidy5E Styling*/
+.sheet.tidy5e-sheet button.skill-proficiency-toggle[title="Proficient"] ~ span.skill-mod {
+    color: var(--color-border-highlight-alt-invert);
+}
+.sheet.tidy5e-sheet button.skill-proficiency-toggle[title="Half Proficient"] ~ span.skill-mod {
+    text-shadow: 0px 0px 3px var(--color-border-highlight-alt-invert);
+}
+.sheet.tidy5e-sheet button.skill-proficiency-toggle[title="Expertise"] ~ span.skill-mod {
+    color: var(--color-border-highlight-alt-invert);
+    text-shadow: 0px 0px 3px var(--color-text-light-highlight), 
+                 0px 0px 3px var(--color-border-highlight-alt-invert);
+}
