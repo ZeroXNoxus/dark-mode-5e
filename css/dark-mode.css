@@ -216,6 +216,8 @@ body.dark-mode-5e .compendium.directory button { filter: invert(0); }
 body.dark-mode-5e .sheet.journal-entry .journal-sidebar {
     color: var(--color-text-dark-2);
 }
+body.dark-mode-5e .sheet.journal-entry article .ddbimporter-image-container a, 
+body.dark-mode-5e .sheet.journal-entry article img:not(.nopopout) { filter: invert(1); }
 
 /*Combat Tracker Changes*/
 body.dark-mode-5e .combat-sidebar li.combatant .token-initiative .initiative { text-shadow: none; }
