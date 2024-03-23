@@ -19,6 +19,10 @@ body.dark-mode-5e #combat-popout .combatant .ce-image-wrapper .progress-ring { f
 body.dark-mode-5e #combat-popout .combat-sidebar li.combatant .roll { filter: invert(1); }
 body.dark-mode-5e #combat-popout .combatant .ce-modify-hp { color: var(--color-text-dark-2); }
 
+/*Core Expanded Settings Styling*/
+body.dark-mode-5e #coreExpandedSettingsDialog .window-content{ filter: invert(1); }
+body.dark-mode-5e #coreExpandedSettingsDialog .window-content .status-effects { filter: invert(1); }
+
 /*Damage Log Styling*/
 body.dark-mode-5e nav.damage-log-nav { 
     color: var(--color-text-dark-2);
@@ -52,6 +56,8 @@ body.dark-mode-5e .message-content .midi-qol-item-card .card-buttons button { fi
 body.dark-mode-5e .dmgBtn-container-mqol button { filter: invert(1) !important; }
 
 /*Module Management+ Styling*/
+body.dark-mode-5e #module-credits-dialog .window-content { filter: invert(1); }
+body.dark-mode-5e #module-management .window-content { filter: invert(1);}
 body.dark-mode-5e .package-list .package .package-overview .tag:not(.expand) { filter: invert(1); }
 
 /*Monk's Enhanced Journals Styling*/
@@ -104,13 +110,8 @@ body.dark-mode-5e #client-settings div#smalltime-darkness-config {
 /*body.dark-mode-5e #module-credits-dialog .page-heading { filter: invert(1); }*/
 body.dark-mode-5e #module-credits-dialog button { filter: invert(0); }
 
-/*Token Action HUD Styling*/
-/*body.dark-mode-5e #token-action-hud .tah-tab-group,
-body.dark-mode-5e #token-action-hud .tah-tab-group .tah-button-content,
-body.dark-mode-5e #token-action-hud .tah-tab-group .tah-button-image,
-body.dark-mode-5e #token-action-hud .tah-tab-group .tah-action-button-content {
-    filter: invert(1);
-}*/
+/*ColorPicker Styling*/
+body.dark-mode-5e input[data-edit='backgroundColor']{ filter: invert(1); }
 
 /*WeatherFX Styling*/
 body.dark-mode-5e .window-app.fxmaster li { color: var(--color-text-dark-2); }

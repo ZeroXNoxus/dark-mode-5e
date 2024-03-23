@@ -45,6 +45,12 @@ body.dark-mode-5e .dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module
     filter: invert(1);
 }
 
+/*DnD 5th Edition v2 Sheet (3.0.X and higher)*/
+body.dark-mode-5e .dnd5e2 .items-section .items-header .item-name.rollable:hover .title, 
+body.dark-mode-5e .dnd5e2 .items-section .item .item-name.rollable:hover .title {
+    text-shadow: 0 0 8px var(--color-shadow-highlight-invert);
+}
+
 /*FoundryVTT Dark Chat Changes*/
 body.dark-mode-5e :is(.chat-popout, #chat-log) .message:not(.dnd5e-cm-message) {
     background: unset;
@@ -134,14 +140,17 @@ body.dark-mode-5e .sidebar-tab button { filter: invert(1); }
 body.dark-mode-5e .sidebar-tab.directory .header-search input { filter: invert(1); }
 body.dark-mode-5e .sidebar-tab.macros-sidebar .directory-item.macro { color: var(--color-text-dark-2); }
 
-/*FoundryVTT Configuration Changes*/
+/*FoundryVTT Settings Changes*/
+body.dark-mode-5e button.reset-all{ filter: invert(0); }
+body.dark-mode-5e .app.window-app:not(.dnd5e2, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content { filter: invert(1); }
 body.dark-mode-5e #client-settings input[type="range"] { filter: invert(1); }
 body.dark-mode-5e #keybindings .binding .binding-controls .control.conflicts { filter: invert(1); }
+body.dark-mode-5e .create-document .window-content ol,
+body.dark-mode-5e .create-document .window-content button { filter: invert(1); }
 
 /*Compendium Changes*/
 body.dark-mode-5e .compendium.directory .directory-header .header-banner { filter: invert(1); }
 body.dark-mode-5e .compendium.directory .directory-header .header-search a { filter: invert(1); }
-body.dark-mode-5e .compendium.directory .directory-list { filter: invert(1); }
 body.dark-mode-5e .compendium.directory .directory-list header.folder-header, 
 body.dark-mode-5e .compendium.directory .directory-list .directory-item.document {
     color: var(--color-text-light-1);
@@ -189,10 +198,7 @@ body.alt-mode {
     --color-shadow-highlight-invert: #ff6400;
 }
 
-body.alt-mode .notification-pip {
-    filter: invert(1);
-}
-
+body.alt-mode .notification-pip:not(#chat-notification) { filter: invert(1); }
 body.alt-mode .nav-item a:hover { text-shadow: 0 0 8px var(--color-shadow-highlight-invert); }
 body.alt-mode #controls ol.control-tools > li.active, 
 body.alt-mode #controls ol.control-tools > li:hover { 
