@@ -29,19 +29,19 @@ body.dark-mode-5e #navigation #scene-list .view.scene{
 }
 
 /*DnD 5th Edition v1 Sheet (2.1.4 and lower)*/
-body.dark-mode-5e .dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content { filter:invert(1); }
-body.dark-mode-5e .dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content img,
-body.dark-mode-5e .dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content .item-image,
-body.dark-mode-5e .dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content .item-image:hover {
+body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content { filter:invert(1); }
+body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content img,
+body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content .item-image,
+body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content .item-image:hover {
     filter:invert(1);
 }
-body.dark-mode-5e .dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content .advancement-item .item-image{ filter: invert(0); }
+body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content .advancement-item .item-image{ filter: invert(0); }
 
 /*v1 Dark Inventory Changes*/
-body.dark-mode-5e .dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .inventory-list .item-summary ol { filter: invert(1); }
-body.dark-mode-5e .dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .inventory-list .item .item-name.rollable .item-image:hover { filter: invert(0); }
-body.dark-mode-5e .dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .capacity, 
-body.dark-mode-5e .dnd5e.sheet:not(.simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .encumbrance {
+body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .inventory-list .item-summary ol { filter: invert(1); }
+body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .inventory-list .item .item-name.rollable .item-image:hover { filter: invert(0); }
+body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .capacity, 
+body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .encumbrance {
     filter: invert(1);
 }
 
@@ -142,7 +142,7 @@ body.dark-mode-5e .sidebar-tab.macros-sidebar .directory-item.macro { color: var
 
 /*FoundryVTT Settings Changes*/
 body.dark-mode-5e button.reset-all{ filter: invert(0); }
-body.dark-mode-5e .app.window-app:not(.dnd5e2, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content { filter: invert(1); }
+body.dark-mode-5e .app.window-app:not(.dnd5e2, .cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content { filter: invert(1); }
 body.dark-mode-5e #client-settings input[type="range"] { filter: invert(1); }
 body.dark-mode-5e #keybindings .binding .binding-controls .control.conflicts { filter: invert(1); }
 body.dark-mode-5e .create-document .window-content ol,
