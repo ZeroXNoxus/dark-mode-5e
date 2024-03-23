@@ -250,6 +250,10 @@ body.alt-mode {
     --color-shadow-highlight-invert: #ff6400;
 }
 
+body.alt-mode .notification-pip {
+    filter: invert(1);
+}
+
 body.alt-mode .nav-item a:hover { text-shadow: 0 0 8px var(--color-shadow-highlight-invert); }
 body.alt-mode #controls ol.control-tools > li.active, 
 body.alt-mode #controls ol.control-tools > li:hover { 

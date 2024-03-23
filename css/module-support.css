@@ -105,12 +105,12 @@ body.dark-mode-5e #client-settings div#smalltime-darkness-config {
 body.dark-mode-5e #module-credits-dialog button { filter: invert(0); }
 
 /*Token Action HUD Styling*/
-body.dark-mode-5e #token-action-hud .tah-tab-group,
+/*body.dark-mode-5e #token-action-hud .tah-tab-group,
 body.dark-mode-5e #token-action-hud .tah-tab-group .tah-button-content,
 body.dark-mode-5e #token-action-hud .tah-tab-group .tah-button-image,
 body.dark-mode-5e #token-action-hud .tah-tab-group .tah-action-button-content {
     filter: invert(1);
-}
+}*/
 
 /*WeatherFX Styling*/
 body.dark-mode-5e .window-app.fxmaster li { color: var(--color-text-dark-2); }
