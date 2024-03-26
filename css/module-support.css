@@ -117,10 +117,11 @@ body.dark-mode-5e input[data-edit='backgroundColor']{ filter: invert(1); }
 body.dark-mode-5e .window-app.fxmaster li { color: var(--color-text-dark-2); }
 
 /*Tokenizer Styling*/
+body.dark-mode-5e #tokenizer canvas { filter: invert(1); }
 body.dark-mode-5e #tokenizer div.view-layer-control button.delete-control { filter: invert(1); }
 body.dark-mode-5e #tokenizer div.view-layer-control button.active { filter: invert(1); }
-body.dark-mode-5e .imagebrowser .imageresult img { filter: invert(1); }
 body.dark-mode-5e .tokenizer .title .box-button:not(.deselected) { filter: invert(1); }
+body.dark-mode-5e .imagebrowser .imageresult img { filter: invert(1); }
 
 /*Control Concealer Styling*/
 .control-concealer-tab.active { 

@@ -127,15 +127,16 @@ body.dark-mode-5e #sidebar-tabs {
     filter: invert(1);
     color: var(--color-text-dark-2);
 }
-body.dark-mode-5e #sidebar-tabs > .collapse{ color: var(--color-text-dark-2); }
+body.dark-mode-5e #sidebar-tabs > .collapse { color: var(--color-text-dark-2); }
 body.dark-mode-5e #sidebar-tabs .item.active {
     color: var(--color-text-dark-2);
 }
-body.dark-mode-5e .sidebar-tab .document-name{
+body.dark-mode-5e .sidebar-tab .document-name {
     filter: invert(1);
     color: var(--color-text-dark-2);
     text-shadow: 1px 1px 3px var(--color-text-light-2);
 }
+body.dark-mode-5e .sidebar-tab .compendium .document-name { filter: invert(0); }
 body.dark-mode-5e .sidebar-tab button { filter: invert(1); }
 body.dark-mode-5e .sidebar-tab.directory .header-search input { filter: invert(1); }
 body.dark-mode-5e .sidebar-tab.macros-sidebar .directory-item.macro { color: var(--color-text-dark-2); }
@@ -151,6 +152,7 @@ body.dark-mode-5e .create-document .window-content button { filter: invert(1); }
 /*Compendium Changes*/
 body.dark-mode-5e .compendium.directory .directory-header .header-banner { filter: invert(1); }
 body.dark-mode-5e .compendium.directory .directory-header .header-search a { filter: invert(1); }
+body.dark-mode-5e .compendium.directory .directory-list .folder-header { filter: invert(1); }
 body.dark-mode-5e .compendium.directory .directory-list header.folder-header, 
 body.dark-mode-5e .compendium.directory .directory-list .directory-item.document {
     color: var(--color-text-light-1);
@@ -159,7 +161,7 @@ body.dark-mode-5e .compendium.directory .directory-list header.folder-header h3,
 body.dark-mode-5e .compendium.directory .directory-list header.folder-header h4 {
     color: var(--color-text-light-1);
 }
-body.dark-mode-5e .compendium.directory ol li img { filter: invert(0); }
+body.dark-mode-5e .compendium.directory ol li img { filter: invert(1); }
 body.dark-mode-5e .compendium.directory #context-menu { filter: invert(0); }
 body.dark-mode-5e .compendium.directory button { filter: invert(0); }
 
@@ -199,7 +201,11 @@ body.alt-mode {
 }
 
 body.alt-mode .notification-pip:not(#chat-notification) { filter: invert(1); }
-body.alt-mode .nav-item a:hover { text-shadow: 0 0 8px var(--color-shadow-highlight-invert); }
+body.alt-mode :not(.document-name, #sidebar-tabs, .sheet-navigation)>a:hover { text-shadow: 0 0 8px var(--color-shadow-highlight-invert); }
+body.alt-mode .dnd5e.sheet .sheet-navigation .item.active { border-bottom: 3px solid #bbe6e5; }
+body.alt-mode li.folder.droptarget > header h3 i { text-shadow: 0 0 8px var(--color-shadow-highlight-invert); }
+body.alt-mode .compendium-sidebar .directory-item.compendium:hover .compendium-name { text-shadow: 0 0 8px var(--color-shadow-highlight-invert); }
+body.alt-mode .window-app .window-header a:hover { text-shadow: 0 0 8px var(--color-shadow-highlight-invert); }
 body.alt-mode #controls ol.control-tools > li.active, 
 body.alt-mode #controls ol.control-tools > li:hover { 
     border: 1px solid var(--color-border-highlight-alt-invert);
