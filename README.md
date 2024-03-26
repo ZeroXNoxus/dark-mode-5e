@@ -12,41 +12,22 @@ Dark Mode for DnD 5th Edition is a module to bring some darker colors to the oth
 ## Installation ##
 Simply download the module, either via the the 'Install Module' feature in the 'Setup' screen, or by downloading the latest release from the github repository.
 ## Preview ##
-### Dark Mode v1 (2.1.4 and lower): ###
-![image](https://i.ibb.co/yPDZm4Z/Legacy-Dark-Sheet.png)
+### Dark Mode v1 Sheet (2.1.4 and lower or Legacy): ###
+![Legacy Sheet](https://i.ibb.co/yPDZm4Z/Legacy-Dark-Sheet.png)
 
-### Dark Mode v2 (3.0.0 and higher): ###
-![image](https://i.ibb.co/M66gzBB/New-Dark-Sheet.png)
+### Chat: ###
+![Chat Cards](https://i.ibb.co/7brMgDX/Chat.png)
+
+### Scenes: ###
+![Scenes](https://i.ibb.co/dcrcRQL/Scenes.png)
+
+### Settings: ###
+![Settings Page](https://i.ibb.co/dDRbw3Z/Settings.png)
 
 ## Usage ##
 Once installed, the client who wants to use the dark mode provided by this module has to navigate to "Game Settings" > "Configure Settings" > "DnD Dark Mode - 5th Edition" > and then set "Enable Dark Mode". After that, enjoy!
 
 ## Change Log ##
-### Version 2.0.8 ###
-- Resolved many issues caused by the v2.0.x releases
-- Added Module Support for (* may indicate incompatibility, can not test):
-  - Automated Animations
-  - Character Monitor
-  - DF Chat Enhancement
-  - Dice Tray
-  - MIDI QOL
-  - Module Management+
-  - Monk's Enhanced Journals
-  - Paper Doll*
-  - Ready Set Roll for 5e
-  - Sheet Only
-  - Simple Calendar
-  - Small Time
-  - TheRipper93's Module Hub
-  - Token Action HUD
-  - WeatherFX
-  - Better Rolls
-  - Improved Macro Editor
-
-### Version 2.0.0 ###
-- Added support for the new V2 Sheets for "DnD 5th Edition v3.0.0" and higher.
-- Removed different themes and settled for a default dark mode in favor of less styling and a more uniform look and feel.
-- Removed toggle button in sheet handle bar for a simple check box in the game settings.
-#### Minor Changes: ####
-- Added exclusion of Tide5e sheets in favor of module included dark mode.
-- Added styling for directory entries and buttons (right sidebar) in favor of a more modern looking UI.
+### Version 2.2.1 ###
+- Removed support for 3.1.X v2 sheets as dark mode has be implemented by the system.
+- Fixed some issues and improved some stylings.
