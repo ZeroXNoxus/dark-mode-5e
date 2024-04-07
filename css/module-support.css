@@ -145,3 +145,8 @@ body.dark-mode-5e #effects-config img { filter: invert(1); }
     text-shadow: 0px 0px 3px var(--color-text-light-highlight), 
                  0px 0px 3px var(--color-border-highlight-alt-invert);
 }
+
+/*Dice So Nice! Styling*/
+body.dark-mode-5e #dice-config input[type="color"] { filter: invert(1); }
+body.dark-mode-5e #dice-config a.dice-more-theme { filter: invert(1); }
+body.dark-mode-5e #dice-config #dice-configuration-canvas canvas { filter: invert(1); }
