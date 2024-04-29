@@ -132,6 +132,7 @@ body.dark-mode-5e .imagebrowser .imageresult img { filter: invert(1); }
 
 /*FXMaster Styling*/
 body.dark-mode-5e #effects-config img { filter: invert(1); }
+body.dark-mode-5e #effects-config input[type="color"] { filter: invert(1); }
 
 /*Tidy5E Styling*/
 .sheet.tidy5e-sheet button.skill-proficiency-toggle[title="Proficient"] ~ span.skill-mod {
@@ -150,6 +151,3 @@ body.dark-mode-5e #effects-config img { filter: invert(1); }
 body.dark-mode-5e #dice-config input[type="color"] { filter: invert(1); }
 body.dark-mode-5e #dice-config a.dice-more-theme { filter: invert(1); }
 body.dark-mode-5e #dice-config #dice-configuration-canvas canvas { filter: invert(1); }
-
-/*FX Master*/
-body.dark-mode-5e #effects-config input[type="color"] { filter: invert(1); }
