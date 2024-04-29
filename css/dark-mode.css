@@ -56,6 +56,7 @@ body.dark-mode-5e .dnd5e2 .items-section .item .item-name.rollable:hover .title 
 body.dark-mode-5e :is(.chat-popout, #chat-log) .message:not(.dnd5e-cm-message) {
     background: unset;
     background-color: #0e1417;
+    
 }
 body.dark-mode-5e :is(.chat-popout, #chat-log) .message.whisper:not(.dnd5e-cm-message) {
     background: unset;

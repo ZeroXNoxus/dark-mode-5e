@@ -150,11 +150,3 @@ body.dark-mode-5e #effects-config img { filter: invert(1); }
 body.dark-mode-5e #dice-config input[type="color"] { filter: invert(1); }
 body.dark-mode-5e #dice-config a.dice-more-theme { filter: invert(1); }
 body.dark-mode-5e #dice-config #dice-configuration-canvas canvas { filter: invert(1); }
-
-/*MODULE FIX STYLINGS*/
-/*MidiQOL: Fixed Overflow Label Alignment*/
-.midi-qol-attack-roll, .midi-qol-damage-roll{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
