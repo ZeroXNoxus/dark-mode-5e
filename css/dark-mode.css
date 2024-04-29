@@ -22,6 +22,7 @@ body.dark-mode-5e :is(#tooltip, .locked-tooltip).dnd5e-tooltip { filter: invert(
 body.dark-mode-5e :is(#tooltip, .locked-tooltip).dnd5e-tooltip img { filter: invert(1); }
 body.dark-mode-5e #ability-use-form .notification { filter: invert(1); }
 body.dark-mode-5e .window-app.user-config img { filter: invert(1); }
+body.dark-mode-5e .user-config input[type="color"] { filter: invert(1); }
 body.dark-mode-5e #navigation #scene-list .view.scene{ 
     border: 1px solid var(--color-border-highlight-alt-invert);
     border-bottom: 1px solid var(--color-border-highlight-invert);
