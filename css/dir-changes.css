@@ -1,41 +1,41 @@
 /*FoundryVTT Directory Changes*/
-body.dark-mode-dir #actors li.folder > .folder-header,
-body.dark-mode-dir #items li.folder > .folder-header,
-body.dark-mode-dir #compendium li.folder > .folder-header,
-body.dark-mode-dir #scenes li.folder > .folder-header,
-body.dark-mode-dir #journal li.folder > .folder-header,
-body.dark-mode-dir #tables li.folder > .folder-header,
-body.dark-mode-dir #cards li.folder > .folder-header { padding: 0 6px; }
-body.dark-mode-dir #actors .directory-item.actor,
-body.dark-mode-dir #items .directory-item.item,
-body.dark-mode-dir #journal .directory-item.journalentry,
-body.dark-mode-dir #tables .directory-item.rolltable {
+body.zetas-dark-mode-dir #actors li.folder > .folder-header,
+body.zetas-dark-mode-dir #items li.folder > .folder-header,
+body.zetas-dark-mode-dir #compendium li.folder > .folder-header,
+body.zetas-dark-mode-dir #scenes li.folder > .folder-header,
+body.zetas-dark-mode-dir #journal li.folder > .folder-header,
+body.zetas-dark-mode-dir #tables li.folder > .folder-header,
+body.zetas-dark-mode-dir #cards li.folder > .folder-header { padding: 0 6px; }
+body.zetas-dark-mode-dir #actors .directory-item.actor,
+body.zetas-dark-mode-dir #items .directory-item.item,
+body.zetas-dark-mode-dir #journal .directory-item.journalentry,
+body.zetas-dark-mode-dir #tables .directory-item.rolltable {
     position: relative;
     line-height: 24px;
 }
-body.dark-mode-dir #scenes .directory-item.scene .document-name{
+body.zetas-dark-mode-dir #scenes .directory-item.scene .document-name{
     line-height: 24px;
 }
-body.dark-mode-dir #scenes .directory-item.scene {
+body.zetas-dark-mode-dir #scenes .directory-item.scene {
     line-height: 30px;
     height: 30px;
     margin-bottom: 3px;
 }
-body.dark-mode-dir #compendium .directory-item.compendium {
+body.zetas-dark-mode-dir #compendium .directory-item.compendium {
     position: relative;
     line-height: 24px;
     height: unset;
     flex-direction: row;
     align-items: center;
 }
-body.dark-mode-dir #actors .directory-item.actor .document-name,
-body.dark-mode-dir #items .directory-item.item .document-name,
-body.dark-mode-dir #tables .directory-item.rolltable .document-name { 
+body.zetas-dark-mode-dir #actors .directory-item.actor .document-name,
+body.zetas-dark-mode-dir #items .directory-item.item .document-name,
+body.zetas-dark-mode-dir #tables .directory-item.rolltable .document-name { 
     position: relative;
     padding-top: 2px;
     padding-left: 56px; 
 }
-body.dark-mode-dir .compendium-sidebar .directory-item.compendium .compendium-name {
+body.zetas-dark-mode-dir .compendium-sidebar .directory-item.compendium .compendium-name {
     max-width: 70%;
     white-space: normal;
     margin-left: 1px;
@@ -44,9 +44,9 @@ body.dark-mode-dir .compendium-sidebar .directory-item.compendium .compendium-na
     text-align: left;
     display: flex;
 }
-body.dark-mode-dir #actors .directory-item.actor .thumbnail,
-body.dark-mode-dir #items .directory-item.item .thumbnail,
-body.dark-mode-dir #tables .directory-item.rolltable .thumbnail {
+body.zetas-dark-mode-dir #actors .directory-item.actor .thumbnail,
+body.zetas-dark-mode-dir #items .directory-item.item .thumbnail,
+body.zetas-dark-mode-dir #tables .directory-item.rolltable .thumbnail {
     clip: rect(12px, 48px, 36px, 0);
     position: absolute;
     margin-top: -11px;

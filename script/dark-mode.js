@@ -6,7 +6,7 @@ function changeMode(val, name){
     }
 }
 Hooks.once('init', () => {
-    game.settings.register('dark-mode-5e', 'enabled', {
+    game.settings.register('zetas-dark-mode', 'enabled', {
         name: 'Enable Dark Mode',
         hint: "Enable dark mode for DnD 5th Edition.",
         scope: 'client',
@@ -14,21 +14,10 @@ Hooks.once('init', () => {
         type: Boolean,
         default: false,
         onChange: val => {
-            changeMode(val, 'dark-mode-5e');
+            changeMode(val, 'zetas-dark-mode');
         }
     });
-    game.settings.register('dark-mode-5e', 'alternative', {
-        name: 'Alternate Hightlight Colors',
-        hint: "Enable to use inverted highlighting colors.",
-        scope: 'client',
-        config: true,
-        type: Boolean,
-        default: false,
-        onChange: val => {
-            changeMode(val, 'alt-mode');
-        }
-    });
-    game.settings.register('dark-mode-5e', 'dir-changes', {
+    game.settings.register('zetas-dark-mode', 'dir-changes', {
         name: 'Toggle Sidetab Changes',
         hint: "Enable this setting to make the right-hand sidetab more compact and modern.",
         scope: 'client',
@@ -36,10 +25,9 @@ Hooks.once('init', () => {
         type: Boolean,
         default: true,
         onChange: val => {
-            changeMode(val, 'dark-mode-dir');
+            changeMode(val, 'zetas-dark-mode-dir');
         }
     });
-    changeMode(game.settings.get('dark-mode-5e', 'enabled'), 'dark-mode-5e');
-    changeMode(game.settings.get('dark-mode-5e', 'alternative'), 'alt-mode');
-    changeMode(game.settings.get('dark-mode-5e', 'dir-changes'), 'dark-mode-dir');
+    changeMode(game.settings.get('zetas-dark-mode', 'enabled'), 'zetas-dark-mode');
+    changeMode(game.settings.get('zetas-dark-mode', 'dir-changes'), 'zetas-dark-mode-dir');
 });

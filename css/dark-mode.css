@@ -1,218 +1,94 @@
-/*General Dark Mode Changes*/
-body.dark-mode-5e :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) input, 
-body.dark-mode-5e :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) select {
-    background: transparent;
+.zetas-dark-mode {
+/*    --color-light-1: #080c17;
+    --color-light-2: #101927;
+    --color-light-3: #182e4e;
+    --color-light-4: #2f475c;
+    --color-light-5: #607b8a;
+    --color-light-6: #7e9499;
+
+    --color-text-light-0: #000000;
+    --color-text-light-1: #111111;
+    --color-text-light-2: #222222;
+    --color-text-light-3: #333333;
+    --color-text-light-4: #444444;
+    --color-text-light-5: #555555;
+    --color-text-light-6: #666666;
+    --color-text-light-7: #777777;*/
+
+    --color-dark-1: #eeeeee;
+    --color-dark-2: #dddddd;
+    --color-dark-3: #bbbbbb;
+    --color-dark-4: #aaaaaa;
+    --color-dark-5: #999999;
+    --color-dark-6: #888888;
+
+    --color-text-dark-1: #eeeeee;
+    --color-text-dark-2: #dddddd;
+    --color-text-dark-3: #cccccc;
+    --color-text-dark-4: #bbbbbb;
+    --color-text-dark-5: #aaaaaa;
+    --color-text-dark-6: #888888;
+
+    --color-border-dark-1: #eeeeee;
+    --color-border-dark-2: #dddddd;
+    --color-border-dark-3: #cccccc;
+    --color-border-dark-4: #bbbbbb;
+    --color-border-dark-5: #999999;
+
+    --color-text-dark-primary: #e6e7ec;
+    --color-text-dark-secondary: #b4b5bb;
+    --color-text-dark-header: #dcdde2;
+
+    --dnd5e-color-parchment: #0e1417;
+    --dnd5e-color-card: #070b0e;
+    --bordercolor: rgba(255, 255, 255, 0.8);
+    --dnd5e-color-dark: #e6e7ec;
 }
-body.dark-mode-5e .filepicker .tiles-list li img { filter: invert(1); }
-body.dark-mode-5e aside button {
-    filter: invert(1);
-    color: var(--color-text-dark-primary);
+body.zetas-dark-mode .editor {
+    color: var(--color-border-dark-2);
 }
-body.dark-mode-5e .ambient-light-config input[type="color"]{ filter: invert(1); }
-body.dark-mode-5e select option { 
-    background: var(--color-text-dark-2);
-    color: var(--color-text-light-2);
+body.zetas-dark-mode .editor a.content-link, 
+body.zetas-dark-mode .editor a.inline-roll { background: var(--dnd5e-color-parchment); }
+body.zetas-dark-mode.game .window-app { 
+    --color-select-option-bg: #080c17;
+    --color-control-bg: #262737;
+    --color-hover-bg: #0f0f1f;
 }
-body.dark-mode-5e .window-app #context-menu { filter: invert(1); }
-body.dark-mode-5e.change-windows :not(.tidy5e, [data-sheet-module="tidy5e-sheet"]) #context-menu li:hover { 
+body.zetas-dark-mode .dnd5e .form-group label,
+body.zetas-dark-mode .dnd5e.sheet .sheet-header .summary li,
+body.zetas-dark-mode .dnd5e.sheet.item .sheet-body .item-properties .properties-header { color: var(--color-text-dark-secondary); }
+body.zetas-dark-mode #sidebar { border: 1px solid var(--color-border-dark-5); }
+body.zetas-dark-mode button { 
+    color: #ffffff;
+    background-color: rgba(0, 0, 15, 0.8);
+}
+body.zetas-dark-mode .dnd5e2 .pills .pill.transparent, 
+body.zetas-dark-mode .dnd5e2 .pills .pill.pill-sm { color: #b1b1b1; }
+body.zetas-dark-mode select { color: #ffffff; }
+
+body.zetas-dark-mode .directory .directory-item { border-top: 1px solid var(--color-border-dark-5); }
+body.zetas-dark-mode .directory .directory-list > .directory-item:last-child { border-bottom: 1px solid var(--color-border-dark-4); }
+
+body.zetas-dark-mode .prosemirror menu .pm-dropdown { background: #262737; }
+body.zetas-dark-mode .prosemirror menu button:hover, 
+body.zetas-dark-mode .prosemirror menu button.active { 
+    background: #0f0f1f;
     color: white;
-    text-shadow: 0 0 4px var(--color-shadow-highlight-invert);
-}
-body.dark-mode-5e :is(#tooltip, .locked-tooltip).dnd5e-tooltip { filter: invert(1); }
-body.dark-mode-5e :is(#tooltip, .locked-tooltip).dnd5e-tooltip img { filter: invert(1); }
-body.dark-mode-5e #ability-use-form .notification { filter: invert(1); }
-body.dark-mode-5e .window-app.user-config img { filter: invert(1); }
-body.dark-mode-5e .user-config input[type="color"] { filter: invert(1); }
-body.dark-mode-5e #navigation #scene-list .view.scene{ 
-    border: 1px solid var(--color-border-highlight-alt-invert);
-    border-bottom: 1px solid var(--color-border-highlight-invert);
-    box-shadow: 0 0 10px var(--color-shadow-highlight-invert);
-}
-body.dark-mode-5e .active-effect-sheet .effect-icon { filter: invert(1); }
-
-/*DnD 5th Edition v1 Sheet (2.1.4 and lower)*/
-body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content { filter:invert(1); }
-body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content img,
-body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content .item-image,
-body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content .item-image:hover {
-    filter:invert(1);
-}
-body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content .advancement-item .item-image{ filter: invert(0); }
-
-/*v1 Dark Inventory Changes*/
-body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .inventory-list .item-summary ol { filter: invert(1); }
-body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .inventory-list .item .item-name.rollable .item-image:hover { filter: invert(0); }
-body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .capacity, 
-body.dark-mode-5e .dnd5e.sheet:not(.cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .encumbrance {
-    filter: invert(1);
 }
 
-/*DnD 5th Edition v2 Sheet (3.0.X and higher)*/
-body.dark-mode-5e .dnd5e2 .items-section .items-header .item-name.rollable:hover .title, 
-body.dark-mode-5e .dnd5e2 .items-section .item .item-name.rollable:hover .title {
-    text-shadow: 0 0 8px var(--color-shadow-highlight-invert);
-}
-
-/*FoundryVTT Dark Chat Changes*/
-body.dark-mode-5e :is(.chat-popout, #chat-log) .message:not(.dnd5e-cm-message) {
-    background: unset;
-    background-color: #0e1417;
-    
-}
-body.dark-mode-5e :is(.chat-popout, #chat-log) .message.whisper:not(.dnd5e-cm-message) {
-    background: unset;
-    background-color: #1b131e;
-}
-body.dark-mode-5e :is(.chat-popout, #chat-log) .message.whisper.blind:not(.dnd5e-cm-message) {
-    background: unset;
-    background-color: #261b2b;
-}
-body.dark-mode-5e :is(.chat-popout, #chat-log) .message>*:not(nav),
-body.dark-mode-5e :is(.chat-popout, #chat-log) .message img {
-    filter: invert(1);
-}
-body.dark-mode-5e .sidebar-tab .chat-message button { filter: invert(0); }
-body.dark-mode-5e :is(.chat-popout, #chat-log) .message::before { filter: invert(1); }
-body.dark-mode-5e textarea#chat-message,
-body.dark-mode-5e #sidebar #chat-controls select {
-    filter: invert(1);
-}
-body.dark-mode-5e #sidebar #chat-controls select option, 
-body.dark-mode-5e #sidebar #chat-controls select optgroup {
-    background-color: #0e1417;
-    color: var(--color-text-light-highlight);
-}
-body.dark-mode-5e :is(.chat-popout, #chat-log) .message>*:not(nav) .critical { filter: hue-rotate(180deg); }
-body.dark-mode-5e :is(.chat-popout, #chat-log) .message>*:not(nav) .fumble { filter: hue-rotate(180deg); }
-body.dark-mode-5e :is(.chat-popout, #chat-log) .message>*:not(nav) .dice-tooltip .dice-rolls .roll.min,
-body.dark-mode-5e :is(.chat-popout, #chat-log) .message>*:not(nav) .dice-tooltip .dice-rolls .roll.failure {
-    filter: hue-rotate(180deg);
-}
-body.dark-mode-5e :is(.chat-popout, #chat-log) .message>*:not(nav) .dice-tooltip .dice-rolls .roll.max, 
-body.dark-mode-5e :is(.chat-popout, #chat-log) .message>*:not(nav) .dice-tooltip .dice-rolls .roll.success {
-    filter: hue-rotate(180deg);
-}
-body.dark-mode-5e div#chat-popout {
-    filter: invert(1);
-    background-color: rgba(255,255,255,0.5);
-    color: black;
-}
-body.dark-mode-5e div#chat-popout .item.active { color: black; }
-
-/*DnD 5th Edition v1 Sheet (2.1.4 and lower) Proficiency Highlighting*/
-.dnd5e.sheet:not(.simple-calendar, #paper-doll, [background-image], [sidebar-image]) .ability-modifiers input[value="1"] ~ span.ability-save,
-.dnd5e.sheet:not(.simple-calendar, #paper-doll, [background-image], [sidebar-image]) .skill input[value="1"] ~ span.skill-mod {
-    color: var(--color-border-highlight-alt);
-}
-.dnd5e.sheet:not(.simple-calendar, #paper-doll, [background-image], [sidebar-image]) .skill input[value="0.5"] ~ span.skill-mod {
-    text-shadow: 0px 0px 5px var(--color-border-highlight-alt);
-}
-.dnd5e.sheet:not(.simple-calendar, #paper-doll, [background-image], [sidebar-image]) .skill input[value="2"] ~ span.skill-mod {
-    color: var(--color-text-light-highlight);
-    text-shadow: 0px 0px 10px var(--color-shadow-dark), 
-                 0px 0px 5px  var(--color-border-highlight-alt);
-}
-.dnd5e.sheet .rollable:hover, 
-.dnd5e.sheet .rollable:hover > h4 {
-    text-shadow: 0 0 10px var(--color-shadow-highlight) !important;
-}
-.dnd5e input[type="text"]:hover, 
-.dnd5e input[type="number"]:hover, 
-.dnd5e input[type="checkbox"]:hover, 
-.dnd5e input[type="text"]:focus, 
-.dnd5e input[type="number"]:focus, 
-.dnd5e input[type="checkbox"]:focus { 
-    box-shadow: 0 0 8px var(--color-border-highlight-alt); 
-}
-
-/*FoundryVTT Directory Changes*/
-body.dark-mode-5e #sidebar-tabs { 
-    filter: invert(1);
-    color: var(--color-text-dark-2);
-}
-body.dark-mode-5e #sidebar-tabs > .collapse { color: var(--color-text-dark-2); }
-body.dark-mode-5e #sidebar-tabs .item.active {
-    color: var(--color-text-dark-2);
-}
-body.dark-mode-5e .sidebar-tab .document-name {
-    filter: invert(1);
-    color: var(--color-text-dark-2);
-    text-shadow: 1px 1px 3px var(--color-text-light-2);
-}
-body.dark-mode-5e .sidebar-tab button { filter: invert(1); }
-body.dark-mode-5e .sidebar-tab.directory .header-search input { filter: invert(1); }
-body.dark-mode-5e .sidebar-tab.macros-sidebar .directory-item.macro { color: var(--color-text-dark-2); }
-
-/*FoundryVTT Settings Changes*/
-body.dark-mode-5e button.reset-all{ filter: invert(0); }
-body.dark-mode-5e .app.window-app:not(.dnd5e2, .cb5es, .simple-calendar, .tidy5e, [data-sheet-module="tidy5e-sheet"], #paper-doll, [background-image], [sidebar-image]) .window-content { filter: invert(1); }
-body.dark-mode-5e #client-settings input[type="range"] { filter: invert(1); }
-body.dark-mode-5e #keybindings .binding .binding-controls .control.conflicts { filter: invert(1); }
-body.dark-mode-5e .create-document .window-content ol,
-body.dark-mode-5e .create-document .window-content button { filter: invert(1); }
-
-/*Compendium Changes*/
-body.dark-mode-5e .compendium.directory .directory-header .header-banner { filter: invert(1); }
-body.dark-mode-5e .compendium.directory .directory-header .header-search a { filter: invert(1); }
-body.dark-mode-5e .compendium.directory .directory-list { filter: invert(1); }
-body.dark-mode-5e .compendium.directory .directory-list header.folder-header {
-    color: var(--color-text-light-1);
-}
-body.dark-mode-5e .compendium.directory .directory-list .directory-item.document {
+body.zetas-dark-mode #sidebar #chat-log .chat-message::before { filter: invert(1); }
+body.zetas-dark-mode .directory .directory-header .header-search input { background: rgba(0, 0, 10, 0.8); }
+body.zetas-dark-mode textarea,
+body.zetas-dark-mode #chat-form textarea {
+    background: url(../src/parchment-dark.jpg) repeat;
     color: var(--color-text-dark-1);
 }
-body.dark-mode-5e .compendium.directory .directory-list header.folder-header h3, 
-body.dark-mode-5e .compendium.directory .directory-list header.folder-header h4 {
-    color: var(--color-text-light-1);
+body.zetas-dark-mode .window-app .window-content { background: url(../src/parchment-dark.jpg) repeat; }
+
+body.zetas-dark-mode :is(#tooltip, .locked-tooltip).dnd5e-tooltip {
+    background: url(../src/texture-gray1-dark.webp) no-repeat top left, 
+    url(../src/texture-gray2-dark.webp) no-repeat bottom right, 
+    var(--dnd5e-color-parchment);
 }
-body.dark-mode-5e .compendium.directory ol li img { filter: invert(0); }
-body.dark-mode-5e .compendium.directory button { filter: invert(0); }
-body.dark-mode-5e .compendium .directory-list #context-menu { filter: invert(0); }
-
-/*Journal Changes*/
-body.dark-mode-5e .sheet.journal-entry .journal-sidebar {
-    color: var(--color-text-dark-2);
-}
-body.dark-mode-5e .sheet.journal-entry article .ddbimporter-image-container a, 
-body.dark-mode-5e .sheet.journal-entry article img:not(.nopopout) { filter: invert(1); }
-
-/*Combat Tracker Changes*/
-body.dark-mode-5e .combat-sidebar li.combatant .token-initiative .initiative { text-shadow: none; }
-
-/*Popout Changes*/
-body.dark-mode-5e #combat-popout .window-content { color: var(--color-text-dark-2); }
-body.dark-mode-5e #combat-popout .combat-sidebar li.combatant .token-name .combatant-control.active { color: var(--color-text-dark-1); }
-body.dark-mode-5e #combat-popout .window-content ol#combat-tracker img { filter: invert(1); }
-body.dark-mode-5e #combat-popout .window-content ol#combat-tracker li.combatant .token-name { text-shadow: none; }
-body.dark-mode-5e .image-popout figure img { filter: invert(1); }
-
-/*Alternate Theme*/
-:root{
-    --color-border-highlight-alt-invert: #009bff;
-    --color-border-highlight-invert: #00ffff;
-    --color-shadow-highlight-invert: #009bff;
-}
-
-body.alt-mode { 
-    --color-shadow-primary: #00ffff; 
-    --color-shadow-highlight: #009bff;
-    --color-border-highlight: #00ffff;
-    --color-border-highlight-alt: #009bff;
-    --color-text-hyperlink: #009bff;
-    --color-border-highlight-alt-invert: #ff6400;
-    --color-border-highlight-invert: #ff0000;
-    --color-shadow-highlight-invert: #ff6400;
-}
-
-body.alt-mode #sidebar>:not(#sidebar-tabs) .notification-pip { filter: invert(1); }
-body.alt-mode :not(.document-name, #sidebar-tabs, .sheet-navigation)>a:hover { text-shadow: 0 0 8px var(--color-shadow-highlight-invert); }
-body.alt-mode .dnd5e.sheet .sheet-navigation .item.active { border-bottom: 3px solid #bbe6e5; }
-body.alt-mode li.folder.droptarget > header h3 i { text-shadow: 0 0 8px var(--color-shadow-highlight-invert); }
-body.alt-mode .compendium-sidebar .directory-item.compendium:hover .compendium-name { text-shadow: 0 0 8px var(--color-shadow-highlight-invert); }
-body.alt-mode .window-app .window-header a:hover { text-shadow: 0 0 8px var(--color-shadow-highlight-invert); }
-body.alt-mode #controls ol.control-tools > li.active, 
-body.alt-mode #controls ol.control-tools > li:hover { 
-    border: 1px solid var(--color-border-highlight-alt-invert);
-    border-bottom: 1px solid var(--color-border-highlight-invert);
-    box-shadow: 0 0 10px var(--color-shadow-highlight-invert);
-}
+body.zetas-dark-mode :is(.chat-popout, #chat-log) .message.whisper { background-color: #120303; }
+body.zetas-dark-mode :is(.chat-popout, #chat-log) .message.blind { background-color: #1e1b04; }
