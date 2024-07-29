@@ -12,9 +12,6 @@ Dark Mode for DnD 5th Edition is a module to bring some darker colors to the oth
 ## Installation ##
 Simply download the module, either via the the 'Install Module' feature in the 'Setup' screen, or by downloading the latest release from the github repository.
 ## Preview ##
-### Dark Mode v1 Sheet (2.1.4 and lower or Legacy): ###
-![Legacy Sheet](https://i.ibb.co/yPDZm4Z/Legacy-Dark-Sheet.png)
-
 ### Chat: ###
 ![Chat Cards](https://i.ibb.co/7brMgDX/Chat.png)
 
