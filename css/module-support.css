@@ -7,3 +7,48 @@ body.theme-dark .dice-result .dice-total.success,
 body.theme-dark .dice-result .dice-total.critical { background: #001000; }
 body.theme-dark .dice-result .dice-total.failure, 
 body.theme-dark .dice-result .dice-total.fumble { background: #100000; }
+
+body.theme-dark .tidy5e-sheet {
+    --color-dark-1: #111111;
+    --color-dark-2: #222222;
+    --color-dark-3: #444444;
+    --color-dark-4: #555555;
+    --color-dark-5: #666666;
+    --color-dark-6: #777777;
+
+    --color-text-dark-1: #111111;
+    --color-text-dark-2: #222222;
+    --color-text-dark-3: #333333;
+    --color-text-dark-4: #444444;
+    --color-text-dark-5: #555555;
+    --color-text-dark-6: #777777;
+
+    --color-border-dark-1: #111111;
+    --color-border-dark-2: #222222;
+    --color-border-dark-3: #333333;
+    --color-border-dark-4: #444444;
+    --color-border-dark-5: #666666;
+
+    --color-text-dark-header: #23221d;
+    --color-text-dark-primary: #191813;
+    --color-text-dark-secondary: #4b4a44;
+
+    --bordercolor: rgba(0, 0, 0, 0.8);
+    --dnd5e-color-card: #f8f4f1;
+    --dnd5e-color-dark: #191813;
+    --dnd5e-color-parchment: #f1ebe8;    
+}
+body.theme-dark .window-app.tidy5e-sheet .window-content {
+    background: url(../../modules/tidy5e-sheet/images/parchment-texture-top.webp) no-repeat top center / 150% auto, #f1ebe8 url(../../modules/tidy5e-sheet/images/parchment-texture-bottom.webp) no-repeat bottom center / 150% auto;
+}
+body.theme-dark .tidy5e-sheet select { color: var(--t5e-primary-font-color); }
+body.theme-dark .tidy5e-sheet button { 
+    color: var(--t5e-primary-font-color);
+    background-color: initial;
+}
+body.theme-dark .tidy5e-sheet input::placeholder{ color: var(--color-text-dark-5); }
+body.theme-dark .tidy5e-sheet .editor {
+    color: var(--t5e-primary-font-color);
+}
+body.theme-dark .tidy5e-sheet .editor a.inline-roll, 
+body.theme-dark .tidy5e-sheet .editor a.content-link { background: var(--t5e-content-entity-link-background); }
