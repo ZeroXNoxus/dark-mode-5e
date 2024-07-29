@@ -19,9 +19,9 @@ Simply download the module, either via the the 'Install Module' feature in the '
 ![Scenes](https://i.ibb.co/dcrcRQL/Scenes.png)
 
 ## Usage ##
-Once installed, the client who wants to use the dark mode provided by this module has to navigate to "Game Settings" > "Configure Settings" > "DnD Dark Mode - 5th Edition" > and then set "Enable Dark Mode". After that, enjoy!
+Once installed, the client who wants to use the dark mode provided by this module has to navigate to "Game Settings" > "Configure Settings" > "Core" > and then set "Preffered Color Scheme" to "Dark", or set the browser defaults to dark theme (can varry depending on browser) and set the "Preffered Color Scheme" to "Browser Default". After that, enjoy!
 
 ## Change Log ##
-### Version 2.2.1 ###
+### Version 2.3.0 ###
 - Removed support for 3.1.X v2 sheets as dark mode has be implemented by the system.
 - Fixed some issues and improved some stylings.
