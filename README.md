@@ -18,9 +18,6 @@ Simply download the module, either via the the 'Install Module' feature in the '
 ### Scenes: ###
 ![Scenes](https://i.ibb.co/dcrcRQL/Scenes.png)
 
-### Settings: ###
-![Settings Page](https://i.ibb.co/dDRbw3Z/Settings.png)
-
 ## Usage ##
 Once installed, the client who wants to use the dark mode provided by this module has to navigate to "Game Settings" > "Configure Settings" > "DnD Dark Mode - 5th Edition" > and then set "Enable Dark Mode". After that, enjoy!
 
