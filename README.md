@@ -23,5 +23,9 @@ Once installed, the client who wants to use the dark mode provided by this modul
 
 ## Change Log ##
 ### Version 2.3.0 ###
-- Removed support for 3.1.X v2 sheets as dark mode has be implemented by the system.
-- Fixed some issues and improved some stylings.
+- Added support for Foundry v12.X
+- Added support for DnD5E 3.3.X
+- Removed filter method and replaced with variable changes for dark mode
+- Removed setting for enabling dark mode, now using core dark mode setting instead
+- Removed old 5e sheet support
+- Complete CSS rewrite
