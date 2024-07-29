@@ -1,20 +1,4 @@
-.zetas-dark-mode {
-/*    --color-light-1: #080c17;
-    --color-light-2: #101927;
-    --color-light-3: #182e4e;
-    --color-light-4: #2f475c;
-    --color-light-5: #607b8a;
-    --color-light-6: #7e9499;
-
-    --color-text-light-0: #000000;
-    --color-text-light-1: #111111;
-    --color-text-light-2: #222222;
-    --color-text-light-3: #333333;
-    --color-text-light-4: #444444;
-    --color-text-light-5: #555555;
-    --color-text-light-6: #666666;
-    --color-text-light-7: #777777;*/
-
+body.theme-dark {
     --color-dark-1: #eeeeee;
     --color-dark-2: #dddddd;
     --color-dark-3: #bbbbbb;
@@ -35,60 +19,67 @@
     --color-border-dark-4: #bbbbbb;
     --color-border-dark-5: #999999;
 
+    --color-text-dark-header: #dcdde2;
     --color-text-dark-primary: #e6e7ec;
     --color-text-dark-secondary: #b4b5bb;
-    --color-text-dark-header: #dcdde2;
 
-    --dnd5e-color-parchment: #0e1417;
-    --dnd5e-color-card: #070b0e;
     --bordercolor: rgba(255, 255, 255, 0.8);
+    --dnd5e-color-card: #070b0e;
     --dnd5e-color-dark: #e6e7ec;
+    --dnd5e-color-parchment: #0e1417;    
 }
-body.zetas-dark-mode .editor {
-    color: var(--color-border-dark-2);
-}
-body.zetas-dark-mode .editor a.content-link, 
-body.zetas-dark-mode .editor a.inline-roll { background: var(--dnd5e-color-parchment); }
-body.zetas-dark-mode.game .window-app { 
-    --color-select-option-bg: #080c17;
-    --color-control-bg: #262737;
-    --color-hover-bg: #0f0f1f;
-}
-body.zetas-dark-mode .dnd5e .form-group label,
-body.zetas-dark-mode .dnd5e.sheet .sheet-header .summary li,
-body.zetas-dark-mode .dnd5e.sheet.item .sheet-body .item-properties .properties-header { color: var(--color-text-dark-secondary); }
-body.zetas-dark-mode #sidebar { border: 1px solid var(--color-border-dark-5); }
-body.zetas-dark-mode button { 
+body.theme-dark select { color: #ffffff; }
+body.theme-dark button { 
     color: #ffffff;
     background-color: rgba(0, 0, 15, 0.8);
 }
-body.zetas-dark-mode .dnd5e2 .pills .pill.transparent, 
-body.zetas-dark-mode .dnd5e2 .pills .pill.pill-sm { color: #b1b1b1; }
-body.zetas-dark-mode select { color: #ffffff; }
-
-body.zetas-dark-mode .directory .directory-item { border-top: 1px solid var(--color-border-dark-5); }
-body.zetas-dark-mode .directory .directory-list > .directory-item:last-child { border-bottom: 1px solid var(--color-border-dark-4); }
-
-body.zetas-dark-mode .prosemirror menu .pm-dropdown { background: #262737; }
-body.zetas-dark-mode .prosemirror menu button:hover, 
-body.zetas-dark-mode .prosemirror menu button.active { 
-    background: #0f0f1f;
-    color: white;
+body.theme-dark input { color-scheme: dark; }
+body.theme-dark input::placeholder{ color: var(--color-text-dark-5); }
+body.theme-dark .editor {
+    color: var(--color-border-dark-2);
 }
-
-body.zetas-dark-mode #sidebar #chat-log .chat-message::before { filter: invert(1); }
-body.zetas-dark-mode .directory .directory-header .header-search input { background: rgba(0, 0, 10, 0.8); }
-body.zetas-dark-mode textarea,
-body.zetas-dark-mode #chat-form textarea {
+body.theme-dark input[type="checkbox"]:checked, 
+body.theme-dark input[type="radio"]:checked {
+    accent-color: midnightblue;
+    filter: grayscale(0.5);
+}
+body.theme-dark #chat-form textarea {
     background: url(../src/parchment-dark.jpg) repeat;
     color: var(--color-text-dark-1);
 }
-body.zetas-dark-mode .window-app .window-content { background: url(../src/parchment-dark.jpg) repeat; }
-
-body.zetas-dark-mode :is(#tooltip, .locked-tooltip).dnd5e-tooltip {
+body.theme-dark .prosemirror menu .pm-dropdown { background: #262737; }
+body.theme-dark #prosemirror-dropdown ul { 
+    background-color: var(--color-text-dark-secondary); 
+    color: white;
+}
+body.theme-dark .prosemirror menu button:hover, 
+body.theme-dark .prosemirror menu button.active { 
+    background: #0f0f1f;
+    color: white;
+}
+body.theme-dark.game .window-app { 
+    --color-hover-bg: #0f0f1f;
+    --color-control-bg: #262737;
+    --color-select-option-bg: #080c17;
+}
+body.theme-dark .editor a.inline-roll, 
+body.theme-dark .editor a.content-link { background: var(--dnd5e-color-parchment); }
+body.theme-dark .dnd5e .form-group label,
+body.theme-dark .dnd5e.sheet .sheet-header .summary li,
+body.theme-dark .dnd5e.sheet.item .sheet-body .item-properties .properties-header { color: var(--color-text-dark-secondary); }
+body.theme-dark #sidebar { border: 1px solid var(--color-border-dark-5); }
+body.theme-dark .dnd5e2 .pills .pill.transparent, 
+body.theme-dark .dnd5e2 .pills .pill.pill-sm { color: #b1b1b1; }
+body.theme-dark .directory .directory-item { border-top: 1px solid var(--color-border-dark-5); }
+body.theme-dark .directory .directory-list > .directory-item:last-child { border-bottom: 1px solid var(--color-border-dark-4); }
+body.theme-dark .sheet.journal-entry .journal-entry-content { background: url(../src/parchment-dark.jpg) repeat; }
+body.theme-dark .directory .directory-header .header-search input { background: rgba(0, 0, 10, 0.8); }
+body.theme-dark .window-app .window-content { background: url(../src/parchment-dark.jpg) repeat; }
+body.theme-dark :is(#tooltip, .locked-tooltip).dnd5e-tooltip {
     background: url(../src/texture-gray1-dark.webp) no-repeat top left, 
     url(../src/texture-gray2-dark.webp) no-repeat bottom right, 
     var(--dnd5e-color-parchment);
 }
-body.zetas-dark-mode :is(.chat-popout, #chat-log) .message.whisper { background-color: #120303; }
-body.zetas-dark-mode :is(.chat-popout, #chat-log) .message.blind { background-color: #1e1b04; }
+body.theme-dark #sidebar #chat-log .chat-message::before { filter: invert(1); }
+body.theme-dark :is(.chat-popout, #chat-log) .message.whisper { background-color: #120303; }
+body.theme-dark :is(.chat-popout, #chat-log) .message.blind { background-color: #1e1b04; }

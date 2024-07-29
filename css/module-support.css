@@ -1,1 +1,9 @@
-.anonymous-replaced { background-color: #171710; }
+body.theme-dark .anonymous-replaced { background-color: #171710; }
+body.theme-dark #module-management .package-list .package .package-overview .tag.expand { color: var(--color-text-dark-primary); }
+body.theme-dark .message.damage-log.damage { background: #530000 !important; }
+body.theme-dark .message.damage-log.healing { background: #004900 !important; }
+
+body.theme-dark .dice-result .dice-total.success, 
+body.theme-dark .dice-result .dice-total.critical { background: #001000; }
+body.theme-dark .dice-result .dice-total.failure, 
+body.theme-dark .dice-result .dice-total.fumble { background: #100000; }
