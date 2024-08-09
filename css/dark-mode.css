@@ -26,7 +26,8 @@ body.theme-dark {
     --bordercolor: rgba(255, 255, 255, 0.8);
     --dnd5e-color-card: #070b0e;
     --dnd5e-color-dark: #e6e7ec;
-    --dnd5e-color-parchment: #0e1417;    
+    --dnd5e-color-parchment: #0e1417;
+    --dnd5e-color-card-tint: rgba(7, 11, 14, 0.5);
 }
 body.theme-dark select { color: #ffffff; }
 body.theme-dark button { 
@@ -42,6 +43,10 @@ body.theme-dark input[type="checkbox"]:checked,
 body.theme-dark input[type="radio"]:checked {
     accent-color: midnightblue;
     filter: grayscale(0.5);
+}
+body.theme-dark .app:not([data-sheet-module="tidy5e-sheet"]) textarea { 
+    color: var(--color-text-dark-1);
+    border-color: var(--color-border-dark-5);
 }
 body.theme-dark #chat-form textarea {
     background: url(../src/parchment-dark.jpg) repeat;
@@ -74,12 +79,34 @@ body.theme-dark .directory .directory-item { border-top: 1px solid var(--color-b
 body.theme-dark .directory .directory-list > .directory-item:last-child { border-bottom: 1px solid var(--color-border-dark-4); }
 body.theme-dark .sheet.journal-entry .journal-entry-content { background: url(../src/parchment-dark.jpg) repeat; }
 body.theme-dark .directory .directory-header .header-search input { background: rgba(0, 0, 10, 0.8); }
-body.theme-dark .window-app .window-content { background: url(../src/parchment-dark.jpg) repeat; }
+body.theme-dark .window-app .window-content { 
+/*    background: url(../src/parchment-dark.jpg) repeat;*/
+    background: hsl(224deg 48.39% 6.08%);
+    background: linear-gradient(to bottom right, #00081e, hsl(224deg 52.54% 5.78%));
+}
+body.theme-dark.change-windows:not(.system-forbidden-lands) .window-app:not(.dnd5e2.character) > header {
+    background: hsl(224, 38.43%, 9.78%);
+    background: linear-gradient(to right, #0b0d14, hsl(224, 38.43%, 9.78%));
+}
+body.theme-dark .window-app:not(.monarch, .dnd5e2) .window-header a:not(.close, .document-id-link) { background: rgb(0 0 0 / 50%); }
+body.theme-dark .window-app:not(.monarch, .dnd5e2) .window-header a:not(.close, .document-id-link):hover { background: rgb(25 25 25 / 50%); }
 body.theme-dark :is(#tooltip, .locked-tooltip).dnd5e-tooltip {
     background: url(../src/texture-gray1-dark.webp) no-repeat top left, 
     url(../src/texture-gray2-dark.webp) no-repeat bottom right, 
     var(--dnd5e-color-parchment);
 }
-body.theme-dark #sidebar #chat-log .chat-message::before { filter: invert(1); }
-body.theme-dark :is(.chat-popout, #chat-log) .message.whisper { background-color: #120303; }
-body.theme-dark :is(.chat-popout, #chat-log) .message.blind { background-color: #1e1b04; }
+body.theme-dark #sidebar #chat-log .chat-message::before { opacity: 50%; }
+body.theme-dark :is(.chat-popout, #chat-log) .message { 
+    background: hsl(224, 48.39%, 6.08%);
+    background: linear-gradient(to right, #000512, hsl(224, 48.39%, 6.08%));
+}
+body.theme-dark :is(.chat-popout, #chat-log) .message.whisper {
+    background: hsl(53, 76%, 7%);
+    background: linear-gradient(to right, #121000, hsl(53, 76%, 7%));
+}
+body.theme-dark :is(.chat-popout, #chat-log) .message.blind {
+    background: hsl(0, 71%, 4%);
+    background: linear-gradient(to right, #120000, hsl(0, 71%, 4%));
+}
+
+body.theme-dark .dnd5e2.chat-card .description { background: var(--dnd5e-color-card-tint); }

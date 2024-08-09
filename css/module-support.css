@@ -44,7 +44,6 @@ body.theme-dark .window-app.tidy5e-sheet .window-content {
 body.theme-dark .tidy5e-sheet select { color: var(--t5e-primary-font-color); }
 body.theme-dark .tidy5e-sheet button { 
     color: var(--t5e-primary-font-color);
-    background-color: initial;
 }
 body.theme-dark .tidy5e-sheet input::placeholder{ color: var(--color-text-dark-5); }
 body.theme-dark .tidy5e-sheet .editor {
@@ -52,3 +51,10 @@ body.theme-dark .tidy5e-sheet .editor {
 }
 body.theme-dark .tidy5e-sheet .editor a.inline-roll, 
 body.theme-dark .tidy5e-sheet .editor a.content-link { background: var(--t5e-content-entity-link-background); }
+
+body.theme-dark .awesomplete > ul {
+    background: hsl(224deg 48.39% 6.08%);
+    background: linear-gradient(to bottom right, black, hsl(224 48.39% 6.08%));
+}
+
+body.theme-dark .dnd5e2 .midi-buttons button { background: var(--dnd5e-color-card-tint); }
