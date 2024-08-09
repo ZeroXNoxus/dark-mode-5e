@@ -54,9 +54,15 @@ body.theme-dark #chat-form textarea {
 }
 body.theme-dark .prosemirror menu .pm-dropdown { background: #262737; }
 body.theme-dark #prosemirror-dropdown ul { 
-    background-color: var(--color-text-dark-secondary); 
+    background-color: var(--dnd5e-color-card);
     color: white;
 }
+body.theme-dark #prosemirror-dropdown li:hover { background-color: var(--dnd5e-color-light-gray); }
+body.theme-dark .editor.prosemirror button {
+    background: hsl(224deg 43.33% 5.86%);
+    background: linear-gradient(to bottom right, #181c27, hsl(224deg 43.33% 5.86%));
+}
+body.theme-dark .prosemirror menu .pm-dropdown:hover i { color: white; }
 body.theme-dark .prosemirror menu button:hover, 
 body.theme-dark .prosemirror menu button.active { 
     background: #0f0f1f;
