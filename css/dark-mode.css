@@ -57,6 +57,10 @@ body.theme-dark #prosemirror-dropdown ul {
     background-color: var(--dnd5e-color-card);
     color: white;
 }
+body.theme-dark .prosemirror .editor-container { 
+    border: 1px solid var(--color-dark-6);
+    border-radius: 5px;
+}
 body.theme-dark #prosemirror-dropdown li:hover { background-color: var(--dnd5e-color-light-gray); }
 body.theme-dark .editor.prosemirror button {
     background: hsl(224deg 43.33% 5.86%);

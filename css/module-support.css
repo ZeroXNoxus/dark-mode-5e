@@ -70,4 +70,5 @@ body.theme-dark #tokenizer div.view-layer-control button.active { color: var(--d
 .app.simple-calendar .window-header .header-button.control.minimize,
 .app.simple-calendar .window-header .header-button.control.pin { display: none; }
 .app.simple-calendar .window-header .header-button.control.close { display: block; }
+.prosemirror .editor-container .editor-content{ padding-left: 0.5rem; }
 
