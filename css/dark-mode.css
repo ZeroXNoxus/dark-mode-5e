@@ -106,7 +106,7 @@ body.theme-dark :is(#tooltip, .locked-tooltip).dnd5e-tooltip {
     url(../src/texture-gray2-dark.webp) no-repeat bottom right, 
     var(--dnd5e-color-parchment);
 }
-body.theme-dark #sidebar #chat-log .chat-message::before { opacity: 50%; }
+body.theme-dark #sidebar #chat-log .chat-message::before { opacity: 15%; }
 body.theme-dark :is(.chat-popout, #chat-log) .message { 
     background: hsl(224, 48.39%, 6.08%);
     background: linear-gradient(to right, #000512, hsl(224, 48.39%, 6.08%));
