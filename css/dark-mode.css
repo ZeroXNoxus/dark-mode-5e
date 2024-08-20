@@ -28,6 +28,9 @@ body.theme-dark {
     --dnd5e-color-dark: #e6e7ec;
     --dnd5e-color-parchment: #0e1417;
     --dnd5e-color-card-tint: rgba(7, 11, 14, 0.5);
+
+    --dnd5e-color-olive: #b4b5bb;
+    --dnd5e-color-tan: #b4b5bb;
 }
 body.theme-dark select { color: #ffffff; }
 body.theme-dark button { 
@@ -125,3 +128,4 @@ body.theme-dark .dnd5e2.chat-card .description { background: var(--dnd5e-color-c
 
 body.theme-dark .dnd5e2 .card{ background-color: var(--dnd5e-color-card); }
 body.theme-dark .dnd5e2 .card img{ filter: invert(0); }
+
