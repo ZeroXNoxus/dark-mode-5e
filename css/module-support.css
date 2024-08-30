@@ -45,10 +45,10 @@ body.theme-dark.zetas-dark-mode .tidy5e-sheet select { color: var(--t5e-primary-
 body.theme-dark.zetas-dark-mode .tidy5e-sheet button { 
     color: var(--t5e-primary-font-color);
 }
+body.theme-dark.zetas-dark-mode .tidy5e-sheet .spell-slot-markers button { background-color: var(--t5e-spell-pip-active-background); }
+body.theme-dark.zetas-dark-mode .tidy5e-sheet .spell-slot-markers button.empty { background: var(--t5e-spell-pip-empty-background); }
 body.theme-dark.zetas-dark-mode .tidy5e-sheet input::placeholder{ color: var(--color-text-dark-5); }
-body.theme-dark.zetas-dark-mode .tidy5e-sheet .editor {
-    color: var(--t5e-primary-font-color);
-}
+body.theme-dark.zetas-dark-mode .tidy5e-sheet .editor { color: var(--t5e-primary-font-color); }
 body.theme-dark.zetas-dark-mode .tidy5e-sheet .editor a.inline-roll, 
 body.theme-dark.zetas-dark-mode .tidy5e-sheet .editor a.content-link, 
 body.theme-dark.zetas-dark-mode .tidy5e-sheet .window-content a { background: var(--t5e-content-entity-link-background); }
