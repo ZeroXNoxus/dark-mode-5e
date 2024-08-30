@@ -1,14 +1,14 @@
-body.theme-dark .anonymous-replaced { background-color: #171710; }
-body.theme-dark #module-management .package-list .package .package-overview .tag.expand { color: var(--color-text-dark-primary); }
-body.theme-dark .message.damage-log.damage { background: #530000 !important; }
-body.theme-dark .message.damage-log.healing { background: #004900 !important; }
+body.theme-dark.zetas-dark-mode .anonymous-replaced { background-color: #171710; }
+body.theme-dark.zetas-dark-mode #module-management .package-list .package .package-overview .tag.expand { color: var(--color-text-dark-primary); }
+body.theme-dark.zetas-dark-mode .message.damage-log.damage { background: #530000 !important; }
+body.theme-dark.zetas-dark-mode .message.damage-log.healing { background: #004900 !important; }
 
-body.theme-dark .dice-result .dice-total.success, 
-body.theme-dark .dice-result .dice-total.critical { background: #001000; }
-body.theme-dark .dice-result .dice-total.failure, 
-body.theme-dark .dice-result .dice-total.fumble { background: #100000; }
+body.theme-dark.zetas-dark-mode .dice-result .dice-total.success, 
+body.theme-dark.zetas-dark-mode .dice-result .dice-total.critical { background: #001000; }
+body.theme-dark.zetas-dark-mode .dice-result .dice-total.failure, 
+body.theme-dark.zetas-dark-mode .dice-result .dice-total.fumble { background: #100000; }
 
-body.theme-dark .tidy5e-sheet {
+body.theme-dark.zetas-dark-mode .tidy5e-sheet {
     --color-dark-1: #111111;
     --color-dark-2: #222222;
     --color-dark-3: #444444;
@@ -38,47 +38,48 @@ body.theme-dark .tidy5e-sheet {
     --dnd5e-color-dark: #191813;
     --dnd5e-color-parchment: #f1ebe8;    
 }
-body.theme-dark .window-app.tidy5e-sheet .window-content {
+body.theme-dark.zetas-dark-mode .window-app.tidy5e-sheet .window-content {
     background: url(../../modules/tidy5e-sheet/images/parchment-texture-top.webp) no-repeat top center / 150% auto, #f1ebe8 url(../../modules/tidy5e-sheet/images/parchment-texture-bottom.webp) no-repeat bottom center / 150% auto;
 }
-body.theme-dark .tidy5e-sheet select { color: var(--t5e-primary-font-color); }
-body.theme-dark .tidy5e-sheet button { 
+body.theme-dark.zetas-dark-mode .tidy5e-sheet select { color: var(--t5e-primary-font-color); }
+body.theme-dark.zetas-dark-mode .tidy5e-sheet button { 
     color: var(--t5e-primary-font-color);
 }
-body.theme-dark .tidy5e-sheet input::placeholder{ color: var(--color-text-dark-5); }
-body.theme-dark .tidy5e-sheet .editor {
+body.theme-dark.zetas-dark-mode .tidy5e-sheet input::placeholder{ color: var(--color-text-dark-5); }
+body.theme-dark.zetas-dark-mode .tidy5e-sheet .editor {
     color: var(--t5e-primary-font-color);
 }
-body.theme-dark .tidy5e-sheet .editor a.inline-roll, 
-body.theme-dark .tidy5e-sheet .editor a.content-link { background: var(--t5e-content-entity-link-background); }
+body.theme-dark.zetas-dark-mode .tidy5e-sheet .editor a.inline-roll, 
+body.theme-dark.zetas-dark-mode .tidy5e-sheet .editor a.content-link, 
+body.theme-dark.zetas-dark-mode .tidy5e-sheet .window-content a { background: var(--t5e-content-entity-link-background); }
 
-body.theme-dark .awesomplete > ul {
+body.theme-dark.zetas-dark-mode .awesomplete > ul {
     background: hsl(224deg 48.39% 6.08%);
     background: linear-gradient(to bottom right, black, hsl(224 48.39% 6.08%));
 }
 
-body.theme-dark .dnd5e2 .midi-buttons button { background: var(--dnd5e-color-card-tint); }
+body.theme-dark.zetas-dark-mode .dnd5e2 .midi-buttons button { background: var(--dnd5e-color-card-tint); }
 
-body.theme-dark #tokenizer div.menu,
-body.theme-dark #tokenizer div.view-layer-control { background: var(--dnd5e-color-card); }
-body.theme-dark #tokenizer div.menu .section,
-body.theme-dark #tokenizer div.view-layer-control .section { background-color: rgba(255, 255, 255, 0.2); }
-body.theme-dark #tokenizer div.view-layer-control button:disabled { filter: opacity(0.5); }
-body.theme-dark #tokenizer div.view-layer-control button.active { color: var(--dnd5e-color-dark); }
+body.theme-dark.zetas-dark-mode #tokenizer div.menu,
+body.theme-dark.zetas-dark-mode #tokenizer div.view-layer-control { background: var(--dnd5e-color-card); }
+body.theme-dark.zetas-dark-mode #tokenizer div.menu .section,
+body.theme-dark.zetas-dark-mode #tokenizer div.view-layer-control .section { background-color: rgba(255, 255, 255, 0.2); }
+body.theme-dark.zetas-dark-mode #tokenizer div.view-layer-control button:disabled { filter: opacity(0.5); }
+body.theme-dark.zetas-dark-mode #tokenizer div.view-layer-control button.active { color: var(--dnd5e-color-dark); }
 
-body.theme-dark .dae-fb-browser {
+body.theme-dark.zetas-dark-mode .dae-fb-browser {
     background: hsl(224deg 43.33% 5.86%);
     background: linear-gradient(to bottom right, #181c27, hsl(224deg 43.33% 5.86%));
     color: #dddddd;
 }
-body.theme-dark .dae-fb-field-option.selected { 
+body.theme-dark.zetas-dark-mode .dae-fb-field-option.selected { 
     background-color: #181c27;
     border: 1px solid #ff6400;
 }
-body.theme-dark .dae-fb-field-option:hover { background-color: #111a31; }
-body.theme-dark .dae-fb-toggle-button { background-color: rgb(75, 75, 75, 0.8); }
-body.theme-dark .dae-fb-toggle-button.active { background-color: rgb(255, 0, 0, 0.25); }
-body.theme-dark .dae-fb-tab-button.active { 
+body.theme-dark.zetas-dark-mode .dae-fb-field-option:hover { background-color: #111a31; }
+body.theme-dark.zetas-dark-mode .dae-fb-toggle-button { background-color: rgb(75, 75, 75, 0.8); }
+body.theme-dark.zetas-dark-mode .dae-fb-toggle-button.active { background-color: rgb(255, 0, 0, 0.25); }
+body.theme-dark.zetas-dark-mode .dae-fb-tab-button.active { 
     background-color: #111a31;
     border-bottom: 2px solid #ff6400;
 }
@@ -90,4 +91,3 @@ body.theme-dark .dae-fb-tab-button.active {
 .prosemirror .editor-container .editor-content { padding-left: 0.5rem; }
 .dae-effects-table { min-height: 0; }
 .dae-effects-tab .dae-priority { align-content: inherit; }
-

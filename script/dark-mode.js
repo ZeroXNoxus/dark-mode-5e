@@ -15,4 +15,5 @@ Hooks.once('init', () => {
         requiresReload: true
     });
     changeMode(game.settings.get('dark-mode-5e', 'dir-changes'), 'zetas-dark-mode-dir');
+    changeMode(true, 'zetas-dark-mode');
 });
